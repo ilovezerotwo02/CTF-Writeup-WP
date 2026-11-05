@@ -1,0 +1,13 @@
+﻿题目名称：FedResNyFinLedgerOs
+分类：PWN
+难度：HARD
+分值：已答出8次，初始分值500.0，当前分值499.8，解出分值499.74
+
+【题目描述】
+你能攻破这个架设在虚拟机里的记账系统，逃逸出来获得「太平洋标准银行」的金库密钥吗？
+
+【附件】
+- FedResNyFinLedgerOs.zip
+  https://pro-resource.dasctf.com/resource/oss/cdcc73a8588e5ab2469a9d967c1243f5.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:08）

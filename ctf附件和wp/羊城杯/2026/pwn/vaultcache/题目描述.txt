@@ -1,0 +1,13 @@
+﻿题目名称：vaultcache
+分类：PWN
+难度：HARD
+分值：已答出18次，初始分值500.0，当前分值498.81，解出分值498.66
+
+【题目描述】
+保险库缓存与代理利用
+
+【附件】
+- vaultcache的附件.zip
+  https://pro-resource.dasctf.com/resource/oss/7f01994551fe6140b795b890df520881.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:11）

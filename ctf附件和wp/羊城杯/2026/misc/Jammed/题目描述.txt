@@ -1,0 +1,17 @@
+﻿题目名称：Jammed
+分类：MISC
+难度：MEDIUM
+分值：已答出262次，初始分值500.0，当前分值218.47，解出分值216.31
+
+【题目描述】
+1984 年冬，一台 Correcting Selectric II 被送回国内检修。
+箱内留下两张记录，据说里面藏着宝藏的密码。
+
+原始条目格式为 `两位序号/五位流水码/两位片段`，序号从 01 至 24，其余字段只含小写字母和数字。
+按原始序号直接连接末尾片段即为压缩包密码，密码 SHA-256 见附件。
+
+【附件】
+- Jammed.zip
+  https://pro-resource.dasctf.com/resource/oss/57273be9deebb1126d7b670e1c67bc5a.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:12）

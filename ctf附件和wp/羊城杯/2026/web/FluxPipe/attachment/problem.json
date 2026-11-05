@@ -1,0 +1,36 @@
+{
+  "name": "FluxPipe",
+  "direction": "WEB",
+  "difficulty": "困难",
+  "description": "FluxPipe 是一个实时数据流处理管道配置平台，用于管理数据流管道、转换规则、监控指标和告警策略。平台基于高性能分布式运行时构建，提供了管道编排、实时监控和调试沙箱等功能。请对该平台进行安全评估，找出潜在的安全漏洞。",
+  "flag_type": "dynamic",
+  "flag_format": "DASCTF{}",
+  "language": "Elixir",
+  "framework": "Plug/Cowboy (Phoenix-style)",
+  "database": "PostgreSQL 15",
+  "vulns": [
+    "SQL注入(Ecto raw query拼接)",
+    "信息泄露(Debug端点+ETS表)",
+    "自定义协议逆向(FPX XOR-Rotate)",
+    "侧信道攻击(CRC校验oracle)",
+    "代码注入(Code.eval_string)"
+  ],
+  "knowledge_points": [
+    "Elixir/BEAM虚拟机安全",
+    "SQL注入",
+    "自定义二进制协议逆向",
+    "侧信道攻击"
+  ],
+  "estimated_time_minutes": 120,
+  "stage": "pending-review",
+  "port": 42567,
+  "source_provided": false,
+  "timeline": [
+    {
+      "action": "handoff:pending-review",
+      "at": "2026-10-01T01:27:07+08:00",
+      "detail": ""
+    }
+  ],
+  "updated_at": "2026-10-01T01:27:07+08:00"
+}

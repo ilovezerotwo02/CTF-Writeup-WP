@@ -1,0 +1,13 @@
+﻿题目名称：Chronos-Vault（时空金库）
+分类：MISC
+难度：MEDIUM
+分值：已答出148次，初始分值500.0，当前分值410.69，解出分值409.48
+
+【题目描述】
+时间与视角皆被抹去的四维星尘中，唯有寻回失落的共振时刻与交汇视线，方能令光影在混沌中雕琢出封存的铭文。
+
+【附件】
+- chronos_vault_handout.zip
+  https://pro-resource.dasctf.com/resource/oss/0f592521d400d7142497cf822ca126f4.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:12）

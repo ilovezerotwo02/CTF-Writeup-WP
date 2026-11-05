@@ -1,0 +1,13 @@
+﻿题目名称：redisrelay
+分类：PWN
+难度：MEDIUM
+分值：已答出34次，初始分值500.0，当前分值495.5，解出分值495.22
+
+【题目描述】
+Redis 模块到隔离路由服务的利用链
+
+【附件】
+- redisrelay的附件.zip
+  https://pro-resource.dasctf.com/resource/oss/ffc390cf714048ae8c2a9850dedaba43.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:10）

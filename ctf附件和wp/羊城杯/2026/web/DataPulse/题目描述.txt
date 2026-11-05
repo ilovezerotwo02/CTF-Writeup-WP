@@ -1,0 +1,12 @@
+﻿题目名称：DataPulse
+分类：WEB
+难度：HARD
+分值：已答出140次，初始分值500.0，当前分值420.15，解出分值419.0
+
+【题目描述】
+DataPulse 是一家数据分析公司的内部任务调度平台，员工可以提交数据处理任务并通过 Webhook 接收分析结果通知。作为安全审计团队成员，你受邀对平台进行安全评估，请找出隐藏的安全隐患。
+
+【靶机/链接】
+[{"objectId": "endpoint_2ebaee7f0c6c438eb4f8189b5fa3c6ae", "exposeIps": ["1.14.76.59:16009"], "serviceStatus": "UP", "status": "running", "ports": ["nc/8000"], "users": [], "portMappings": [{"type": "nc", "port": "8000", "proxy": "16009"}], "proxyIps": ["1.14.76.59"], "isProxy": true, "expireTime": 1792834200000}]
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:05）

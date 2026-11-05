@@ -1,0 +1,13 @@
+﻿题目名称：skin secret
+分类：MISC
+难度：HARD
+分值：已答出137次，初始分值500.0，当前分值423.56，解出分值422.43
+
+【题目描述】
+你喜欢cs吗
+
+【附件】
+- CS.zip
+  https://pro-resource.dasctf.com/resource/oss/f7b475a77862b3725d6fce7fbd2ef52e.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:13）

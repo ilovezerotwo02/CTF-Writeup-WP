@@ -1,0 +1,13 @@
+﻿题目名称：LibraryManagementSystem
+分类：PWN
+难度：MEDIUM
+分值：已答出19次，初始分值500.0，当前分值498.66，解出分值498.51
+
+【题目描述】
+一个部署在服务器的程序设计期末大作业，但似乎它的安全性有一些不足？（比赛结束前10分钟停止受理新的flag获取请求）
+
+【附件】
+- LibraryManagementSystem.zip
+  https://pro-resource.dasctf.com/resource/oss/c18c984f2b9a50cb424a76f9533603da.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:07）

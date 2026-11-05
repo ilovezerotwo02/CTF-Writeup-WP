@@ -1,0 +1,13 @@
+﻿题目名称：千千的咲
+分类：REVERSE
+难度：HARD
+分值：已答出113次，初始分值500.0，当前分值448.16，解出分值447.23
+
+【题目描述】
+可爱的千咲多摸摸他就可以拿到flag了。（真机与模拟器均测试通过）
+
+【附件】
+- 千千的咲.zip
+  https://pro-resource.dasctf.com/resource/oss/5480c1a54f89fc08a90ed54df8352d09.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:15）

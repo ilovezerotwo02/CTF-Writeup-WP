@@ -1,0 +1,11 @@
+flowchart TD
+    A[GET /graph] --> B[Recover /ws/collab and NexusFrame]
+    B --> C[WebSocket HELLO]
+    C --> D[SUBSCRIBE 0x03]
+    D --> E[QUERY 0x05]
+    E --> F[DSL error leaks SQL query command]
+    F --> G[H2 SQL SELECT]
+    G --> H[CREATE ALIAS Java source]
+    H --> I[Command execution as appuser]
+    I --> J[SUID /readflag]
+    J --> K[Flag]

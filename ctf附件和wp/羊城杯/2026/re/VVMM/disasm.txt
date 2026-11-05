@@ -1,0 +1,2463 @@
+[vm] decoded instructions: 2462/2462
+0000  MAGIC  r0 r0 00  imm=0xc0def00d
+0008  LEN    r0 r0 00  imm=0x0000001f
+0010  JNZ    r0 r0 00  imm=0x0000099a  target=0x4ce8
+0018  LDB    r0 r0 00  imm=0x00000000  index=0
+0020  XORI   r0 r0 00  imm=0x000000fb
+0028  ADDI   r0 r0 00  imm=0x0000006a
+0030  ROLI   r0 r0 00  imm=0x00000004
+0038  STAGE  r0 r0 00  imm=0x00000000
+0040  STM    r0 r0 00  imm=0x00000000  index=0
+0048  MOVI   r1 r0 00  imm=0x13579bdf
+0050  MULI   r1 r0 00  imm=0x045d9f3b
+0058  XORI   r1 r0 00  imm=0xc001d00d
+0060  LDB    r0 r0 00  imm=0x00000001  index=1
+0068  XORI   r0 r0 00  imm=0x000000b7
+0070  ADDI   r0 r0 00  imm=0x00000094
+0078  ROLI   r0 r0 00  imm=0x00000001
+0080  STAGE  r0 r0 00  imm=0x00000001
+0088  STM    r0 r0 00  imm=0x00000001  index=1
+0090  MOVI   r1 r0 00  imm=0x13589de2
+0098  MULI   r1 r0 00  imm=0x045d9f3b
+00a0  XORI   r1 r0 00  imm=0xc001d00c
+00a8  LDB    r0 r0 00  imm=0x00000002  index=2
+00b0  XORI   r0 r0 00  imm=0x00000053
+00b8  ADDI   r0 r0 00  imm=0x000000c4
+00c0  ROLI   r0 r0 00  imm=0x00000006
+00c8  STAGE  r0 r0 00  imm=0x00000002
+00d0  STM    r0 r0 00  imm=0x00000002  index=2
+00d8  MOVI   r1 r0 00  imm=0x13599fe5
+00e0  MULI   r1 r0 00  imm=0x045d9f3b
+00e8  XORI   r1 r0 00  imm=0xc001d00f
+00f0  LDB    r0 r0 00  imm=0x00000003  index=3
+00f8  XORI   r0 r0 00  imm=0x0000002f
+0100  ADDI   r0 r0 00  imm=0x000000fa
+0108  ROLI   r0 r0 00  imm=0x00000003
+0110  STAGE  r0 r0 00  imm=0x00000003
+0118  STM    r0 r0 00  imm=0x00000003  index=3
+0120  MOVI   r1 r0 00  imm=0x135aa1e8
+0128  MULI   r1 r0 00  imm=0x045d9f3b
+0130  XORI   r1 r0 00  imm=0xc001d00e
+0138  LDB    r0 r0 00  imm=0x00000004  index=4
+0140  XORI   r0 r0 00  imm=0x000000fb
+0148  ADDI   r0 r0 00  imm=0x00000036
+0150  ROLI   r0 r0 00  imm=0x00000008
+0158  STAGE  r0 r0 00  imm=0x00000004
+0160  STM    r0 r0 00  imm=0x00000004  index=4
+0168  MOVI   r1 r0 00  imm=0x135ba3eb
+0170  MULI   r1 r0 00  imm=0x045d9f3b
+0178  XORI   r1 r0 00  imm=0xc001d009
+0180  LDB    r0 r0 00  imm=0x00000005  index=5
+0188  XORI   r0 r0 00  imm=0x000000af
+0190  ADDI   r0 r0 00  imm=0x00000078
+0198  ROLI   r0 r0 00  imm=0x00000005
+01a0  STAGE  r0 r0 00  imm=0x00000005
+01a8  STM    r0 r0 00  imm=0x00000005  index=5
+01b0  MOVI   r1 r0 00  imm=0x135ca5ee
+01b8  MULI   r1 r0 00  imm=0x045d9f3b
+01c0  XORI   r1 r0 00  imm=0xc001d008
+01c8  LDB    r0 r0 00  imm=0x00000006  index=6
+01d0  XORI   r0 r0 00  imm=0x000000e3
+01d8  ADDI   r0 r0 00  imm=0x000000c0
+01e0  ROLI   r0 r0 00  imm=0x00000002
+01e8  STAGE  r0 r0 00  imm=0x00000006
+01f0  STM    r0 r0 00  imm=0x00000006  index=6
+01f8  MOVI   r1 r0 00  imm=0x135da7f1
+0200  MULI   r1 r0 00  imm=0x045d9f3b
+0208  XORI   r1 r0 00  imm=0xc001d00b
+0210  LDB    r0 r0 00  imm=0x00000007  index=7
+0218  XORI   r0 r0 00  imm=0x00000027
+0220  ADDI   r0 r0 00  imm=0x0000000e
+0228  ROLI   r0 r0 00  imm=0x00000007
+0230  STAGE  r0 r0 00  imm=0x00000007
+0238  STM    r0 r0 00  imm=0x00000007  index=7
+0240  MOVI   r1 r0 00  imm=0x135ea9f4
+0248  MULI   r1 r0 00  imm=0x045d9f3b
+0250  XORI   r1 r0 00  imm=0xc001d00a
+0258  LDB    r0 r0 00  imm=0x00000008  index=8
+0260  XORI   r0 r0 00  imm=0x0000006b
+0268  ADDI   r0 r0 00  imm=0x00000062
+0270  ROLI   r0 r0 00  imm=0x00000004
+0278  STAGE  r0 r0 00  imm=0x00000008
+0280  STM    r0 r0 00  imm=0x00000008  index=8
+0288  MOVI   r1 r0 00  imm=0x135fabf7
+0290  MULI   r1 r0 00  imm=0x045d9f3b
+0298  XORI   r1 r0 00  imm=0xc001d005
+02a0  LDB    r0 r0 00  imm=0x00000009  index=9
+02a8  XORI   r0 r0 00  imm=0x00000097
+02b0  ADDI   r0 r0 00  imm=0x000000bc
+02b8  ROLI   r0 r0 00  imm=0x00000001
+02c0  STAGE  r0 r0 00  imm=0x00000009
+02c8  STM    r0 r0 00  imm=0x00000009  index=9
+02d0  MOVI   r1 r0 00  imm=0x1360adfa
+02d8  MULI   r1 r0 00  imm=0x045d9f3b
+02e0  XORI   r1 r0 00  imm=0xc001d004
+02e8  LDB    r0 r0 00  imm=0x0000000a  index=10
+02f0  XORI   r0 r0 00  imm=0x000000d3
+02f8  ADDI   r0 r0 00  imm=0x0000001c
+0300  ROLI   r0 r0 00  imm=0x00000006
+0308  STAGE  r0 r0 00  imm=0x0000000a
+0310  STM    r0 r0 00  imm=0x0000000a  index=10
+0318  MOVI   r1 r0 00  imm=0x1361affd
+0320  MULI   r1 r0 00  imm=0x045d9f3b
+0328  XORI   r1 r0 00  imm=0xc001d007
+0330  LDB    r0 r0 00  imm=0x0000000b  index=11
+0338  XORI   r0 r0 00  imm=0x0000003f
+0340  ADDI   r0 r0 00  imm=0x00000082
+0348  ROLI   r0 r0 00  imm=0x00000003
+0350  STAGE  r0 r0 00  imm=0x0000000b
+0358  STM    r0 r0 00  imm=0x0000000b  index=11
+0360  MOVI   r1 r0 00  imm=0x1362b200
+0368  MULI   r1 r0 00  imm=0x045d9f3b
+0370  XORI   r1 r0 00  imm=0xc001d006
+0378  LDB    r0 r0 00  imm=0x0000000c  index=12
+0380  XORI   r0 r0 00  imm=0x0000008b
+0388  ADDI   r0 r0 00  imm=0x000000ee
+0390  ROLI   r0 r0 00  imm=0x00000008
+0398  STAGE  r0 r0 00  imm=0x0000000c
+03a0  STM    r0 r0 00  imm=0x0000000c  index=12
+03a8  MOVI   r1 r0 00  imm=0x1363b403
+03b0  MULI   r1 r0 00  imm=0x045d9f3b
+03b8  XORI   r1 r0 00  imm=0xc001d001
+03c0  LDB    r0 r0 00  imm=0x0000000d  index=13
+03c8  XORI   r0 r0 00  imm=0x0000005f
+03d0  ADDI   r0 r0 00  imm=0x00000060
+03d8  ROLI   r0 r0 00  imm=0x00000005
+03e0  STAGE  r0 r0 00  imm=0x0000000d
+03e8  STM    r0 r0 00  imm=0x0000000d  index=13
+03f0  MOVI   r1 r0 00  imm=0x1364b606
+03f8  MULI   r1 r0 00  imm=0x045d9f3b
+0400  XORI   r1 r0 00  imm=0xc001d000
+0408  LDB    r0 r0 00  imm=0x0000000e  index=14
+0410  XORI   r0 r0 00  imm=0x00000003
+0418  ADDI   r0 r0 00  imm=0x000000d8
+0420  ROLI   r0 r0 00  imm=0x00000002
+0428  STAGE  r0 r0 00  imm=0x0000000e
+0430  STM    r0 r0 00  imm=0x0000000e  index=14
+0438  MOVI   r1 r0 00  imm=0x1365b809
+0440  MULI   r1 r0 00  imm=0x045d9f3b
+0448  XORI   r1 r0 00  imm=0xc001d003
+0450  LDB    r0 r0 00  imm=0x0000000f  index=15
+0458  XORI   r0 r0 00  imm=0x00000007
+0460  ADDI   r0 r0 00  imm=0x00000056
+0468  ROLI   r0 r0 00  imm=0x00000007
+0470  STAGE  r0 r0 00  imm=0x0000000f
+0478  STM    r0 r0 00  imm=0x0000000f  index=15
+0480  MOVI   r1 r0 00  imm=0x1366ba0c
+0488  MULI   r1 r0 00  imm=0x045d9f3b
+0490  XORI   r1 r0 00  imm=0xc001d002
+0498  LDB    r0 r0 00  imm=0x00000010  index=16
+04a0  XORI   r0 r0 00  imm=0x000000db
+04a8  ADDI   r0 r0 00  imm=0x000000da
+04b0  ROLI   r0 r0 00  imm=0x00000004
+04b8  STAGE  r0 r0 00  imm=0x00000010
+04c0  STM    r0 r0 00  imm=0x00000010  index=16
+04c8  MOVI   r1 r0 00  imm=0x1367bc0f
+04d0  MULI   r1 r0 00  imm=0x045d9f3b
+04d8  XORI   r1 r0 00  imm=0xc001d01d
+04e0  LDB    r0 r0 00  imm=0x00000011  index=17
+04e8  XORI   r0 r0 00  imm=0x00000097
+04f0  ADDI   r0 r0 00  imm=0x00000064
+04f8  ROLI   r0 r0 00  imm=0x00000001
+0500  STAGE  r0 r0 00  imm=0x00000011
+0508  STM    r0 r0 00  imm=0x00000011  index=17
+0510  MOVI   r1 r0 00  imm=0x1368be12
+0518  MULI   r1 r0 00  imm=0x045d9f3b
+0520  XORI   r1 r0 00  imm=0xc001d01c
+0528  LDB    r0 r0 00  imm=0x00000012  index=18
+0530  XORI   r0 r0 00  imm=0x00000033
+0538  ADDI   r0 r0 00  imm=0x000000f4
+0540  ROLI   r0 r0 00  imm=0x00000006
+0548  STAGE  r0 r0 00  imm=0x00000012
+0550  STM    r0 r0 00  imm=0x00000012  index=18
+0558  MOVI   r1 r0 00  imm=0x1369c015
+0560  MULI   r1 r0 00  imm=0x045d9f3b
+0568  XORI   r1 r0 00  imm=0xc001d01f
+0570  LDB    r0 r0 00  imm=0x00000013  index=19
+0578  XORI   r0 r0 00  imm=0x0000006f
+0580  ADDI   r0 r0 00  imm=0x0000008a
+0588  ROLI   r0 r0 00  imm=0x00000003
+0590  STAGE  r0 r0 00  imm=0x00000013
+0598  STM    r0 r0 00  imm=0x00000013  index=19
+05a0  MOVI   r1 r0 00  imm=0x136ac218
+05a8  MULI   r1 r0 00  imm=0x045d9f3b
+05b0  XORI   r1 r0 00  imm=0xc001d01e
+05b8  LDB    r0 r0 00  imm=0x00000014  index=20
+05c0  XORI   r0 r0 00  imm=0x0000009b
+05c8  ADDI   r0 r0 00  imm=0x00000026
+05d0  ROLI   r0 r0 00  imm=0x00000008
+05d8  STAGE  r0 r0 00  imm=0x00000014
+05e0  STM    r0 r0 00  imm=0x00000014  index=20
+05e8  MOVI   r1 r0 00  imm=0x136bc41b
+05f0  MULI   r1 r0 00  imm=0x045d9f3b
+05f8  XORI   r1 r0 00  imm=0xc001d019
+0600  LDB    r0 r0 00  imm=0x00000015  index=21
+0608  XORI   r0 r0 00  imm=0x000000ef
+0610  ADDI   r0 r0 00  imm=0x000000c8
+0618  ROLI   r0 r0 00  imm=0x00000005
+0620  STAGE  r0 r0 00  imm=0x00000015
+0628  STM    r0 r0 00  imm=0x00000015  index=21
+0630  MOVI   r1 r0 00  imm=0x136cc61e
+0638  MULI   r1 r0 00  imm=0x045d9f3b
+0640  XORI   r1 r0 00  imm=0xc001d018
+0648  LDB    r0 r0 00  imm=0x00000016  index=22
+0650  XORI   r0 r0 00  imm=0x00000023
+0658  ADDI   r0 r0 00  imm=0x00000070
+0660  ROLI   r0 r0 00  imm=0x00000002
+0668  STAGE  r0 r0 00  imm=0x00000016
+0670  STM    r0 r0 00  imm=0x00000016  index=22
+0678  MOVI   r1 r0 00  imm=0x136dc821
+0680  MULI   r1 r0 00  imm=0x045d9f3b
+0688  XORI   r1 r0 00  imm=0xc001d01b
+0690  LDB    r0 r0 00  imm=0x00000017  index=23
+0698  XORI   r0 r0 00  imm=0x00000067
+06a0  ADDI   r0 r0 00  imm=0x0000001e
+06a8  ROLI   r0 r0 00  imm=0x00000007
+06b0  STAGE  r0 r0 00  imm=0x00000017
+06b8  STM    r0 r0 00  imm=0x00000017  index=23
+06c0  MOVI   r1 r0 00  imm=0x136eca24
+06c8  MULI   r1 r0 00  imm=0x045d9f3b
+06d0  XORI   r1 r0 00  imm=0xc001d01a
+06d8  LDB    r0 r0 00  imm=0x00000018  index=24
+06e0  XORI   r0 r0 00  imm=0x000000ab
+06e8  ADDI   r0 r0 00  imm=0x000000d2
+06f0  ROLI   r0 r0 00  imm=0x00000004
+06f8  STAGE  r0 r0 00  imm=0x00000018
+0700  STM    r0 r0 00  imm=0x00000018  index=24
+0708  MOVI   r1 r0 00  imm=0x136fcc27
+0710  MULI   r1 r0 00  imm=0x045d9f3b
+0718  XORI   r1 r0 00  imm=0xc001d015
+0720  LDB    r0 r0 00  imm=0x00000019  index=25
+0728  XORI   r0 r0 00  imm=0x00000077
+0730  ADDI   r0 r0 00  imm=0x0000008c
+0738  ROLI   r0 r0 00  imm=0x00000001
+0740  STAGE  r0 r0 00  imm=0x00000019
+0748  STM    r0 r0 00  imm=0x00000019  index=25
+0750  MOVI   r1 r0 00  imm=0x1370ce2a
+0758  MULI   r1 r0 00  imm=0x045d9f3b
+0760  XORI   r1 r0 00  imm=0xc001d014
+0768  LDB    r0 r0 00  imm=0x0000001a  index=26
+0770  XORI   r0 r0 00  imm=0x00000033
+0778  ADDI   r0 r0 00  imm=0x0000004c
+0780  ROLI   r0 r0 00  imm=0x00000006
+0788  STAGE  r0 r0 00  imm=0x0000001a
+0790  STM    r0 r0 00  imm=0x0000001a  index=26
+0798  MOVI   r1 r0 00  imm=0x1371d02d
+07a0  MULI   r1 r0 00  imm=0x045d9f3b
+07a8  XORI   r1 r0 00  imm=0xc001d017
+07b0  LDB    r0 r0 00  imm=0x0000001b  index=27
+07b8  XORI   r0 r0 00  imm=0x000000df
+07c0  ADDI   r0 r0 00  imm=0x00000012
+07c8  ROLI   r0 r0 00  imm=0x00000003
+07d0  STAGE  r0 r0 00  imm=0x0000001b
+07d8  STM    r0 r0 00  imm=0x0000001b  index=27
+07e0  MOVI   r1 r0 00  imm=0x1372d230
+07e8  MULI   r1 r0 00  imm=0x045d9f3b
+07f0  XORI   r1 r0 00  imm=0xc001d016
+07f8  LDB    r0 r0 00  imm=0x0000001c  index=28
+0800  XORI   r0 r0 00  imm=0x0000008b
+0808  ADDI   r0 r0 00  imm=0x000000de
+0810  ROLI   r0 r0 00  imm=0x00000008
+0818  STAGE  r0 r0 00  imm=0x0000001c
+0820  STM    r0 r0 00  imm=0x0000001c  index=28
+0828  MOVI   r1 r0 00  imm=0x1373d433
+0830  MULI   r1 r0 00  imm=0x045d9f3b
+0838  XORI   r1 r0 00  imm=0xc001d011
+0840  LDB    r0 r0 00  imm=0x0000001d  index=29
+0848  XORI   r0 r0 00  imm=0x0000007f
+0850  ADDI   r0 r0 00  imm=0x000000b0
+0858  ROLI   r0 r0 00  imm=0x00000005
+0860  STAGE  r0 r0 00  imm=0x0000001d
+0868  STM    r0 r0 00  imm=0x0000001d  index=29
+0870  MOVI   r1 r0 00  imm=0x1374d636
+0878  MULI   r1 r0 00  imm=0x045d9f3b
+0880  XORI   r1 r0 00  imm=0xc001d010
+0888  LDB    r0 r0 00  imm=0x0000001e  index=30
+0890  XORI   r0 r0 00  imm=0x00000043
+0898  ADDI   r0 r0 00  imm=0x00000088
+08a0  ROLI   r0 r0 00  imm=0x00000002
+08a8  STAGE  r0 r0 00  imm=0x0000001e
+08b0  STM    r0 r0 00  imm=0x0000001e  index=30
+08b8  MOVI   r1 r0 00  imm=0x1375d839
+08c0  MULI   r1 r0 00  imm=0x045d9f3b
+08c8  XORI   r1 r0 00  imm=0xc001d013
+08d0  LDM    r0 r0 00  imm=0x00000000  index=0
+08d8  LDM    r1 r0 00  imm=0x00000001  index=1
+08e0  ADDR   r0 r1 00  imm=0x00000000
+08e8  LDM    r1 r0 00  imm=0x00000007  index=7
+08f0  XORR   r0 r1 00  imm=0x00000000
+08f8  ROLI   r0 r0 00  imm=0x00000002
+0900  STAGE  r0 r0 00  imm=0x00000040
+0908  ADDI   r0 r0 00  imm=0x0000005a
+0910  STM    r0 r0 00  imm=0x00000000  index=0
+0918  NOP    r0 r0 00  imm=0x00000000
+0920  MOVI   r2 r0 00  imm=0x9e3779b9
+0928  RORI   r2 r0 00  imm=0x00000000
+0930  LDM    r0 r0 00  imm=0x00000001  index=1
+0938  LDM    r1 r0 00  imm=0x00000002  index=2
+0940  ADDR   r0 r1 00  imm=0x00000000
+0948  LDM    r1 r0 00  imm=0x00000008  index=8
+0950  XORR   r0 r1 00  imm=0x00000000
+0958  ROLI   r0 r0 00  imm=0x00000007
+0960  STAGE  r0 r0 00  imm=0x00000041
+0968  ADDI   r0 r0 00  imm=0x0000006b
+0970  STM    r0 r0 00  imm=0x00000001  index=1
+0978  LDM    r0 r0 00  imm=0x00000002  index=2
+0980  LDM    r1 r0 00  imm=0x00000003  index=3
+0988  ADDR   r0 r1 00  imm=0x00000000
+0990  LDM    r1 r0 00  imm=0x00000009  index=9
+0998  XORR   r0 r1 00  imm=0x00000000
+09a0  ROLI   r0 r0 00  imm=0x00000004
+09a8  STAGE  r0 r0 00  imm=0x00000042
+09b0  ADDI   r0 r0 00  imm=0x0000007c
+09b8  STM    r0 r0 00  imm=0x00000002  index=2
+09c0  LDM    r0 r0 00  imm=0x00000003  index=3
+09c8  LDM    r1 r0 00  imm=0x00000004  index=4
+09d0  ADDR   r0 r1 00  imm=0x00000000
+09d8  LDM    r1 r0 00  imm=0x0000000a  index=10
+09e0  XORR   r0 r1 00  imm=0x00000000
+09e8  ROLI   r0 r0 00  imm=0x00000001
+09f0  STAGE  r0 r0 00  imm=0x00000043
+09f8  ADDI   r0 r0 00  imm=0x0000008d
+0a00  STM    r0 r0 00  imm=0x00000003  index=3
+0a08  LDM    r0 r0 00  imm=0x00000004  index=4
+0a10  LDM    r1 r0 00  imm=0x00000005  index=5
+0a18  ADDR   r0 r1 00  imm=0x00000000
+0a20  LDM    r1 r0 00  imm=0x0000000b  index=11
+0a28  XORR   r0 r1 00  imm=0x00000000
+0a30  ROLI   r0 r0 00  imm=0x00000006
+0a38  STAGE  r0 r0 00  imm=0x00000044
+0a40  ADDI   r0 r0 00  imm=0x0000009e
+0a48  STM    r0 r0 00  imm=0x00000004  index=4
+0a50  LDM    r0 r0 00  imm=0x00000005  index=5
+0a58  LDM    r1 r0 00  imm=0x00000006  index=6
+0a60  ADDR   r0 r1 00  imm=0x00000000
+0a68  LDM    r1 r0 00  imm=0x0000000c  index=12
+0a70  XORR   r0 r1 00  imm=0x00000000
+0a78  ROLI   r0 r0 00  imm=0x00000003
+0a80  STAGE  r0 r0 00  imm=0x00000045
+0a88  ADDI   r0 r0 00  imm=0x000000af
+0a90  STM    r0 r0 00  imm=0x00000005  index=5
+0a98  NOP    r0 r0 00  imm=0x00000000
+0aa0  MOVI   r2 r0 00  imm=0x9e3779bc
+0aa8  RORI   r2 r0 00  imm=0x00000005
+0ab0  LDM    r0 r0 00  imm=0x00000006  index=6
+0ab8  LDM    r1 r0 00  imm=0x00000007  index=7
+0ac0  ADDR   r0 r1 00  imm=0x00000000
+0ac8  LDM    r1 r0 00  imm=0x0000000d  index=13
+0ad0  XORR   r0 r1 00  imm=0x00000000
+0ad8  ROLI   r0 r0 00  imm=0x00000008
+0ae0  STAGE  r0 r0 00  imm=0x00000046
+0ae8  ADDI   r0 r0 00  imm=0x000000c0
+0af0  STM    r0 r0 00  imm=0x00000006  index=6
+0af8  LDM    r0 r0 00  imm=0x00000007  index=7
+0b00  LDM    r1 r0 00  imm=0x00000008  index=8
+0b08  ADDR   r0 r1 00  imm=0x00000000
+0b10  LDM    r1 r0 00  imm=0x0000000e  index=14
+0b18  XORR   r0 r1 00  imm=0x00000000
+0b20  ROLI   r0 r0 00  imm=0x00000005
+0b28  STAGE  r0 r0 00  imm=0x00000047
+0b30  ADDI   r0 r0 00  imm=0x000000d1
+0b38  STM    r0 r0 00  imm=0x00000007  index=7
+0b40  LDM    r0 r0 00  imm=0x00000008  index=8
+0b48  LDM    r1 r0 00  imm=0x00000009  index=9
+0b50  ADDR   r0 r1 00  imm=0x00000000
+0b58  LDM    r1 r0 00  imm=0x0000000f  index=15
+0b60  XORR   r0 r1 00  imm=0x00000000
+0b68  ROLI   r0 r0 00  imm=0x00000002
+0b70  STAGE  r0 r0 00  imm=0x00000048
+0b78  ADDI   r0 r0 00  imm=0x000000e2
+0b80  STM    r0 r0 00  imm=0x00000008  index=8
+0b88  LDM    r0 r0 00  imm=0x00000009  index=9
+0b90  LDM    r1 r0 00  imm=0x0000000a  index=10
+0b98  ADDR   r0 r1 00  imm=0x00000000
+0ba0  LDM    r1 r0 00  imm=0x00000010  index=16
+0ba8  XORR   r0 r1 00  imm=0x00000000
+0bb0  ROLI   r0 r0 00  imm=0x00000007
+0bb8  STAGE  r0 r0 00  imm=0x00000049
+0bc0  ADDI   r0 r0 00  imm=0x000000f3
+0bc8  STM    r0 r0 00  imm=0x00000009  index=9
+0bd0  LDM    r0 r0 00  imm=0x0000000a  index=10
+0bd8  LDM    r1 r0 00  imm=0x0000000b  index=11
+0be0  ADDR   r0 r1 00  imm=0x00000000
+0be8  LDM    r1 r0 00  imm=0x00000011  index=17
+0bf0  XORR   r0 r1 00  imm=0x00000000
+0bf8  ROLI   r0 r0 00  imm=0x00000004
+0c00  STAGE  r0 r0 00  imm=0x0000004a
+0c08  ADDI   r0 r0 00  imm=0x00000004
+0c10  STM    r0 r0 00  imm=0x0000000a  index=10
+0c18  NOP    r0 r0 00  imm=0x00000000
+0c20  MOVI   r2 r0 00  imm=0x9e3779b3
+0c28  RORI   r2 r0 00  imm=0x00000002
+0c30  LDM    r0 r0 00  imm=0x0000000b  index=11
+0c38  LDM    r1 r0 00  imm=0x0000000c  index=12
+0c40  ADDR   r0 r1 00  imm=0x00000000
+0c48  LDM    r1 r0 00  imm=0x00000012  index=18
+0c50  XORR   r0 r1 00  imm=0x00000000
+0c58  ROLI   r0 r0 00  imm=0x00000001
+0c60  STAGE  r0 r0 00  imm=0x0000004b
+0c68  ADDI   r0 r0 00  imm=0x00000015
+0c70  STM    r0 r0 00  imm=0x0000000b  index=11
+0c78  LDM    r0 r0 00  imm=0x0000000c  index=12
+0c80  LDM    r1 r0 00  imm=0x0000000d  index=13
+0c88  ADDR   r0 r1 00  imm=0x00000000
+0c90  LDM    r1 r0 00  imm=0x00000013  index=19
+0c98  XORR   r0 r1 00  imm=0x00000000
+0ca0  ROLI   r0 r0 00  imm=0x00000006
+0ca8  STAGE  r0 r0 00  imm=0x0000004c
+0cb0  ADDI   r0 r0 00  imm=0x00000026
+0cb8  STM    r0 r0 00  imm=0x0000000c  index=12
+0cc0  LDM    r0 r0 00  imm=0x0000000d  index=13
+0cc8  LDM    r1 r0 00  imm=0x0000000e  index=14
+0cd0  ADDR   r0 r1 00  imm=0x00000000
+0cd8  LDM    r1 r0 00  imm=0x00000014  index=20
+0ce0  XORR   r0 r1 00  imm=0x00000000
+0ce8  ROLI   r0 r0 00  imm=0x00000003
+0cf0  STAGE  r0 r0 00  imm=0x0000004d
+0cf8  ADDI   r0 r0 00  imm=0x00000037
+0d00  STM    r0 r0 00  imm=0x0000000d  index=13
+0d08  LDM    r0 r0 00  imm=0x0000000e  index=14
+0d10  LDM    r1 r0 00  imm=0x0000000f  index=15
+0d18  ADDR   r0 r1 00  imm=0x00000000
+0d20  LDM    r1 r0 00  imm=0x00000015  index=21
+0d28  XORR   r0 r1 00  imm=0x00000000
+0d30  ROLI   r0 r0 00  imm=0x00000008
+0d38  STAGE  r0 r0 00  imm=0x0000004e
+0d40  ADDI   r0 r0 00  imm=0x00000048
+0d48  STM    r0 r0 00  imm=0x0000000e  index=14
+0d50  LDM    r0 r0 00  imm=0x0000000f  index=15
+0d58  LDM    r1 r0 00  imm=0x00000010  index=16
+0d60  ADDR   r0 r1 00  imm=0x00000000
+0d68  LDM    r1 r0 00  imm=0x00000016  index=22
+0d70  XORR   r0 r1 00  imm=0x00000000
+0d78  ROLI   r0 r0 00  imm=0x00000005
+0d80  STAGE  r0 r0 00  imm=0x0000004f
+0d88  ADDI   r0 r0 00  imm=0x00000059
+0d90  STM    r0 r0 00  imm=0x0000000f  index=15
+0d98  NOP    r0 r0 00  imm=0x00000000
+0da0  MOVI   r2 r0 00  imm=0x9e3779b6
+0da8  RORI   r2 r0 00  imm=0x00000007
+0db0  LDM    r0 r0 00  imm=0x00000010  index=16
+0db8  LDM    r1 r0 00  imm=0x00000011  index=17
+0dc0  ADDR   r0 r1 00  imm=0x00000000
+0dc8  LDM    r1 r0 00  imm=0x00000017  index=23
+0dd0  XORR   r0 r1 00  imm=0x00000000
+0dd8  ROLI   r0 r0 00  imm=0x00000002
+0de0  STAGE  r0 r0 00  imm=0x00000050
+0de8  ADDI   r0 r0 00  imm=0x0000006a
+0df0  STM    r0 r0 00  imm=0x00000010  index=16
+0df8  LDM    r0 r0 00  imm=0x00000011  index=17
+0e00  LDM    r1 r0 00  imm=0x00000012  index=18
+0e08  ADDR   r0 r1 00  imm=0x00000000
+0e10  LDM    r1 r0 00  imm=0x00000018  index=24
+0e18  XORR   r0 r1 00  imm=0x00000000
+0e20  ROLI   r0 r0 00  imm=0x00000007
+0e28  STAGE  r0 r0 00  imm=0x00000051
+0e30  ADDI   r0 r0 00  imm=0x0000007b
+0e38  STM    r0 r0 00  imm=0x00000011  index=17
+0e40  LDM    r0 r0 00  imm=0x00000012  index=18
+0e48  LDM    r1 r0 00  imm=0x00000013  index=19
+0e50  ADDR   r0 r1 00  imm=0x00000000
+0e58  LDM    r1 r0 00  imm=0x00000019  index=25
+0e60  XORR   r0 r1 00  imm=0x00000000
+0e68  ROLI   r0 r0 00  imm=0x00000004
+0e70  STAGE  r0 r0 00  imm=0x00000052
+0e78  ADDI   r0 r0 00  imm=0x0000008c
+0e80  STM    r0 r0 00  imm=0x00000012  index=18
+0e88  LDM    r0 r0 00  imm=0x00000013  index=19
+0e90  LDM    r1 r0 00  imm=0x00000014  index=20
+0e98  ADDR   r0 r1 00  imm=0x00000000
+0ea0  LDM    r1 r0 00  imm=0x0000001a  index=26
+0ea8  XORR   r0 r1 00  imm=0x00000000
+0eb0  ROLI   r0 r0 00  imm=0x00000001
+0eb8  STAGE  r0 r0 00  imm=0x00000053
+0ec0  ADDI   r0 r0 00  imm=0x0000009d
+0ec8  STM    r0 r0 00  imm=0x00000013  index=19
+0ed0  LDM    r0 r0 00  imm=0x00000014  index=20
+0ed8  LDM    r1 r0 00  imm=0x00000015  index=21
+0ee0  ADDR   r0 r1 00  imm=0x00000000
+0ee8  LDM    r1 r0 00  imm=0x0000001b  index=27
+0ef0  XORR   r0 r1 00  imm=0x00000000
+0ef8  ROLI   r0 r0 00  imm=0x00000006
+0f00  STAGE  r0 r0 00  imm=0x00000054
+0f08  ADDI   r0 r0 00  imm=0x000000ae
+0f10  STM    r0 r0 00  imm=0x00000014  index=20
+0f18  NOP    r0 r0 00  imm=0x00000000
+0f20  MOVI   r2 r0 00  imm=0x9e3779ad
+0f28  RORI   r2 r0 00  imm=0x00000004
+0f30  LDM    r0 r0 00  imm=0x00000015  index=21
+0f38  LDM    r1 r0 00  imm=0x00000016  index=22
+0f40  ADDR   r0 r1 00  imm=0x00000000
+0f48  LDM    r1 r0 00  imm=0x0000001c  index=28
+0f50  XORR   r0 r1 00  imm=0x00000000
+0f58  ROLI   r0 r0 00  imm=0x00000003
+0f60  STAGE  r0 r0 00  imm=0x00000055
+0f68  ADDI   r0 r0 00  imm=0x000000bf
+0f70  STM    r0 r0 00  imm=0x00000015  index=21
+0f78  LDM    r0 r0 00  imm=0x00000016  index=22
+0f80  LDM    r1 r0 00  imm=0x00000017  index=23
+0f88  ADDR   r0 r1 00  imm=0x00000000
+0f90  LDM    r1 r0 00  imm=0x0000001d  index=29
+0f98  XORR   r0 r1 00  imm=0x00000000
+0fa0  ROLI   r0 r0 00  imm=0x00000008
+0fa8  STAGE  r0 r0 00  imm=0x00000056
+0fb0  ADDI   r0 r0 00  imm=0x000000d0
+0fb8  STM    r0 r0 00  imm=0x00000016  index=22
+0fc0  LDM    r0 r0 00  imm=0x00000017  index=23
+0fc8  LDM    r1 r0 00  imm=0x00000018  index=24
+0fd0  ADDR   r0 r1 00  imm=0x00000000
+0fd8  LDM    r1 r0 00  imm=0x0000001e  index=30
+0fe0  XORR   r0 r1 00  imm=0x00000000
+0fe8  ROLI   r0 r0 00  imm=0x00000005
+0ff0  STAGE  r0 r0 00  imm=0x00000057
+0ff8  ADDI   r0 r0 00  imm=0x000000e1
+1000  STM    r0 r0 00  imm=0x00000017  index=23
+1008  LDM    r0 r0 00  imm=0x00000018  index=24
+1010  LDM    r1 r0 00  imm=0x00000019  index=25
+1018  ADDR   r0 r1 00  imm=0x00000000
+1020  LDM    r1 r0 00  imm=0x00000000  index=0
+1028  XORR   r0 r1 00  imm=0x00000000
+1030  ROLI   r0 r0 00  imm=0x00000002
+1038  STAGE  r0 r0 00  imm=0x00000058
+1040  ADDI   r0 r0 00  imm=0x000000f2
+1048  STM    r0 r0 00  imm=0x00000018  index=24
+1050  LDM    r0 r0 00  imm=0x00000019  index=25
+1058  LDM    r1 r0 00  imm=0x0000001a  index=26
+1060  ADDR   r0 r1 00  imm=0x00000000
+1068  LDM    r1 r0 00  imm=0x00000001  index=1
+1070  XORR   r0 r1 00  imm=0x00000000
+1078  ROLI   r0 r0 00  imm=0x00000007
+1080  STAGE  r0 r0 00  imm=0x00000059
+1088  ADDI   r0 r0 00  imm=0x00000003
+1090  STM    r0 r0 00  imm=0x00000019  index=25
+1098  NOP    r0 r0 00  imm=0x00000000
+10a0  MOVI   r2 r0 00  imm=0x9e3779a0
+10a8  RORI   r2 r0 00  imm=0x00000001
+10b0  LDM    r0 r0 00  imm=0x0000001a  index=26
+10b8  LDM    r1 r0 00  imm=0x0000001b  index=27
+10c0  ADDR   r0 r1 00  imm=0x00000000
+10c8  LDM    r1 r0 00  imm=0x00000002  index=2
+10d0  XORR   r0 r1 00  imm=0x00000000
+10d8  ROLI   r0 r0 00  imm=0x00000004
+10e0  STAGE  r0 r0 00  imm=0x0000005a
+10e8  ADDI   r0 r0 00  imm=0x00000014
+10f0  STM    r0 r0 00  imm=0x0000001a  index=26
+10f8  LDM    r0 r0 00  imm=0x0000001b  index=27
+1100  LDM    r1 r0 00  imm=0x0000001c  index=28
+1108  ADDR   r0 r1 00  imm=0x00000000
+1110  LDM    r1 r0 00  imm=0x00000003  index=3
+1118  XORR   r0 r1 00  imm=0x00000000
+1120  ROLI   r0 r0 00  imm=0x00000001
+1128  STAGE  r0 r0 00  imm=0x0000005b
+1130  ADDI   r0 r0 00  imm=0x00000025
+1138  STM    r0 r0 00  imm=0x0000001b  index=27
+1140  LDM    r0 r0 00  imm=0x0000001c  index=28
+1148  LDM    r1 r0 00  imm=0x0000001d  index=29
+1150  ADDR   r0 r1 00  imm=0x00000000
+1158  LDM    r1 r0 00  imm=0x00000004  index=4
+1160  XORR   r0 r1 00  imm=0x00000000
+1168  ROLI   r0 r0 00  imm=0x00000006
+1170  STAGE  r0 r0 00  imm=0x0000005c
+1178  ADDI   r0 r0 00  imm=0x00000036
+1180  STM    r0 r0 00  imm=0x0000001c  index=28
+1188  LDM    r0 r0 00  imm=0x0000001d  index=29
+1190  LDM    r1 r0 00  imm=0x0000001e  index=30
+1198  ADDR   r0 r1 00  imm=0x00000000
+11a0  LDM    r1 r0 00  imm=0x00000005  index=5
+11a8  XORR   r0 r1 00  imm=0x00000000
+11b0  ROLI   r0 r0 00  imm=0x00000003
+11b8  STAGE  r0 r0 00  imm=0x0000005d
+11c0  ADDI   r0 r0 00  imm=0x00000047
+11c8  STM    r0 r0 00  imm=0x0000001d  index=29
+11d0  LDM    r0 r0 00  imm=0x0000001e  index=30
+11d8  LDM    r1 r0 00  imm=0x00000000  index=0
+11e0  ADDR   r0 r1 00  imm=0x00000000
+11e8  LDM    r1 r0 00  imm=0x00000006  index=6
+11f0  XORR   r0 r1 00  imm=0x00000000
+11f8  ROLI   r0 r0 00  imm=0x00000008
+1200  STAGE  r0 r0 00  imm=0x0000005e
+1208  ADDI   r0 r0 00  imm=0x00000058
+1210  STM    r0 r0 00  imm=0x0000001e  index=30
+1218  NOP    r0 r0 00  imm=0x00000000
+1220  MOVI   r2 r0 00  imm=0x9e3779a7
+1228  RORI   r2 r0 00  imm=0x00000006
+1230  LDM    r0 r0 00  imm=0x00000000  index=0
+1238  LDM    r1 r0 00  imm=0x00000001  index=1
+1240  ADDR   r0 r1 00  imm=0x00000000
+1248  LDM    r1 r0 00  imm=0x00000007  index=7
+1250  XORR   r0 r1 00  imm=0x00000000
+1258  ROLI   r0 r0 00  imm=0x00000005
+1260  STAGE  r0 r0 00  imm=0x0000005f
+1268  ADDI   r0 r0 00  imm=0x0000008d
+1270  STM    r0 r0 00  imm=0x00000000  index=0
+1278  LDM    r0 r0 00  imm=0x00000001  index=1
+1280  LDM    r1 r0 00  imm=0x00000002  index=2
+1288  ADDR   r0 r1 00  imm=0x00000000
+1290  LDM    r1 r0 00  imm=0x00000008  index=8
+1298  XORR   r0 r1 00  imm=0x00000000
+12a0  ROLI   r0 r0 00  imm=0x00000002
+12a8  STAGE  r0 r0 00  imm=0x00000060
+12b0  ADDI   r0 r0 00  imm=0x0000009e
+12b8  STM    r0 r0 00  imm=0x00000001  index=1
+12c0  LDM    r0 r0 00  imm=0x00000002  index=2
+12c8  LDM    r1 r0 00  imm=0x00000003  index=3
+12d0  ADDR   r0 r1 00  imm=0x00000000
+12d8  LDM    r1 r0 00  imm=0x00000009  index=9
+12e0  XORR   r0 r1 00  imm=0x00000000
+12e8  ROLI   r0 r0 00  imm=0x00000007
+12f0  STAGE  r0 r0 00  imm=0x00000061
+12f8  ADDI   r0 r0 00  imm=0x000000af
+1300  STM    r0 r0 00  imm=0x00000002  index=2
+1308  LDM    r0 r0 00  imm=0x00000003  index=3
+1310  LDM    r1 r0 00  imm=0x00000004  index=4
+1318  ADDR   r0 r1 00  imm=0x00000000
+1320  LDM    r1 r0 00  imm=0x0000000a  index=10
+1328  XORR   r0 r1 00  imm=0x00000000
+1330  ROLI   r0 r0 00  imm=0x00000004
+1338  STAGE  r0 r0 00  imm=0x00000062
+1340  ADDI   r0 r0 00  imm=0x000000c0
+1348  STM    r0 r0 00  imm=0x00000003  index=3
+1350  LDM    r0 r0 00  imm=0x00000004  index=4
+1358  LDM    r1 r0 00  imm=0x00000005  index=5
+1360  ADDR   r0 r1 00  imm=0x00000000
+1368  LDM    r1 r0 00  imm=0x0000000b  index=11
+1370  XORR   r0 r1 00  imm=0x00000000
+1378  ROLI   r0 r0 00  imm=0x00000001
+1380  STAGE  r0 r0 00  imm=0x00000063
+1388  ADDI   r0 r0 00  imm=0x000000d1
+1390  STM    r0 r0 00  imm=0x00000004  index=4
+1398  NOP    r0 r0 00  imm=0x00000000
+13a0  MOVI   r2 r0 00  imm=0x9e3679bd
+13a8  RORI   r2 r0 00  imm=0x00000005
+13b0  LDM    r0 r0 00  imm=0x00000005  index=5
+13b8  LDM    r1 r0 00  imm=0x00000006  index=6
+13c0  ADDR   r0 r1 00  imm=0x00000000
+13c8  LDM    r1 r0 00  imm=0x0000000c  index=12
+13d0  XORR   r0 r1 00  imm=0x00000000
+13d8  ROLI   r0 r0 00  imm=0x00000006
+13e0  STAGE  r0 r0 00  imm=0x00000064
+13e8  ADDI   r0 r0 00  imm=0x000000e2
+13f0  STM    r0 r0 00  imm=0x00000005  index=5
+13f8  LDM    r0 r0 00  imm=0x00000006  index=6
+1400  LDM    r1 r0 00  imm=0x00000007  index=7
+1408  ADDR   r0 r1 00  imm=0x00000000
+1410  LDM    r1 r0 00  imm=0x0000000d  index=13
+1418  XORR   r0 r1 00  imm=0x00000000
+1420  ROLI   r0 r0 00  imm=0x00000003
+1428  STAGE  r0 r0 00  imm=0x00000065
+1430  ADDI   r0 r0 00  imm=0x000000f3
+1438  STM    r0 r0 00  imm=0x00000006  index=6
+1440  LDM    r0 r0 00  imm=0x00000007  index=7
+1448  LDM    r1 r0 00  imm=0x00000008  index=8
+1450  ADDR   r0 r1 00  imm=0x00000000
+1458  LDM    r1 r0 00  imm=0x0000000e  index=14
+1460  XORR   r0 r1 00  imm=0x00000000
+1468  ROLI   r0 r0 00  imm=0x00000008
+1470  STAGE  r0 r0 00  imm=0x00000066
+1478  ADDI   r0 r0 00  imm=0x00000004
+1480  STM    r0 r0 00  imm=0x00000007  index=7
+1488  LDM    r0 r0 00  imm=0x00000008  index=8
+1490  LDM    r1 r0 00  imm=0x00000009  index=9
+1498  ADDR   r0 r1 00  imm=0x00000000
+14a0  LDM    r1 r0 00  imm=0x0000000f  index=15
+14a8  XORR   r0 r1 00  imm=0x00000000
+14b0  ROLI   r0 r0 00  imm=0x00000005
+14b8  STAGE  r0 r0 00  imm=0x00000067
+14c0  ADDI   r0 r0 00  imm=0x00000015
+14c8  STM    r0 r0 00  imm=0x00000008  index=8
+14d0  LDM    r0 r0 00  imm=0x00000009  index=9
+14d8  LDM    r1 r0 00  imm=0x0000000a  index=10
+14e0  ADDR   r0 r1 00  imm=0x00000000
+14e8  LDM    r1 r0 00  imm=0x00000010  index=16
+14f0  XORR   r0 r1 00  imm=0x00000000
+14f8  ROLI   r0 r0 00  imm=0x00000002
+1500  STAGE  r0 r0 00  imm=0x00000068
+1508  ADDI   r0 r0 00  imm=0x00000026
+1510  STM    r0 r0 00  imm=0x00000009  index=9
+1518  NOP    r0 r0 00  imm=0x00000000
+1520  MOVI   r2 r0 00  imm=0x9e3679b0
+1528  RORI   r2 r0 00  imm=0x00000002
+1530  LDM    r0 r0 00  imm=0x0000000a  index=10
+1538  LDM    r1 r0 00  imm=0x0000000b  index=11
+1540  ADDR   r0 r1 00  imm=0x00000000
+1548  LDM    r1 r0 00  imm=0x00000011  index=17
+1550  XORR   r0 r1 00  imm=0x00000000
+1558  ROLI   r0 r0 00  imm=0x00000007
+1560  STAGE  r0 r0 00  imm=0x00000069
+1568  ADDI   r0 r0 00  imm=0x00000037
+1570  STM    r0 r0 00  imm=0x0000000a  index=10
+1578  LDM    r0 r0 00  imm=0x0000000b  index=11
+1580  LDM    r1 r0 00  imm=0x0000000c  index=12
+1588  ADDR   r0 r1 00  imm=0x00000000
+1590  LDM    r1 r0 00  imm=0x00000012  index=18
+1598  XORR   r0 r1 00  imm=0x00000000
+15a0  ROLI   r0 r0 00  imm=0x00000004
+15a8  STAGE  r0 r0 00  imm=0x0000006a
+15b0  ADDI   r0 r0 00  imm=0x00000048
+15b8  STM    r0 r0 00  imm=0x0000000b  index=11
+15c0  LDM    r0 r0 00  imm=0x0000000c  index=12
+15c8  LDM    r1 r0 00  imm=0x0000000d  index=13
+15d0  ADDR   r0 r1 00  imm=0x00000000
+15d8  LDM    r1 r0 00  imm=0x00000013  index=19
+15e0  XORR   r0 r1 00  imm=0x00000000
+15e8  ROLI   r0 r0 00  imm=0x00000001
+15f0  STAGE  r0 r0 00  imm=0x0000006b
+15f8  ADDI   r0 r0 00  imm=0x00000059
+1600  STM    r0 r0 00  imm=0x0000000c  index=12
+1608  LDM    r0 r0 00  imm=0x0000000d  index=13
+1610  LDM    r1 r0 00  imm=0x0000000e  index=14
+1618  ADDR   r0 r1 00  imm=0x00000000
+1620  LDM    r1 r0 00  imm=0x00000014  index=20
+1628  XORR   r0 r1 00  imm=0x00000000
+1630  ROLI   r0 r0 00  imm=0x00000006
+1638  STAGE  r0 r0 00  imm=0x0000006c
+1640  ADDI   r0 r0 00  imm=0x0000006a
+1648  STM    r0 r0 00  imm=0x0000000d  index=13
+1650  LDM    r0 r0 00  imm=0x0000000e  index=14
+1658  LDM    r1 r0 00  imm=0x0000000f  index=15
+1660  ADDR   r0 r1 00  imm=0x00000000
+1668  LDM    r1 r0 00  imm=0x00000015  index=21
+1670  XORR   r0 r1 00  imm=0x00000000
+1678  ROLI   r0 r0 00  imm=0x00000003
+1680  STAGE  r0 r0 00  imm=0x0000006d
+1688  ADDI   r0 r0 00  imm=0x0000007b
+1690  STM    r0 r0 00  imm=0x0000000e  index=14
+1698  NOP    r0 r0 00  imm=0x00000000
+16a0  MOVI   r2 r0 00  imm=0x9e3679b7
+16a8  RORI   r2 r0 00  imm=0x00000007
+16b0  LDM    r0 r0 00  imm=0x0000000f  index=15
+16b8  LDM    r1 r0 00  imm=0x00000010  index=16
+16c0  ADDR   r0 r1 00  imm=0x00000000
+16c8  LDM    r1 r0 00  imm=0x00000016  index=22
+16d0  XORR   r0 r1 00  imm=0x00000000
+16d8  ROLI   r0 r0 00  imm=0x00000008
+16e0  STAGE  r0 r0 00  imm=0x0000006e
+16e8  ADDI   r0 r0 00  imm=0x0000008c
+16f0  STM    r0 r0 00  imm=0x0000000f  index=15
+16f8  LDM    r0 r0 00  imm=0x00000010  index=16
+1700  LDM    r1 r0 00  imm=0x00000011  index=17
+1708  ADDR   r0 r1 00  imm=0x00000000
+1710  LDM    r1 r0 00  imm=0x00000017  index=23
+1718  XORR   r0 r1 00  imm=0x00000000
+1720  ROLI   r0 r0 00  imm=0x00000005
+1728  STAGE  r0 r0 00  imm=0x0000006f
+1730  ADDI   r0 r0 00  imm=0x0000009d
+1738  STM    r0 r0 00  imm=0x00000010  index=16
+1740  LDM    r0 r0 00  imm=0x00000011  index=17
+1748  LDM    r1 r0 00  imm=0x00000012  index=18
+1750  ADDR   r0 r1 00  imm=0x00000000
+1758  LDM    r1 r0 00  imm=0x00000018  index=24
+1760  XORR   r0 r1 00  imm=0x00000000
+1768  ROLI   r0 r0 00  imm=0x00000002
+1770  STAGE  r0 r0 00  imm=0x00000070
+1778  ADDI   r0 r0 00  imm=0x000000ae
+1780  STM    r0 r0 00  imm=0x00000011  index=17
+1788  LDM    r0 r0 00  imm=0x00000012  index=18
+1790  LDM    r1 r0 00  imm=0x00000013  index=19
+1798  ADDR   r0 r1 00  imm=0x00000000
+17a0  LDM    r1 r0 00  imm=0x00000019  index=25
+17a8  XORR   r0 r1 00  imm=0x00000000
+17b0  ROLI   r0 r0 00  imm=0x00000007
+17b8  STAGE  r0 r0 00  imm=0x00000071
+17c0  ADDI   r0 r0 00  imm=0x000000bf
+17c8  STM    r0 r0 00  imm=0x00000012  index=18
+17d0  LDM    r0 r0 00  imm=0x00000013  index=19
+17d8  LDM    r1 r0 00  imm=0x00000014  index=20
+17e0  ADDR   r0 r1 00  imm=0x00000000
+17e8  LDM    r1 r0 00  imm=0x0000001a  index=26
+17f0  XORR   r0 r1 00  imm=0x00000000
+17f8  ROLI   r0 r0 00  imm=0x00000004
+1800  STAGE  r0 r0 00  imm=0x00000072
+1808  ADDI   r0 r0 00  imm=0x000000d0
+1810  STM    r0 r0 00  imm=0x00000013  index=19
+1818  NOP    r0 r0 00  imm=0x00000000
+1820  MOVI   r2 r0 00  imm=0x9e3679aa
+1828  RORI   r2 r0 00  imm=0x00000004
+1830  LDM    r0 r0 00  imm=0x00000014  index=20
+1838  LDM    r1 r0 00  imm=0x00000015  index=21
+1840  ADDR   r0 r1 00  imm=0x00000000
+1848  LDM    r1 r0 00  imm=0x0000001b  index=27
+1850  XORR   r0 r1 00  imm=0x00000000
+1858  ROLI   r0 r0 00  imm=0x00000001
+1860  STAGE  r0 r0 00  imm=0x00000073
+1868  ADDI   r0 r0 00  imm=0x000000e1
+1870  STM    r0 r0 00  imm=0x00000014  index=20
+1878  LDM    r0 r0 00  imm=0x00000015  index=21
+1880  LDM    r1 r0 00  imm=0x00000016  index=22
+1888  ADDR   r0 r1 00  imm=0x00000000
+1890  LDM    r1 r0 00  imm=0x0000001c  index=28
+1898  XORR   r0 r1 00  imm=0x00000000
+18a0  ROLI   r0 r0 00  imm=0x00000006
+18a8  STAGE  r0 r0 00  imm=0x00000074
+18b0  ADDI   r0 r0 00  imm=0x000000f2
+18b8  STM    r0 r0 00  imm=0x00000015  index=21
+18c0  LDM    r0 r0 00  imm=0x00000016  index=22
+18c8  LDM    r1 r0 00  imm=0x00000017  index=23
+18d0  ADDR   r0 r1 00  imm=0x00000000
+18d8  LDM    r1 r0 00  imm=0x0000001d  index=29
+18e0  XORR   r0 r1 00  imm=0x00000000
+18e8  ROLI   r0 r0 00  imm=0x00000003
+18f0  STAGE  r0 r0 00  imm=0x00000075
+18f8  ADDI   r0 r0 00  imm=0x00000003
+1900  STM    r0 r0 00  imm=0x00000016  index=22
+1908  LDM    r0 r0 00  imm=0x00000017  index=23
+1910  LDM    r1 r0 00  imm=0x00000018  index=24
+1918  ADDR   r0 r1 00  imm=0x00000000
+1920  LDM    r1 r0 00  imm=0x0000001e  index=30
+1928  XORR   r0 r1 00  imm=0x00000000
+1930  ROLI   r0 r0 00  imm=0x00000008
+1938  STAGE  r0 r0 00  imm=0x00000076
+1940  ADDI   r0 r0 00  imm=0x00000014
+1948  STM    r0 r0 00  imm=0x00000017  index=23
+1950  LDM    r0 r0 00  imm=0x00000018  index=24
+1958  LDM    r1 r0 00  imm=0x00000019  index=25
+1960  ADDR   r0 r1 00  imm=0x00000000
+1968  LDM    r1 r0 00  imm=0x00000000  index=0
+1970  XORR   r0 r1 00  imm=0x00000000
+1978  ROLI   r0 r0 00  imm=0x00000005
+1980  STAGE  r0 r0 00  imm=0x00000077
+1988  ADDI   r0 r0 00  imm=0x00000025
+1990  STM    r0 r0 00  imm=0x00000018  index=24
+1998  NOP    r0 r0 00  imm=0x00000000
+19a0  MOVI   r2 r0 00  imm=0x9e3679a1
+19a8  RORI   r2 r0 00  imm=0x00000001
+19b0  LDM    r0 r0 00  imm=0x00000019  index=25
+19b8  LDM    r1 r0 00  imm=0x0000001a  index=26
+19c0  ADDR   r0 r1 00  imm=0x00000000
+19c8  LDM    r1 r0 00  imm=0x00000001  index=1
+19d0  XORR   r0 r1 00  imm=0x00000000
+19d8  ROLI   r0 r0 00  imm=0x00000002
+19e0  STAGE  r0 r0 00  imm=0x00000078
+19e8  ADDI   r0 r0 00  imm=0x00000036
+19f0  STM    r0 r0 00  imm=0x00000019  index=25
+19f8  LDM    r0 r0 00  imm=0x0000001a  index=26
+1a00  LDM    r1 r0 00  imm=0x0000001b  index=27
+1a08  ADDR   r0 r1 00  imm=0x00000000
+1a10  LDM    r1 r0 00  imm=0x00000002  index=2
+1a18  XORR   r0 r1 00  imm=0x00000000
+1a20  ROLI   r0 r0 00  imm=0x00000007
+1a28  STAGE  r0 r0 00  imm=0x00000079
+1a30  ADDI   r0 r0 00  imm=0x00000047
+1a38  STM    r0 r0 00  imm=0x0000001a  index=26
+1a40  LDM    r0 r0 00  imm=0x0000001b  index=27
+1a48  LDM    r1 r0 00  imm=0x0000001c  index=28
+1a50  ADDR   r0 r1 00  imm=0x00000000
+1a58  LDM    r1 r0 00  imm=0x00000003  index=3
+1a60  XORR   r0 r1 00  imm=0x00000000
+1a68  ROLI   r0 r0 00  imm=0x00000004
+1a70  STAGE  r0 r0 00  imm=0x0000007a
+1a78  ADDI   r0 r0 00  imm=0x00000058
+1a80  STM    r0 r0 00  imm=0x0000001b  index=27
+1a88  LDM    r0 r0 00  imm=0x0000001c  index=28
+1a90  LDM    r1 r0 00  imm=0x0000001d  index=29
+1a98  ADDR   r0 r1 00  imm=0x00000000
+1aa0  LDM    r1 r0 00  imm=0x00000004  index=4
+1aa8  XORR   r0 r1 00  imm=0x00000000
+1ab0  ROLI   r0 r0 00  imm=0x00000001
+1ab8  STAGE  r0 r0 00  imm=0x0000007b
+1ac0  ADDI   r0 r0 00  imm=0x00000069
+1ac8  STM    r0 r0 00  imm=0x0000001c  index=28
+1ad0  LDM    r0 r0 00  imm=0x0000001d  index=29
+1ad8  LDM    r1 r0 00  imm=0x0000001e  index=30
+1ae0  ADDR   r0 r1 00  imm=0x00000000
+1ae8  LDM    r1 r0 00  imm=0x00000005  index=5
+1af0  XORR   r0 r1 00  imm=0x00000000
+1af8  ROLI   r0 r0 00  imm=0x00000006
+1b00  STAGE  r0 r0 00  imm=0x0000007c
+1b08  ADDI   r0 r0 00  imm=0x0000007a
+1b10  STM    r0 r0 00  imm=0x0000001d  index=29
+1b18  NOP    r0 r0 00  imm=0x00000000
+1b20  MOVI   r2 r0 00  imm=0x9e3679a4
+1b28  RORI   r2 r0 00  imm=0x00000006
+1b30  LDM    r0 r0 00  imm=0x0000001e  index=30
+1b38  LDM    r1 r0 00  imm=0x00000000  index=0
+1b40  ADDR   r0 r1 00  imm=0x00000000
+1b48  LDM    r1 r0 00  imm=0x00000006  index=6
+1b50  XORR   r0 r1 00  imm=0x00000000
+1b58  ROLI   r0 r0 00  imm=0x00000003
+1b60  STAGE  r0 r0 00  imm=0x0000007d
+1b68  ADDI   r0 r0 00  imm=0x0000008b
+1b70  STM    r0 r0 00  imm=0x0000001e  index=30
+1b78  LDM    r0 r0 00  imm=0x00000000  index=0
+1b80  LDM    r1 r0 00  imm=0x00000001  index=1
+1b88  ADDR   r0 r1 00  imm=0x00000000
+1b90  LDM    r1 r0 00  imm=0x00000007  index=7
+1b98  XORR   r0 r1 00  imm=0x00000000
+1ba0  ROLI   r0 r0 00  imm=0x00000008
+1ba8  STAGE  r0 r0 00  imm=0x0000007e
+1bb0  ADDI   r0 r0 00  imm=0x000000c0
+1bb8  STM    r0 r0 00  imm=0x00000000  index=0
+1bc0  LDM    r0 r0 00  imm=0x00000001  index=1
+1bc8  LDM    r1 r0 00  imm=0x00000002  index=2
+1bd0  ADDR   r0 r1 00  imm=0x00000000
+1bd8  LDM    r1 r0 00  imm=0x00000008  index=8
+1be0  XORR   r0 r1 00  imm=0x00000000
+1be8  ROLI   r0 r0 00  imm=0x00000005
+1bf0  STAGE  r0 r0 00  imm=0x0000007f
+1bf8  ADDI   r0 r0 00  imm=0x000000d1
+1c00  STM    r0 r0 00  imm=0x00000001  index=1
+1c08  LDM    r0 r0 00  imm=0x00000002  index=2
+1c10  LDM    r1 r0 00  imm=0x00000003  index=3
+1c18  ADDR   r0 r1 00  imm=0x00000000
+1c20  LDM    r1 r0 00  imm=0x00000009  index=9
+1c28  XORR   r0 r1 00  imm=0x00000000
+1c30  ROLI   r0 r0 00  imm=0x00000002
+1c38  STAGE  r0 r0 00  imm=0x00000080
+1c40  ADDI   r0 r0 00  imm=0x000000e2
+1c48  STM    r0 r0 00  imm=0x00000002  index=2
+1c50  LDM    r0 r0 00  imm=0x00000003  index=3
+1c58  LDM    r1 r0 00  imm=0x00000004  index=4
+1c60  ADDR   r0 r1 00  imm=0x00000000
+1c68  LDM    r1 r0 00  imm=0x0000000a  index=10
+1c70  XORR   r0 r1 00  imm=0x00000000
+1c78  ROLI   r0 r0 00  imm=0x00000007
+1c80  STAGE  r0 r0 00  imm=0x00000081
+1c88  ADDI   r0 r0 00  imm=0x000000f3
+1c90  STM    r0 r0 00  imm=0x00000003  index=3
+1c98  NOP    r0 r0 00  imm=0x00000000
+1ca0  MOVI   r2 r0 00  imm=0x9e3579ba
+1ca8  RORI   r2 r0 00  imm=0x00000005
+1cb0  LDM    r0 r0 00  imm=0x00000004  index=4
+1cb8  LDM    r1 r0 00  imm=0x00000005  index=5
+1cc0  ADDR   r0 r1 00  imm=0x00000000
+1cc8  LDM    r1 r0 00  imm=0x0000000b  index=11
+1cd0  XORR   r0 r1 00  imm=0x00000000
+1cd8  ROLI   r0 r0 00  imm=0x00000004
+1ce0  STAGE  r0 r0 00  imm=0x00000082
+1ce8  ADDI   r0 r0 00  imm=0x00000004
+1cf0  STM    r0 r0 00  imm=0x00000004  index=4
+1cf8  LDM    r0 r0 00  imm=0x00000005  index=5
+1d00  LDM    r1 r0 00  imm=0x00000006  index=6
+1d08  ADDR   r0 r1 00  imm=0x00000000
+1d10  LDM    r1 r0 00  imm=0x0000000c  index=12
+1d18  XORR   r0 r1 00  imm=0x00000000
+1d20  ROLI   r0 r0 00  imm=0x00000001
+1d28  STAGE  r0 r0 00  imm=0x00000083
+1d30  ADDI   r0 r0 00  imm=0x00000015
+1d38  STM    r0 r0 00  imm=0x00000005  index=5
+1d40  LDM    r0 r0 00  imm=0x00000006  index=6
+1d48  LDM    r1 r0 00  imm=0x00000007  index=7
+1d50  ADDR   r0 r1 00  imm=0x00000000
+1d58  LDM    r1 r0 00  imm=0x0000000d  index=13
+1d60  XORR   r0 r1 00  imm=0x00000000
+1d68  ROLI   r0 r0 00  imm=0x00000006
+1d70  STAGE  r0 r0 00  imm=0x00000084
+1d78  ADDI   r0 r0 00  imm=0x00000026
+1d80  STM    r0 r0 00  imm=0x00000006  index=6
+1d88  LDM    r0 r0 00  imm=0x00000007  index=7
+1d90  LDM    r1 r0 00  imm=0x00000008  index=8
+1d98  ADDR   r0 r1 00  imm=0x00000000
+1da0  LDM    r1 r0 00  imm=0x0000000e  index=14
+1da8  XORR   r0 r1 00  imm=0x00000000
+1db0  ROLI   r0 r0 00  imm=0x00000003
+1db8  STAGE  r0 r0 00  imm=0x00000085
+1dc0  ADDI   r0 r0 00  imm=0x00000037
+1dc8  STM    r0 r0 00  imm=0x00000007  index=7
+1dd0  LDM    r0 r0 00  imm=0x00000008  index=8
+1dd8  LDM    r1 r0 00  imm=0x00000009  index=9
+1de0  ADDR   r0 r1 00  imm=0x00000000
+1de8  LDM    r1 r0 00  imm=0x0000000f  index=15
+1df0  XORR   r0 r1 00  imm=0x00000000
+1df8  ROLI   r0 r0 00  imm=0x00000008
+1e00  STAGE  r0 r0 00  imm=0x00000086
+1e08  ADDI   r0 r0 00  imm=0x00000048
+1e10  STM    r0 r0 00  imm=0x00000008  index=8
+1e18  NOP    r0 r0 00  imm=0x00000000
+1e20  MOVI   r2 r0 00  imm=0x9e3579b1
+1e28  RORI   r2 r0 00  imm=0x00000002
+1e30  LDM    r0 r0 00  imm=0x00000009  index=9
+1e38  LDM    r1 r0 00  imm=0x0000000a  index=10
+1e40  ADDR   r0 r1 00  imm=0x00000000
+1e48  LDM    r1 r0 00  imm=0x00000010  index=16
+1e50  XORR   r0 r1 00  imm=0x00000000
+1e58  ROLI   r0 r0 00  imm=0x00000005
+1e60  STAGE  r0 r0 00  imm=0x00000087
+1e68  ADDI   r0 r0 00  imm=0x00000059
+1e70  STM    r0 r0 00  imm=0x00000009  index=9
+1e78  LDM    r0 r0 00  imm=0x0000000a  index=10
+1e80  LDM    r1 r0 00  imm=0x0000000b  index=11
+1e88  ADDR   r0 r1 00  imm=0x00000000
+1e90  LDM    r1 r0 00  imm=0x00000011  index=17
+1e98  XORR   r0 r1 00  imm=0x00000000
+1ea0  ROLI   r0 r0 00  imm=0x00000002
+1ea8  STAGE  r0 r0 00  imm=0x00000088
+1eb0  ADDI   r0 r0 00  imm=0x0000006a
+1eb8  STM    r0 r0 00  imm=0x0000000a  index=10
+1ec0  LDM    r0 r0 00  imm=0x0000000b  index=11
+1ec8  LDM    r1 r0 00  imm=0x0000000c  index=12
+1ed0  ADDR   r0 r1 00  imm=0x00000000
+1ed8  LDM    r1 r0 00  imm=0x00000012  index=18
+1ee0  XORR   r0 r1 00  imm=0x00000000
+1ee8  ROLI   r0 r0 00  imm=0x00000007
+1ef0  STAGE  r0 r0 00  imm=0x00000089
+1ef8  ADDI   r0 r0 00  imm=0x0000007b
+1f00  STM    r0 r0 00  imm=0x0000000b  index=11
+1f08  LDM    r0 r0 00  imm=0x0000000c  index=12
+1f10  LDM    r1 r0 00  imm=0x0000000d  index=13
+1f18  ADDR   r0 r1 00  imm=0x00000000
+1f20  LDM    r1 r0 00  imm=0x00000013  index=19
+1f28  XORR   r0 r1 00  imm=0x00000000
+1f30  ROLI   r0 r0 00  imm=0x00000004
+1f38  STAGE  r0 r0 00  imm=0x0000008a
+1f40  ADDI   r0 r0 00  imm=0x0000008c
+1f48  STM    r0 r0 00  imm=0x0000000c  index=12
+1f50  LDM    r0 r0 00  imm=0x0000000d  index=13
+1f58  LDM    r1 r0 00  imm=0x0000000e  index=14
+1f60  ADDR   r0 r1 00  imm=0x00000000
+1f68  LDM    r1 r0 00  imm=0x00000014  index=20
+1f70  XORR   r0 r1 00  imm=0x00000000
+1f78  ROLI   r0 r0 00  imm=0x00000001
+1f80  STAGE  r0 r0 00  imm=0x0000008b
+1f88  ADDI   r0 r0 00  imm=0x0000009d
+1f90  STM    r0 r0 00  imm=0x0000000d  index=13
+1f98  NOP    r0 r0 00  imm=0x00000000
+1fa0  MOVI   r2 r0 00  imm=0x9e3579b4
+1fa8  RORI   r2 r0 00  imm=0x00000007
+1fb0  LDM    r0 r0 00  imm=0x0000000e  index=14
+1fb8  LDM    r1 r0 00  imm=0x0000000f  index=15
+1fc0  ADDR   r0 r1 00  imm=0x00000000
+1fc8  LDM    r1 r0 00  imm=0x00000015  index=21
+1fd0  XORR   r0 r1 00  imm=0x00000000
+1fd8  ROLI   r0 r0 00  imm=0x00000006
+1fe0  STAGE  r0 r0 00  imm=0x0000008c
+1fe8  ADDI   r0 r0 00  imm=0x000000ae
+1ff0  STM    r0 r0 00  imm=0x0000000e  index=14
+1ff8  LDM    r0 r0 00  imm=0x0000000f  index=15
+2000  LDM    r1 r0 00  imm=0x00000010  index=16
+2008  ADDR   r0 r1 00  imm=0x00000000
+2010  LDM    r1 r0 00  imm=0x00000016  index=22
+2018  XORR   r0 r1 00  imm=0x00000000
+2020  ROLI   r0 r0 00  imm=0x00000003
+2028  STAGE  r0 r0 00  imm=0x0000008d
+2030  ADDI   r0 r0 00  imm=0x000000bf
+2038  STM    r0 r0 00  imm=0x0000000f  index=15
+2040  LDM    r0 r0 00  imm=0x00000010  index=16
+2048  LDM    r1 r0 00  imm=0x00000011  index=17
+2050  ADDR   r0 r1 00  imm=0x00000000
+2058  LDM    r1 r0 00  imm=0x00000017  index=23
+2060  XORR   r0 r1 00  imm=0x00000000
+2068  ROLI   r0 r0 00  imm=0x00000008
+2070  STAGE  r0 r0 00  imm=0x0000008e
+2078  ADDI   r0 r0 00  imm=0x000000d0
+2080  STM    r0 r0 00  imm=0x00000010  index=16
+2088  LDM    r0 r0 00  imm=0x00000011  index=17
+2090  LDM    r1 r0 00  imm=0x00000012  index=18
+2098  ADDR   r0 r1 00  imm=0x00000000
+20a0  LDM    r1 r0 00  imm=0x00000018  index=24
+20a8  XORR   r0 r1 00  imm=0x00000000
+20b0  ROLI   r0 r0 00  imm=0x00000005
+20b8  STAGE  r0 r0 00  imm=0x0000008f
+20c0  ADDI   r0 r0 00  imm=0x000000e1
+20c8  STM    r0 r0 00  imm=0x00000011  index=17
+20d0  LDM    r0 r0 00  imm=0x00000012  index=18
+20d8  LDM    r1 r0 00  imm=0x00000013  index=19
+20e0  ADDR   r0 r1 00  imm=0x00000000
+20e8  LDM    r1 r0 00  imm=0x00000019  index=25
+20f0  XORR   r0 r1 00  imm=0x00000000
+20f8  ROLI   r0 r0 00  imm=0x00000002
+2100  STAGE  r0 r0 00  imm=0x00000090
+2108  ADDI   r0 r0 00  imm=0x000000f2
+2110  STM    r0 r0 00  imm=0x00000012  index=18
+2118  NOP    r0 r0 00  imm=0x00000000
+2120  MOVI   r2 r0 00  imm=0x9e3579ab
+2128  RORI   r2 r0 00  imm=0x00000004
+2130  LDM    r0 r0 00  imm=0x00000013  index=19
+2138  LDM    r1 r0 00  imm=0x00000014  index=20
+2140  ADDR   r0 r1 00  imm=0x00000000
+2148  LDM    r1 r0 00  imm=0x0000001a  index=26
+2150  XORR   r0 r1 00  imm=0x00000000
+2158  ROLI   r0 r0 00  imm=0x00000007
+2160  STAGE  r0 r0 00  imm=0x00000091
+2168  ADDI   r0 r0 00  imm=0x00000003
+2170  STM    r0 r0 00  imm=0x00000013  index=19
+2178  LDM    r0 r0 00  imm=0x00000014  index=20
+2180  LDM    r1 r0 00  imm=0x00000015  index=21
+2188  ADDR   r0 r1 00  imm=0x00000000
+2190  LDM    r1 r0 00  imm=0x0000001b  index=27
+2198  XORR   r0 r1 00  imm=0x00000000
+21a0  ROLI   r0 r0 00  imm=0x00000004
+21a8  STAGE  r0 r0 00  imm=0x00000092
+21b0  ADDI   r0 r0 00  imm=0x00000014
+21b8  STM    r0 r0 00  imm=0x00000014  index=20
+21c0  LDM    r0 r0 00  imm=0x00000015  index=21
+21c8  LDM    r1 r0 00  imm=0x00000016  index=22
+21d0  ADDR   r0 r1 00  imm=0x00000000
+21d8  LDM    r1 r0 00  imm=0x0000001c  index=28
+21e0  XORR   r0 r1 00  imm=0x00000000
+21e8  ROLI   r0 r0 00  imm=0x00000001
+21f0  STAGE  r0 r0 00  imm=0x00000093
+21f8  ADDI   r0 r0 00  imm=0x00000025
+2200  STM    r0 r0 00  imm=0x00000015  index=21
+2208  LDM    r0 r0 00  imm=0x00000016  index=22
+2210  LDM    r1 r0 00  imm=0x00000017  index=23
+2218  ADDR   r0 r1 00  imm=0x00000000
+2220  LDM    r1 r0 00  imm=0x0000001d  index=29
+2228  XORR   r0 r1 00  imm=0x00000000
+2230  ROLI   r0 r0 00  imm=0x00000006
+2238  STAGE  r0 r0 00  imm=0x00000094
+2240  ADDI   r0 r0 00  imm=0x00000036
+2248  STM    r0 r0 00  imm=0x00000016  index=22
+2250  LDM    r0 r0 00  imm=0x00000017  index=23
+2258  LDM    r1 r0 00  imm=0x00000018  index=24
+2260  ADDR   r0 r1 00  imm=0x00000000
+2268  LDM    r1 r0 00  imm=0x0000001e  index=30
+2270  XORR   r0 r1 00  imm=0x00000000
+2278  ROLI   r0 r0 00  imm=0x00000003
+2280  STAGE  r0 r0 00  imm=0x00000095
+2288  ADDI   r0 r0 00  imm=0x00000047
+2290  STM    r0 r0 00  imm=0x00000017  index=23
+2298  NOP    r0 r0 00  imm=0x00000000
+22a0  MOVI   r2 r0 00  imm=0x9e3579ae
+22a8  RORI   r2 r0 00  imm=0x00000001
+22b0  LDM    r0 r0 00  imm=0x00000018  index=24
+22b8  LDM    r1 r0 00  imm=0x00000019  index=25
+22c0  ADDR   r0 r1 00  imm=0x00000000
+22c8  LDM    r1 r0 00  imm=0x00000000  index=0
+22d0  XORR   r0 r1 00  imm=0x00000000
+22d8  ROLI   r0 r0 00  imm=0x00000008
+22e0  STAGE  r0 r0 00  imm=0x00000096
+22e8  ADDI   r0 r0 00  imm=0x00000058
+22f0  STM    r0 r0 00  imm=0x00000018  index=24
+22f8  LDM    r0 r0 00  imm=0x00000019  index=25
+2300  LDM    r1 r0 00  imm=0x0000001a  index=26
+2308  ADDR   r0 r1 00  imm=0x00000000
+2310  LDM    r1 r0 00  imm=0x00000001  index=1
+2318  XORR   r0 r1 00  imm=0x00000000
+2320  ROLI   r0 r0 00  imm=0x00000005
+2328  STAGE  r0 r0 00  imm=0x00000097
+2330  ADDI   r0 r0 00  imm=0x00000069
+2338  STM    r0 r0 00  imm=0x00000019  index=25
+2340  LDM    r0 r0 00  imm=0x0000001a  index=26
+2348  LDM    r1 r0 00  imm=0x0000001b  index=27
+2350  ADDR   r0 r1 00  imm=0x00000000
+2358  LDM    r1 r0 00  imm=0x00000002  index=2
+2360  XORR   r0 r1 00  imm=0x00000000
+2368  ROLI   r0 r0 00  imm=0x00000002
+2370  STAGE  r0 r0 00  imm=0x00000098
+2378  ADDI   r0 r0 00  imm=0x0000007a
+2380  STM    r0 r0 00  imm=0x0000001a  index=26
+2388  LDM    r0 r0 00  imm=0x0000001b  index=27
+2390  LDM    r1 r0 00  imm=0x0000001c  index=28
+2398  ADDR   r0 r1 00  imm=0x00000000
+23a0  LDM    r1 r0 00  imm=0x00000003  index=3
+23a8  XORR   r0 r1 00  imm=0x00000000
+23b0  ROLI   r0 r0 00  imm=0x00000007
+23b8  STAGE  r0 r0 00  imm=0x00000099
+23c0  ADDI   r0 r0 00  imm=0x0000008b
+23c8  STM    r0 r0 00  imm=0x0000001b  index=27
+23d0  LDM    r0 r0 00  imm=0x0000001c  index=28
+23d8  LDM    r1 r0 00  imm=0x0000001d  index=29
+23e0  ADDR   r0 r1 00  imm=0x00000000
+23e8  LDM    r1 r0 00  imm=0x00000004  index=4
+23f0  XORR   r0 r1 00  imm=0x00000000
+23f8  ROLI   r0 r0 00  imm=0x00000004
+2400  STAGE  r0 r0 00  imm=0x0000009a
+2408  ADDI   r0 r0 00  imm=0x0000009c
+2410  STM    r0 r0 00  imm=0x0000001c  index=28
+2418  NOP    r0 r0 00  imm=0x00000000
+2420  MOVI   r2 r0 00  imm=0x9e3579a5
+2428  RORI   r2 r0 00  imm=0x00000006
+2430  LDM    r0 r0 00  imm=0x0000001d  index=29
+2438  LDM    r1 r0 00  imm=0x0000001e  index=30
+2440  ADDR   r0 r1 00  imm=0x00000000
+2448  LDM    r1 r0 00  imm=0x00000005  index=5
+2450  XORR   r0 r1 00  imm=0x00000000
+2458  ROLI   r0 r0 00  imm=0x00000001
+2460  STAGE  r0 r0 00  imm=0x0000009b
+2468  ADDI   r0 r0 00  imm=0x000000ad
+2470  STM    r0 r0 00  imm=0x0000001d  index=29
+2478  LDM    r0 r0 00  imm=0x0000001e  index=30
+2480  LDM    r1 r0 00  imm=0x00000000  index=0
+2488  ADDR   r0 r1 00  imm=0x00000000
+2490  LDM    r1 r0 00  imm=0x00000006  index=6
+2498  XORR   r0 r1 00  imm=0x00000000
+24a0  ROLI   r0 r0 00  imm=0x00000006
+24a8  STAGE  r0 r0 00  imm=0x0000009c
+24b0  ADDI   r0 r0 00  imm=0x000000be
+24b8  STM    r0 r0 00  imm=0x0000001e  index=30
+24c0  LDM    r0 r0 00  imm=0x00000000  index=0
+24c8  LDM    r1 r0 00  imm=0x00000001  index=1
+24d0  ADDR   r0 r1 00  imm=0x00000000
+24d8  LDM    r1 r0 00  imm=0x00000007  index=7
+24e0  XORR   r0 r1 00  imm=0x00000000
+24e8  ROLI   r0 r0 00  imm=0x00000003
+24f0  STAGE  r0 r0 00  imm=0x0000009d
+24f8  ADDI   r0 r0 00  imm=0x000000f3
+2500  STM    r0 r0 00  imm=0x00000000  index=0
+2508  LDM    r0 r0 00  imm=0x00000001  index=1
+2510  LDM    r1 r0 00  imm=0x00000002  index=2
+2518  ADDR   r0 r1 00  imm=0x00000000
+2520  LDM    r1 r0 00  imm=0x00000008  index=8
+2528  XORR   r0 r1 00  imm=0x00000000
+2530  ROLI   r0 r0 00  imm=0x00000008
+2538  STAGE  r0 r0 00  imm=0x0000009e
+2540  ADDI   r0 r0 00  imm=0x00000004
+2548  STM    r0 r0 00  imm=0x00000001  index=1
+2550  LDM    r0 r0 00  imm=0x00000002  index=2
+2558  LDM    r1 r0 00  imm=0x00000003  index=3
+2560  ADDR   r0 r1 00  imm=0x00000000
+2568  LDM    r1 r0 00  imm=0x00000009  index=9
+2570  XORR   r0 r1 00  imm=0x00000000
+2578  ROLI   r0 r0 00  imm=0x00000005
+2580  STAGE  r0 r0 00  imm=0x0000009f
+2588  ADDI   r0 r0 00  imm=0x00000015
+2590  STM    r0 r0 00  imm=0x00000002  index=2
+2598  NOP    r0 r0 00  imm=0x00000000
+25a0  MOVI   r2 r0 00  imm=0x9e3479bb
+25a8  RORI   r2 r0 00  imm=0x00000005
+25b0  LDM    r0 r0 00  imm=0x00000003  index=3
+25b8  LDM    r1 r0 00  imm=0x00000004  index=4
+25c0  ADDR   r0 r1 00  imm=0x00000000
+25c8  LDM    r1 r0 00  imm=0x0000000a  index=10
+25d0  XORR   r0 r1 00  imm=0x00000000
+25d8  ROLI   r0 r0 00  imm=0x00000002
+25e0  STAGE  r0 r0 00  imm=0x000000a0
+25e8  ADDI   r0 r0 00  imm=0x00000026
+25f0  STM    r0 r0 00  imm=0x00000003  index=3
+25f8  LDM    r0 r0 00  imm=0x00000004  index=4
+2600  LDM    r1 r0 00  imm=0x00000005  index=5
+2608  ADDR   r0 r1 00  imm=0x00000000
+2610  LDM    r1 r0 00  imm=0x0000000b  index=11
+2618  XORR   r0 r1 00  imm=0x00000000
+2620  ROLI   r0 r0 00  imm=0x00000007
+2628  STAGE  r0 r0 00  imm=0x000000a1
+2630  ADDI   r0 r0 00  imm=0x00000037
+2638  STM    r0 r0 00  imm=0x00000004  index=4
+2640  LDM    r0 r0 00  imm=0x00000005  index=5
+2648  LDM    r1 r0 00  imm=0x00000006  index=6
+2650  ADDR   r0 r1 00  imm=0x00000000
+2658  LDM    r1 r0 00  imm=0x0000000c  index=12
+2660  XORR   r0 r1 00  imm=0x00000000
+2668  ROLI   r0 r0 00  imm=0x00000004
+2670  STAGE  r0 r0 00  imm=0x000000a2
+2678  ADDI   r0 r0 00  imm=0x00000048
+2680  STM    r0 r0 00  imm=0x00000005  index=5
+2688  LDM    r0 r0 00  imm=0x00000006  index=6
+2690  LDM    r1 r0 00  imm=0x00000007  index=7
+2698  ADDR   r0 r1 00  imm=0x00000000
+26a0  LDM    r1 r0 00  imm=0x0000000d  index=13
+26a8  XORR   r0 r1 00  imm=0x00000000
+26b0  ROLI   r0 r0 00  imm=0x00000001
+26b8  STAGE  r0 r0 00  imm=0x000000a3
+26c0  ADDI   r0 r0 00  imm=0x00000059
+26c8  STM    r0 r0 00  imm=0x00000006  index=6
+26d0  LDM    r0 r0 00  imm=0x00000007  index=7
+26d8  LDM    r1 r0 00  imm=0x00000008  index=8
+26e0  ADDR   r0 r1 00  imm=0x00000000
+26e8  LDM    r1 r0 00  imm=0x0000000e  index=14
+26f0  XORR   r0 r1 00  imm=0x00000000
+26f8  ROLI   r0 r0 00  imm=0x00000006
+2700  STAGE  r0 r0 00  imm=0x000000a4
+2708  ADDI   r0 r0 00  imm=0x0000006a
+2710  STM    r0 r0 00  imm=0x00000007  index=7
+2718  NOP    r0 r0 00  imm=0x00000000
+2720  MOVI   r2 r0 00  imm=0x9e3479be
+2728  RORI   r2 r0 00  imm=0x00000002
+2730  LDM    r0 r0 00  imm=0x00000008  index=8
+2738  LDM    r1 r0 00  imm=0x00000009  index=9
+2740  ADDR   r0 r1 00  imm=0x00000000
+2748  LDM    r1 r0 00  imm=0x0000000f  index=15
+2750  XORR   r0 r1 00  imm=0x00000000
+2758  ROLI   r0 r0 00  imm=0x00000003
+2760  STAGE  r0 r0 00  imm=0x000000a5
+2768  ADDI   r0 r0 00  imm=0x0000007b
+2770  STM    r0 r0 00  imm=0x00000008  index=8
+2778  LDM    r0 r0 00  imm=0x00000009  index=9
+2780  LDM    r1 r0 00  imm=0x0000000a  index=10
+2788  ADDR   r0 r1 00  imm=0x00000000
+2790  LDM    r1 r0 00  imm=0x00000010  index=16
+2798  XORR   r0 r1 00  imm=0x00000000
+27a0  ROLI   r0 r0 00  imm=0x00000008
+27a8  STAGE  r0 r0 00  imm=0x000000a6
+27b0  ADDI   r0 r0 00  imm=0x0000008c
+27b8  STM    r0 r0 00  imm=0x00000009  index=9
+27c0  LDM    r0 r0 00  imm=0x0000000a  index=10
+27c8  LDM    r1 r0 00  imm=0x0000000b  index=11
+27d0  ADDR   r0 r1 00  imm=0x00000000
+27d8  LDM    r1 r0 00  imm=0x00000011  index=17
+27e0  XORR   r0 r1 00  imm=0x00000000
+27e8  ROLI   r0 r0 00  imm=0x00000005
+27f0  STAGE  r0 r0 00  imm=0x000000a7
+27f8  ADDI   r0 r0 00  imm=0x0000009d
+2800  STM    r0 r0 00  imm=0x0000000a  index=10
+2808  LDM    r0 r0 00  imm=0x0000000b  index=11
+2810  LDM    r1 r0 00  imm=0x0000000c  index=12
+2818  ADDR   r0 r1 00  imm=0x00000000
+2820  LDM    r1 r0 00  imm=0x00000012  index=18
+2828  XORR   r0 r1 00  imm=0x00000000
+2830  ROLI   r0 r0 00  imm=0x00000002
+2838  STAGE  r0 r0 00  imm=0x000000a8
+2840  ADDI   r0 r0 00  imm=0x000000ae
+2848  STM    r0 r0 00  imm=0x0000000b  index=11
+2850  LDM    r0 r0 00  imm=0x0000000c  index=12
+2858  LDM    r1 r0 00  imm=0x0000000d  index=13
+2860  ADDR   r0 r1 00  imm=0x00000000
+2868  LDM    r1 r0 00  imm=0x00000013  index=19
+2870  XORR   r0 r1 00  imm=0x00000000
+2878  ROLI   r0 r0 00  imm=0x00000007
+2880  STAGE  r0 r0 00  imm=0x000000a9
+2888  ADDI   r0 r0 00  imm=0x000000bf
+2890  STM    r0 r0 00  imm=0x0000000c  index=12
+2898  NOP    r0 r0 00  imm=0x00000000
+28a0  MOVI   r2 r0 00  imm=0x9e3479b5
+28a8  RORI   r2 r0 00  imm=0x00000007
+28b0  LDM    r0 r0 00  imm=0x0000000d  index=13
+28b8  LDM    r1 r0 00  imm=0x0000000e  index=14
+28c0  ADDR   r0 r1 00  imm=0x00000000
+28c8  LDM    r1 r0 00  imm=0x00000014  index=20
+28d0  XORR   r0 r1 00  imm=0x00000000
+28d8  ROLI   r0 r0 00  imm=0x00000004
+28e0  STAGE  r0 r0 00  imm=0x000000aa
+28e8  ADDI   r0 r0 00  imm=0x000000d0
+28f0  STM    r0 r0 00  imm=0x0000000d  index=13
+28f8  LDM    r0 r0 00  imm=0x0000000e  index=14
+2900  LDM    r1 r0 00  imm=0x0000000f  index=15
+2908  ADDR   r0 r1 00  imm=0x00000000
+2910  LDM    r1 r0 00  imm=0x00000015  index=21
+2918  XORR   r0 r1 00  imm=0x00000000
+2920  ROLI   r0 r0 00  imm=0x00000001
+2928  STAGE  r0 r0 00  imm=0x000000ab
+2930  ADDI   r0 r0 00  imm=0x000000e1
+2938  STM    r0 r0 00  imm=0x0000000e  index=14
+2940  LDM    r0 r0 00  imm=0x0000000f  index=15
+2948  LDM    r1 r0 00  imm=0x00000010  index=16
+2950  ADDR   r0 r1 00  imm=0x00000000
+2958  LDM    r1 r0 00  imm=0x00000016  index=22
+2960  XORR   r0 r1 00  imm=0x00000000
+2968  ROLI   r0 r0 00  imm=0x00000006
+2970  STAGE  r0 r0 00  imm=0x000000ac
+2978  ADDI   r0 r0 00  imm=0x000000f2
+2980  STM    r0 r0 00  imm=0x0000000f  index=15
+2988  LDM    r0 r0 00  imm=0x00000010  index=16
+2990  LDM    r1 r0 00  imm=0x00000011  index=17
+2998  ADDR   r0 r1 00  imm=0x00000000
+29a0  LDM    r1 r0 00  imm=0x00000017  index=23
+29a8  XORR   r0 r1 00  imm=0x00000000
+29b0  ROLI   r0 r0 00  imm=0x00000003
+29b8  STAGE  r0 r0 00  imm=0x000000ad
+29c0  ADDI   r0 r0 00  imm=0x00000003
+29c8  STM    r0 r0 00  imm=0x00000010  index=16
+29d0  LDM    r0 r0 00  imm=0x00000011  index=17
+29d8  LDM    r1 r0 00  imm=0x00000012  index=18
+29e0  ADDR   r0 r1 00  imm=0x00000000
+29e8  LDM    r1 r0 00  imm=0x00000018  index=24
+29f0  XORR   r0 r1 00  imm=0x00000000
+29f8  ROLI   r0 r0 00  imm=0x00000008
+2a00  STAGE  r0 r0 00  imm=0x000000ae
+2a08  ADDI   r0 r0 00  imm=0x00000014
+2a10  STM    r0 r0 00  imm=0x00000011  index=17
+2a18  NOP    r0 r0 00  imm=0x00000000
+2a20  MOVI   r2 r0 00  imm=0x9e3479a8
+2a28  RORI   r2 r0 00  imm=0x00000004
+2a30  LDM    r0 r0 00  imm=0x00000012  index=18
+2a38  LDM    r1 r0 00  imm=0x00000013  index=19
+2a40  ADDR   r0 r1 00  imm=0x00000000
+2a48  LDM    r1 r0 00  imm=0x00000019  index=25
+2a50  XORR   r0 r1 00  imm=0x00000000
+2a58  ROLI   r0 r0 00  imm=0x00000005
+2a60  STAGE  r0 r0 00  imm=0x000000af
+2a68  ADDI   r0 r0 00  imm=0x00000025
+2a70  STM    r0 r0 00  imm=0x00000012  index=18
+2a78  LDM    r0 r0 00  imm=0x00000013  index=19
+2a80  LDM    r1 r0 00  imm=0x00000014  index=20
+2a88  ADDR   r0 r1 00  imm=0x00000000
+2a90  LDM    r1 r0 00  imm=0x0000001a  index=26
+2a98  XORR   r0 r1 00  imm=0x00000000
+2aa0  ROLI   r0 r0 00  imm=0x00000002
+2aa8  STAGE  r0 r0 00  imm=0x000000b0
+2ab0  ADDI   r0 r0 00  imm=0x00000036
+2ab8  STM    r0 r0 00  imm=0x00000013  index=19
+2ac0  LDM    r0 r0 00  imm=0x00000014  index=20
+2ac8  LDM    r1 r0 00  imm=0x00000015  index=21
+2ad0  ADDR   r0 r1 00  imm=0x00000000
+2ad8  LDM    r1 r0 00  imm=0x0000001b  index=27
+2ae0  XORR   r0 r1 00  imm=0x00000000
+2ae8  ROLI   r0 r0 00  imm=0x00000007
+2af0  STAGE  r0 r0 00  imm=0x000000b1
+2af8  ADDI   r0 r0 00  imm=0x00000047
+2b00  STM    r0 r0 00  imm=0x00000014  index=20
+2b08  LDM    r0 r0 00  imm=0x00000015  index=21
+2b10  LDM    r1 r0 00  imm=0x00000016  index=22
+2b18  ADDR   r0 r1 00  imm=0x00000000
+2b20  LDM    r1 r0 00  imm=0x0000001c  index=28
+2b28  XORR   r0 r1 00  imm=0x00000000
+2b30  ROLI   r0 r0 00  imm=0x00000004
+2b38  STAGE  r0 r0 00  imm=0x000000b2
+2b40  ADDI   r0 r0 00  imm=0x00000058
+2b48  STM    r0 r0 00  imm=0x00000015  index=21
+2b50  LDM    r0 r0 00  imm=0x00000016  index=22
+2b58  LDM    r1 r0 00  imm=0x00000017  index=23
+2b60  ADDR   r0 r1 00  imm=0x00000000
+2b68  LDM    r1 r0 00  imm=0x0000001d  index=29
+2b70  XORR   r0 r1 00  imm=0x00000000
+2b78  ROLI   r0 r0 00  imm=0x00000001
+2b80  STAGE  r0 r0 00  imm=0x000000b3
+2b88  ADDI   r0 r0 00  imm=0x00000069
+2b90  STM    r0 r0 00  imm=0x00000016  index=22
+2b98  NOP    r0 r0 00  imm=0x00000000
+2ba0  MOVI   r2 r0 00  imm=0x9e3479af
+2ba8  RORI   r2 r0 00  imm=0x00000001
+2bb0  LDM    r0 r0 00  imm=0x00000017  index=23
+2bb8  LDM    r1 r0 00  imm=0x00000018  index=24
+2bc0  ADDR   r0 r1 00  imm=0x00000000
+2bc8  LDM    r1 r0 00  imm=0x0000001e  index=30
+2bd0  XORR   r0 r1 00  imm=0x00000000
+2bd8  ROLI   r0 r0 00  imm=0x00000006
+2be0  STAGE  r0 r0 00  imm=0x000000b4
+2be8  ADDI   r0 r0 00  imm=0x0000007a
+2bf0  STM    r0 r0 00  imm=0x00000017  index=23
+2bf8  LDM    r0 r0 00  imm=0x00000018  index=24
+2c00  LDM    r1 r0 00  imm=0x00000019  index=25
+2c08  ADDR   r0 r1 00  imm=0x00000000
+2c10  LDM    r1 r0 00  imm=0x00000000  index=0
+2c18  XORR   r0 r1 00  imm=0x00000000
+2c20  ROLI   r0 r0 00  imm=0x00000003
+2c28  STAGE  r0 r0 00  imm=0x000000b5
+2c30  ADDI   r0 r0 00  imm=0x0000008b
+2c38  STM    r0 r0 00  imm=0x00000018  index=24
+2c40  LDM    r0 r0 00  imm=0x00000019  index=25
+2c48  LDM    r1 r0 00  imm=0x0000001a  index=26
+2c50  ADDR   r0 r1 00  imm=0x00000000
+2c58  LDM    r1 r0 00  imm=0x00000001  index=1
+2c60  XORR   r0 r1 00  imm=0x00000000
+2c68  ROLI   r0 r0 00  imm=0x00000008
+2c70  STAGE  r0 r0 00  imm=0x000000b6
+2c78  ADDI   r0 r0 00  imm=0x0000009c
+2c80  STM    r0 r0 00  imm=0x00000019  index=25
+2c88  LDM    r0 r0 00  imm=0x0000001a  index=26
+2c90  LDM    r1 r0 00  imm=0x0000001b  index=27
+2c98  ADDR   r0 r1 00  imm=0x00000000
+2ca0  LDM    r1 r0 00  imm=0x00000002  index=2
+2ca8  XORR   r0 r1 00  imm=0x00000000
+2cb0  ROLI   r0 r0 00  imm=0x00000005
+2cb8  STAGE  r0 r0 00  imm=0x000000b7
+2cc0  ADDI   r0 r0 00  imm=0x000000ad
+2cc8  STM    r0 r0 00  imm=0x0000001a  index=26
+2cd0  LDM    r0 r0 00  imm=0x0000001b  index=27
+2cd8  LDM    r1 r0 00  imm=0x0000001c  index=28
+2ce0  ADDR   r0 r1 00  imm=0x00000000
+2ce8  LDM    r1 r0 00  imm=0x00000003  index=3
+2cf0  XORR   r0 r1 00  imm=0x00000000
+2cf8  ROLI   r0 r0 00  imm=0x00000002
+2d00  STAGE  r0 r0 00  imm=0x000000b8
+2d08  ADDI   r0 r0 00  imm=0x000000be
+2d10  STM    r0 r0 00  imm=0x0000001b  index=27
+2d18  NOP    r0 r0 00  imm=0x00000000
+2d20  MOVI   r2 r0 00  imm=0x9e3479a2
+2d28  RORI   r2 r0 00  imm=0x00000006
+2d30  LDM    r0 r0 00  imm=0x0000001c  index=28
+2d38  LDM    r1 r0 00  imm=0x0000001d  index=29
+2d40  ADDR   r0 r1 00  imm=0x00000000
+2d48  LDM    r1 r0 00  imm=0x00000004  index=4
+2d50  XORR   r0 r1 00  imm=0x00000000
+2d58  ROLI   r0 r0 00  imm=0x00000007
+2d60  STAGE  r0 r0 00  imm=0x000000b9
+2d68  ADDI   r0 r0 00  imm=0x000000cf
+2d70  STM    r0 r0 00  imm=0x0000001c  index=28
+2d78  LDM    r0 r0 00  imm=0x0000001d  index=29
+2d80  LDM    r1 r0 00  imm=0x0000001e  index=30
+2d88  ADDR   r0 r1 00  imm=0x00000000
+2d90  LDM    r1 r0 00  imm=0x00000005  index=5
+2d98  XORR   r0 r1 00  imm=0x00000000
+2da0  ROLI   r0 r0 00  imm=0x00000004
+2da8  STAGE  r0 r0 00  imm=0x000000ba
+2db0  ADDI   r0 r0 00  imm=0x000000e0
+2db8  STM    r0 r0 00  imm=0x0000001d  index=29
+2dc0  LDM    r0 r0 00  imm=0x0000001e  index=30
+2dc8  LDM    r1 r0 00  imm=0x00000000  index=0
+2dd0  ADDR   r0 r1 00  imm=0x00000000
+2dd8  LDM    r1 r0 00  imm=0x00000006  index=6
+2de0  XORR   r0 r1 00  imm=0x00000000
+2de8  ROLI   r0 r0 00  imm=0x00000001
+2df0  STAGE  r0 r0 00  imm=0x000000bb
+2df8  ADDI   r0 r0 00  imm=0x000000f1
+2e00  STM    r0 r0 00  imm=0x0000001e  index=30
+2e08  LDM    r0 r0 00  imm=0x00000000  index=0
+2e10  LDM    r1 r0 00  imm=0x00000001  index=1
+2e18  ADDR   r0 r1 00  imm=0x00000000
+2e20  LDM    r1 r0 00  imm=0x00000007  index=7
+2e28  XORR   r0 r1 00  imm=0x00000000
+2e30  ROLI   r0 r0 00  imm=0x00000006
+2e38  STAGE  r0 r0 00  imm=0x000000bc
+2e40  ADDI   r0 r0 00  imm=0x00000026
+2e48  STM    r0 r0 00  imm=0x00000000  index=0
+2e50  LDM    r0 r0 00  imm=0x00000001  index=1
+2e58  LDM    r1 r0 00  imm=0x00000002  index=2
+2e60  ADDR   r0 r1 00  imm=0x00000000
+2e68  LDM    r1 r0 00  imm=0x00000008  index=8
+2e70  XORR   r0 r1 00  imm=0x00000000
+2e78  ROLI   r0 r0 00  imm=0x00000003
+2e80  STAGE  r0 r0 00  imm=0x000000bd
+2e88  ADDI   r0 r0 00  imm=0x00000037
+2e90  STM    r0 r0 00  imm=0x00000001  index=1
+2e98  NOP    r0 r0 00  imm=0x00000000
+2ea0  MOVI   r2 r0 00  imm=0x9e3379b8
+2ea8  RORI   r2 r0 00  imm=0x00000005
+2eb0  LDM    r0 r0 00  imm=0x00000002  index=2
+2eb8  LDM    r1 r0 00  imm=0x00000003  index=3
+2ec0  ADDR   r0 r1 00  imm=0x00000000
+2ec8  LDM    r1 r0 00  imm=0x00000009  index=9
+2ed0  XORR   r0 r1 00  imm=0x00000000
+2ed8  ROLI   r0 r0 00  imm=0x00000008
+2ee0  STAGE  r0 r0 00  imm=0x000000be
+2ee8  ADDI   r0 r0 00  imm=0x00000048
+2ef0  STM    r0 r0 00  imm=0x00000002  index=2
+2ef8  LDM    r0 r0 00  imm=0x00000003  index=3
+2f00  LDM    r1 r0 00  imm=0x00000004  index=4
+2f08  ADDR   r0 r1 00  imm=0x00000000
+2f10  LDM    r1 r0 00  imm=0x0000000a  index=10
+2f18  XORR   r0 r1 00  imm=0x00000000
+2f20  ROLI   r0 r0 00  imm=0x00000005
+2f28  STAGE  r0 r0 00  imm=0x000000bf
+2f30  ADDI   r0 r0 00  imm=0x00000059
+2f38  STM    r0 r0 00  imm=0x00000003  index=3
+2f40  LDM    r0 r0 00  imm=0x00000004  index=4
+2f48  LDM    r1 r0 00  imm=0x00000005  index=5
+2f50  ADDR   r0 r1 00  imm=0x00000000
+2f58  LDM    r1 r0 00  imm=0x0000000b  index=11
+2f60  XORR   r0 r1 00  imm=0x00000000
+2f68  ROLI   r0 r0 00  imm=0x00000002
+2f70  STAGE  r0 r0 00  imm=0x000000c0
+2f78  ADDI   r0 r0 00  imm=0x0000006a
+2f80  STM    r0 r0 00  imm=0x00000004  index=4
+2f88  LDM    r0 r0 00  imm=0x00000005  index=5
+2f90  LDM    r1 r0 00  imm=0x00000006  index=6
+2f98  ADDR   r0 r1 00  imm=0x00000000
+2fa0  LDM    r1 r0 00  imm=0x0000000c  index=12
+2fa8  XORR   r0 r1 00  imm=0x00000000
+2fb0  ROLI   r0 r0 00  imm=0x00000007
+2fb8  STAGE  r0 r0 00  imm=0x000000c1
+2fc0  ADDI   r0 r0 00  imm=0x0000007b
+2fc8  STM    r0 r0 00  imm=0x00000005  index=5
+2fd0  LDM    r0 r0 00  imm=0x00000006  index=6
+2fd8  LDM    r1 r0 00  imm=0x00000007  index=7
+2fe0  ADDR   r0 r1 00  imm=0x00000000
+2fe8  LDM    r1 r0 00  imm=0x0000000d  index=13
+2ff0  XORR   r0 r1 00  imm=0x00000000
+2ff8  ROLI   r0 r0 00  imm=0x00000004
+3000  STAGE  r0 r0 00  imm=0x000000c2
+3008  ADDI   r0 r0 00  imm=0x0000008c
+3010  STM    r0 r0 00  imm=0x00000006  index=6
+3018  NOP    r0 r0 00  imm=0x00000000
+3020  MOVI   r2 r0 00  imm=0x9e3379bf
+3028  RORI   r2 r0 00  imm=0x00000002
+3030  LDM    r0 r0 00  imm=0x00000007  index=7
+3038  LDM    r1 r0 00  imm=0x00000008  index=8
+3040  ADDR   r0 r1 00  imm=0x00000000
+3048  LDM    r1 r0 00  imm=0x0000000e  index=14
+3050  XORR   r0 r1 00  imm=0x00000000
+3058  ROLI   r0 r0 00  imm=0x00000001
+3060  STAGE  r0 r0 00  imm=0x000000c3
+3068  ADDI   r0 r0 00  imm=0x0000009d
+3070  STM    r0 r0 00  imm=0x00000007  index=7
+3078  LDM    r0 r0 00  imm=0x00000008  index=8
+3080  LDM    r1 r0 00  imm=0x00000009  index=9
+3088  ADDR   r0 r1 00  imm=0x00000000
+3090  LDM    r1 r0 00  imm=0x0000000f  index=15
+3098  XORR   r0 r1 00  imm=0x00000000
+30a0  ROLI   r0 r0 00  imm=0x00000006
+30a8  STAGE  r0 r0 00  imm=0x000000c4
+30b0  ADDI   r0 r0 00  imm=0x000000ae
+30b8  STM    r0 r0 00  imm=0x00000008  index=8
+30c0  LDM    r0 r0 00  imm=0x00000009  index=9
+30c8  LDM    r1 r0 00  imm=0x0000000a  index=10
+30d0  ADDR   r0 r1 00  imm=0x00000000
+30d8  LDM    r1 r0 00  imm=0x00000010  index=16
+30e0  XORR   r0 r1 00  imm=0x00000000
+30e8  ROLI   r0 r0 00  imm=0x00000003
+30f0  STAGE  r0 r0 00  imm=0x000000c5
+30f8  ADDI   r0 r0 00  imm=0x000000bf
+3100  STM    r0 r0 00  imm=0x00000009  index=9
+3108  LDM    r0 r0 00  imm=0x0000000a  index=10
+3110  LDM    r1 r0 00  imm=0x0000000b  index=11
+3118  ADDR   r0 r1 00  imm=0x00000000
+3120  LDM    r1 r0 00  imm=0x00000011  index=17
+3128  XORR   r0 r1 00  imm=0x00000000
+3130  ROLI   r0 r0 00  imm=0x00000008
+3138  STAGE  r0 r0 00  imm=0x000000c6
+3140  ADDI   r0 r0 00  imm=0x000000d0
+3148  STM    r0 r0 00  imm=0x0000000a  index=10
+3150  LDM    r0 r0 00  imm=0x0000000b  index=11
+3158  LDM    r1 r0 00  imm=0x0000000c  index=12
+3160  ADDR   r0 r1 00  imm=0x00000000
+3168  LDM    r1 r0 00  imm=0x00000012  index=18
+3170  XORR   r0 r1 00  imm=0x00000000
+3178  ROLI   r0 r0 00  imm=0x00000005
+3180  STAGE  r0 r0 00  imm=0x000000c7
+3188  ADDI   r0 r0 00  imm=0x000000e1
+3190  STM    r0 r0 00  imm=0x0000000b  index=11
+3198  NOP    r0 r0 00  imm=0x00000000
+31a0  MOVI   r2 r0 00  imm=0x9e3379b2
+31a8  RORI   r2 r0 00  imm=0x00000007
+31b0  LDM    r0 r0 00  imm=0x0000000c  index=12
+31b8  LDM    r1 r0 00  imm=0x0000000d  index=13
+31c0  ADDR   r0 r1 00  imm=0x00000000
+31c8  LDM    r1 r0 00  imm=0x00000013  index=19
+31d0  XORR   r0 r1 00  imm=0x00000000
+31d8  ROLI   r0 r0 00  imm=0x00000002
+31e0  STAGE  r0 r0 00  imm=0x000000c8
+31e8  ADDI   r0 r0 00  imm=0x000000f2
+31f0  STM    r0 r0 00  imm=0x0000000c  index=12
+31f8  LDM    r0 r0 00  imm=0x0000000d  index=13
+3200  LDM    r1 r0 00  imm=0x0000000e  index=14
+3208  ADDR   r0 r1 00  imm=0x00000000
+3210  LDM    r1 r0 00  imm=0x00000014  index=20
+3218  XORR   r0 r1 00  imm=0x00000000
+3220  ROLI   r0 r0 00  imm=0x00000007
+3228  STAGE  r0 r0 00  imm=0x000000c9
+3230  ADDI   r0 r0 00  imm=0x00000003
+3238  STM    r0 r0 00  imm=0x0000000d  index=13
+3240  LDM    r0 r0 00  imm=0x0000000e  index=14
+3248  LDM    r1 r0 00  imm=0x0000000f  index=15
+3250  ADDR   r0 r1 00  imm=0x00000000
+3258  LDM    r1 r0 00  imm=0x00000015  index=21
+3260  XORR   r0 r1 00  imm=0x00000000
+3268  ROLI   r0 r0 00  imm=0x00000004
+3270  STAGE  r0 r0 00  imm=0x000000ca
+3278  ADDI   r0 r0 00  imm=0x00000014
+3280  STM    r0 r0 00  imm=0x0000000e  index=14
+3288  LDM    r0 r0 00  imm=0x0000000f  index=15
+3290  LDM    r1 r0 00  imm=0x00000010  index=16
+3298  ADDR   r0 r1 00  imm=0x00000000
+32a0  LDM    r1 r0 00  imm=0x00000016  index=22
+32a8  XORR   r0 r1 00  imm=0x00000000
+32b0  ROLI   r0 r0 00  imm=0x00000001
+32b8  STAGE  r0 r0 00  imm=0x000000cb
+32c0  ADDI   r0 r0 00  imm=0x00000025
+32c8  STM    r0 r0 00  imm=0x0000000f  index=15
+32d0  LDM    r0 r0 00  imm=0x00000010  index=16
+32d8  LDM    r1 r0 00  imm=0x00000011  index=17
+32e0  ADDR   r0 r1 00  imm=0x00000000
+32e8  LDM    r1 r0 00  imm=0x00000017  index=23
+32f0  XORR   r0 r1 00  imm=0x00000000
+32f8  ROLI   r0 r0 00  imm=0x00000006
+3300  STAGE  r0 r0 00  imm=0x000000cc
+3308  ADDI   r0 r0 00  imm=0x00000036
+3310  STM    r0 r0 00  imm=0x00000010  index=16
+3318  NOP    r0 r0 00  imm=0x00000000
+3320  MOVI   r2 r0 00  imm=0x9e3379a9
+3328  RORI   r2 r0 00  imm=0x00000004
+3330  LDM    r0 r0 00  imm=0x00000011  index=17
+3338  LDM    r1 r0 00  imm=0x00000012  index=18
+3340  ADDR   r0 r1 00  imm=0x00000000
+3348  LDM    r1 r0 00  imm=0x00000018  index=24
+3350  XORR   r0 r1 00  imm=0x00000000
+3358  ROLI   r0 r0 00  imm=0x00000003
+3360  STAGE  r0 r0 00  imm=0x000000cd
+3368  ADDI   r0 r0 00  imm=0x00000047
+3370  STM    r0 r0 00  imm=0x00000011  index=17
+3378  LDM    r0 r0 00  imm=0x00000012  index=18
+3380  LDM    r1 r0 00  imm=0x00000013  index=19
+3388  ADDR   r0 r1 00  imm=0x00000000
+3390  LDM    r1 r0 00  imm=0x00000019  index=25
+3398  XORR   r0 r1 00  imm=0x00000000
+33a0  ROLI   r0 r0 00  imm=0x00000008
+33a8  STAGE  r0 r0 00  imm=0x000000ce
+33b0  ADDI   r0 r0 00  imm=0x00000058
+33b8  STM    r0 r0 00  imm=0x00000012  index=18
+33c0  LDM    r0 r0 00  imm=0x00000013  index=19
+33c8  LDM    r1 r0 00  imm=0x00000014  index=20
+33d0  ADDR   r0 r1 00  imm=0x00000000
+33d8  LDM    r1 r0 00  imm=0x0000001a  index=26
+33e0  XORR   r0 r1 00  imm=0x00000000
+33e8  ROLI   r0 r0 00  imm=0x00000005
+33f0  STAGE  r0 r0 00  imm=0x000000cf
+33f8  ADDI   r0 r0 00  imm=0x00000069
+3400  STM    r0 r0 00  imm=0x00000013  index=19
+3408  LDM    r0 r0 00  imm=0x00000014  index=20
+3410  LDM    r1 r0 00  imm=0x00000015  index=21
+3418  ADDR   r0 r1 00  imm=0x00000000
+3420  LDM    r1 r0 00  imm=0x0000001b  index=27
+3428  XORR   r0 r1 00  imm=0x00000000
+3430  ROLI   r0 r0 00  imm=0x00000002
+3438  STAGE  r0 r0 00  imm=0x000000d0
+3440  ADDI   r0 r0 00  imm=0x0000007a
+3448  STM    r0 r0 00  imm=0x00000014  index=20
+3450  LDM    r0 r0 00  imm=0x00000015  index=21
+3458  LDM    r1 r0 00  imm=0x00000016  index=22
+3460  ADDR   r0 r1 00  imm=0x00000000
+3468  LDM    r1 r0 00  imm=0x0000001c  index=28
+3470  XORR   r0 r1 00  imm=0x00000000
+3478  ROLI   r0 r0 00  imm=0x00000007
+3480  STAGE  r0 r0 00  imm=0x000000d1
+3488  ADDI   r0 r0 00  imm=0x0000008b
+3490  STM    r0 r0 00  imm=0x00000015  index=21
+3498  NOP    r0 r0 00  imm=0x00000000
+34a0  MOVI   r2 r0 00  imm=0x9e3379ac
+34a8  RORI   r2 r0 00  imm=0x00000001
+34b0  LDM    r0 r0 00  imm=0x00000016  index=22
+34b8  LDM    r1 r0 00  imm=0x00000017  index=23
+34c0  ADDR   r0 r1 00  imm=0x00000000
+34c8  LDM    r1 r0 00  imm=0x0000001d  index=29
+34d0  XORR   r0 r1 00  imm=0x00000000
+34d8  ROLI   r0 r0 00  imm=0x00000004
+34e0  STAGE  r0 r0 00  imm=0x000000d2
+34e8  ADDI   r0 r0 00  imm=0x0000009c
+34f0  STM    r0 r0 00  imm=0x00000016  index=22
+34f8  LDM    r0 r0 00  imm=0x00000017  index=23
+3500  LDM    r1 r0 00  imm=0x00000018  index=24
+3508  ADDR   r0 r1 00  imm=0x00000000
+3510  LDM    r1 r0 00  imm=0x0000001e  index=30
+3518  XORR   r0 r1 00  imm=0x00000000
+3520  ROLI   r0 r0 00  imm=0x00000001
+3528  STAGE  r0 r0 00  imm=0x000000d3
+3530  ADDI   r0 r0 00  imm=0x000000ad
+3538  STM    r0 r0 00  imm=0x00000017  index=23
+3540  LDM    r0 r0 00  imm=0x00000018  index=24
+3548  LDM    r1 r0 00  imm=0x00000019  index=25
+3550  ADDR   r0 r1 00  imm=0x00000000
+3558  LDM    r1 r0 00  imm=0x00000000  index=0
+3560  XORR   r0 r1 00  imm=0x00000000
+3568  ROLI   r0 r0 00  imm=0x00000006
+3570  STAGE  r0 r0 00  imm=0x000000d4
+3578  ADDI   r0 r0 00  imm=0x000000be
+3580  STM    r0 r0 00  imm=0x00000018  index=24
+3588  LDM    r0 r0 00  imm=0x00000019  index=25
+3590  LDM    r1 r0 00  imm=0x0000001a  index=26
+3598  ADDR   r0 r1 00  imm=0x00000000
+35a0  LDM    r1 r0 00  imm=0x00000001  index=1
+35a8  XORR   r0 r1 00  imm=0x00000000
+35b0  ROLI   r0 r0 00  imm=0x00000003
+35b8  STAGE  r0 r0 00  imm=0x000000d5
+35c0  ADDI   r0 r0 00  imm=0x000000cf
+35c8  STM    r0 r0 00  imm=0x00000019  index=25
+35d0  LDM    r0 r0 00  imm=0x0000001a  index=26
+35d8  LDM    r1 r0 00  imm=0x0000001b  index=27
+35e0  ADDR   r0 r1 00  imm=0x00000000
+35e8  LDM    r1 r0 00  imm=0x00000002  index=2
+35f0  XORR   r0 r1 00  imm=0x00000000
+35f8  ROLI   r0 r0 00  imm=0x00000008
+3600  STAGE  r0 r0 00  imm=0x000000d6
+3608  ADDI   r0 r0 00  imm=0x000000e0
+3610  STM    r0 r0 00  imm=0x0000001a  index=26
+3618  NOP    r0 r0 00  imm=0x00000000
+3620  MOVI   r2 r0 00  imm=0x9e3379a3
+3628  RORI   r2 r0 00  imm=0x00000006
+3630  LDM    r0 r0 00  imm=0x0000001b  index=27
+3638  LDM    r1 r0 00  imm=0x0000001c  index=28
+3640  ADDR   r0 r1 00  imm=0x00000000
+3648  LDM    r1 r0 00  imm=0x00000003  index=3
+3650  XORR   r0 r1 00  imm=0x00000000
+3658  ROLI   r0 r0 00  imm=0x00000005
+3660  STAGE  r0 r0 00  imm=0x000000d7
+3668  ADDI   r0 r0 00  imm=0x000000f1
+3670  STM    r0 r0 00  imm=0x0000001b  index=27
+3678  LDM    r0 r0 00  imm=0x0000001c  index=28
+3680  LDM    r1 r0 00  imm=0x0000001d  index=29
+3688  ADDR   r0 r1 00  imm=0x00000000
+3690  LDM    r1 r0 00  imm=0x00000004  index=4
+3698  XORR   r0 r1 00  imm=0x00000000
+36a0  ROLI   r0 r0 00  imm=0x00000002
+36a8  STAGE  r0 r0 00  imm=0x000000d8
+36b0  ADDI   r0 r0 00  imm=0x00000002
+36b8  STM    r0 r0 00  imm=0x0000001c  index=28
+36c0  LDM    r0 r0 00  imm=0x0000001d  index=29
+36c8  LDM    r1 r0 00  imm=0x0000001e  index=30
+36d0  ADDR   r0 r1 00  imm=0x00000000
+36d8  LDM    r1 r0 00  imm=0x00000005  index=5
+36e0  XORR   r0 r1 00  imm=0x00000000
+36e8  ROLI   r0 r0 00  imm=0x00000007
+36f0  STAGE  r0 r0 00  imm=0x000000d9
+36f8  ADDI   r0 r0 00  imm=0x00000013
+3700  STM    r0 r0 00  imm=0x0000001d  index=29
+3708  LDM    r0 r0 00  imm=0x0000001e  index=30
+3710  LDM    r1 r0 00  imm=0x00000000  index=0
+3718  ADDR   r0 r1 00  imm=0x00000000
+3720  LDM    r1 r0 00  imm=0x00000006  index=6
+3728  XORR   r0 r1 00  imm=0x00000000
+3730  ROLI   r0 r0 00  imm=0x00000004
+3738  STAGE  r0 r0 00  imm=0x000000da
+3740  ADDI   r0 r0 00  imm=0x00000024
+3748  STM    r0 r0 00  imm=0x0000001e  index=30
+3750  LDM    r0 r0 00  imm=0x00000000  index=0
+3758  LDM    r1 r0 00  imm=0x00000001  index=1
+3760  ADDR   r0 r1 00  imm=0x00000000
+3768  LDM    r1 r0 00  imm=0x00000007  index=7
+3770  XORR   r0 r1 00  imm=0x00000000
+3778  ROLI   r0 r0 00  imm=0x00000001
+3780  STAGE  r0 r0 00  imm=0x000000db
+3788  ADDI   r0 r0 00  imm=0x00000059
+3790  STM    r0 r0 00  imm=0x00000000  index=0
+3798  NOP    r0 r0 00  imm=0x00000000
+37a0  MOVI   r2 r0 00  imm=0x9e3279b9
+37a8  RORI   r2 r0 00  imm=0x00000005
+37b0  LDM    r0 r0 00  imm=0x00000001  index=1
+37b8  LDM    r1 r0 00  imm=0x00000002  index=2
+37c0  ADDR   r0 r1 00  imm=0x00000000
+37c8  LDM    r1 r0 00  imm=0x00000008  index=8
+37d0  XORR   r0 r1 00  imm=0x00000000
+37d8  ROLI   r0 r0 00  imm=0x00000006
+37e0  STAGE  r0 r0 00  imm=0x000000dc
+37e8  ADDI   r0 r0 00  imm=0x0000006a
+37f0  STM    r0 r0 00  imm=0x00000001  index=1
+37f8  LDM    r0 r0 00  imm=0x00000002  index=2
+3800  LDM    r1 r0 00  imm=0x00000003  index=3
+3808  ADDR   r0 r1 00  imm=0x00000000
+3810  LDM    r1 r0 00  imm=0x00000009  index=9
+3818  XORR   r0 r1 00  imm=0x00000000
+3820  ROLI   r0 r0 00  imm=0x00000003
+3828  STAGE  r0 r0 00  imm=0x000000dd
+3830  ADDI   r0 r0 00  imm=0x0000007b
+3838  STM    r0 r0 00  imm=0x00000002  index=2
+3840  LDM    r0 r0 00  imm=0x00000003  index=3
+3848  LDM    r1 r0 00  imm=0x00000004  index=4
+3850  ADDR   r0 r1 00  imm=0x00000000
+3858  LDM    r1 r0 00  imm=0x0000000a  index=10
+3860  XORR   r0 r1 00  imm=0x00000000
+3868  ROLI   r0 r0 00  imm=0x00000008
+3870  STAGE  r0 r0 00  imm=0x000000de
+3878  ADDI   r0 r0 00  imm=0x0000008c
+3880  STM    r0 r0 00  imm=0x00000003  index=3
+3888  LDM    r0 r0 00  imm=0x00000004  index=4
+3890  LDM    r1 r0 00  imm=0x00000005  index=5
+3898  ADDR   r0 r1 00  imm=0x00000000
+38a0  LDM    r1 r0 00  imm=0x0000000b  index=11
+38a8  XORR   r0 r1 00  imm=0x00000000
+38b0  ROLI   r0 r0 00  imm=0x00000005
+38b8  STAGE  r0 r0 00  imm=0x000000df
+38c0  ADDI   r0 r0 00  imm=0x0000009d
+38c8  STM    r0 r0 00  imm=0x00000004  index=4
+38d0  LDM    r0 r0 00  imm=0x00000005  index=5
+38d8  LDM    r1 r0 00  imm=0x00000006  index=6
+38e0  ADDR   r0 r1 00  imm=0x00000000
+38e8  LDM    r1 r0 00  imm=0x0000000c  index=12
+38f0  XORR   r0 r1 00  imm=0x00000000
+38f8  ROLI   r0 r0 00  imm=0x00000002
+3900  STAGE  r0 r0 00  imm=0x000000e0
+3908  ADDI   r0 r0 00  imm=0x000000ae
+3910  STM    r0 r0 00  imm=0x00000005  index=5
+3918  NOP    r0 r0 00  imm=0x00000000
+3920  MOVI   r2 r0 00  imm=0x9e3279bc
+3928  RORI   r2 r0 00  imm=0x00000002
+3930  LDM    r0 r0 00  imm=0x00000006  index=6
+3938  LDM    r1 r0 00  imm=0x00000007  index=7
+3940  ADDR   r0 r1 00  imm=0x00000000
+3948  LDM    r1 r0 00  imm=0x0000000d  index=13
+3950  XORR   r0 r1 00  imm=0x00000000
+3958  ROLI   r0 r0 00  imm=0x00000007
+3960  STAGE  r0 r0 00  imm=0x000000e1
+3968  ADDI   r0 r0 00  imm=0x000000bf
+3970  STM    r0 r0 00  imm=0x00000006  index=6
+3978  LDM    r0 r0 00  imm=0x00000007  index=7
+3980  LDM    r1 r0 00  imm=0x00000008  index=8
+3988  ADDR   r0 r1 00  imm=0x00000000
+3990  LDM    r1 r0 00  imm=0x0000000e  index=14
+3998  XORR   r0 r1 00  imm=0x00000000
+39a0  ROLI   r0 r0 00  imm=0x00000004
+39a8  STAGE  r0 r0 00  imm=0x000000e2
+39b0  ADDI   r0 r0 00  imm=0x000000d0
+39b8  STM    r0 r0 00  imm=0x00000007  index=7
+39c0  LDM    r0 r0 00  imm=0x00000008  index=8
+39c8  LDM    r1 r0 00  imm=0x00000009  index=9
+39d0  ADDR   r0 r1 00  imm=0x00000000
+39d8  LDM    r1 r0 00  imm=0x0000000f  index=15
+39e0  XORR   r0 r1 00  imm=0x00000000
+39e8  ROLI   r0 r0 00  imm=0x00000001
+39f0  STAGE  r0 r0 00  imm=0x000000e3
+39f8  ADDI   r0 r0 00  imm=0x000000e1
+3a00  STM    r0 r0 00  imm=0x00000008  index=8
+3a08  LDM    r0 r0 00  imm=0x00000009  index=9
+3a10  LDM    r1 r0 00  imm=0x0000000a  index=10
+3a18  ADDR   r0 r1 00  imm=0x00000000
+3a20  LDM    r1 r0 00  imm=0x00000010  index=16
+3a28  XORR   r0 r1 00  imm=0x00000000
+3a30  ROLI   r0 r0 00  imm=0x00000006
+3a38  STAGE  r0 r0 00  imm=0x000000e4
+3a40  ADDI   r0 r0 00  imm=0x000000f2
+3a48  STM    r0 r0 00  imm=0x00000009  index=9
+3a50  LDM    r0 r0 00  imm=0x0000000a  index=10
+3a58  LDM    r1 r0 00  imm=0x0000000b  index=11
+3a60  ADDR   r0 r1 00  imm=0x00000000
+3a68  LDM    r1 r0 00  imm=0x00000011  index=17
+3a70  XORR   r0 r1 00  imm=0x00000000
+3a78  ROLI   r0 r0 00  imm=0x00000003
+3a80  STAGE  r0 r0 00  imm=0x000000e5
+3a88  ADDI   r0 r0 00  imm=0x00000003
+3a90  STM    r0 r0 00  imm=0x0000000a  index=10
+3a98  NOP    r0 r0 00  imm=0x00000000
+3aa0  MOVI   r2 r0 00  imm=0x9e3279b3
+3aa8  RORI   r2 r0 00  imm=0x00000007
+3ab0  LDM    r0 r0 00  imm=0x0000000b  index=11
+3ab8  LDM    r1 r0 00  imm=0x0000000c  index=12
+3ac0  ADDR   r0 r1 00  imm=0x00000000
+3ac8  LDM    r1 r0 00  imm=0x00000012  index=18
+3ad0  XORR   r0 r1 00  imm=0x00000000
+3ad8  ROLI   r0 r0 00  imm=0x00000008
+3ae0  STAGE  r0 r0 00  imm=0x000000e6
+3ae8  ADDI   r0 r0 00  imm=0x00000014
+3af0  STM    r0 r0 00  imm=0x0000000b  index=11
+3af8  LDM    r0 r0 00  imm=0x0000000c  index=12
+3b00  LDM    r1 r0 00  imm=0x0000000d  index=13
+3b08  ADDR   r0 r1 00  imm=0x00000000
+3b10  LDM    r1 r0 00  imm=0x00000013  index=19
+3b18  XORR   r0 r1 00  imm=0x00000000
+3b20  ROLI   r0 r0 00  imm=0x00000005
+3b28  STAGE  r0 r0 00  imm=0x000000e7
+3b30  ADDI   r0 r0 00  imm=0x00000025
+3b38  STM    r0 r0 00  imm=0x0000000c  index=12
+3b40  LDM    r0 r0 00  imm=0x0000000d  index=13
+3b48  LDM    r1 r0 00  imm=0x0000000e  index=14
+3b50  ADDR   r0 r1 00  imm=0x00000000
+3b58  LDM    r1 r0 00  imm=0x00000014  index=20
+3b60  XORR   r0 r1 00  imm=0x00000000
+3b68  ROLI   r0 r0 00  imm=0x00000002
+3b70  STAGE  r0 r0 00  imm=0x000000e8
+3b78  ADDI   r0 r0 00  imm=0x00000036
+3b80  STM    r0 r0 00  imm=0x0000000d  index=13
+3b88  LDM    r0 r0 00  imm=0x0000000e  index=14
+3b90  LDM    r1 r0 00  imm=0x0000000f  index=15
+3b98  ADDR   r0 r1 00  imm=0x00000000
+3ba0  LDM    r1 r0 00  imm=0x00000015  index=21
+3ba8  XORR   r0 r1 00  imm=0x00000000
+3bb0  ROLI   r0 r0 00  imm=0x00000007
+3bb8  STAGE  r0 r0 00  imm=0x000000e9
+3bc0  ADDI   r0 r0 00  imm=0x00000047
+3bc8  STM    r0 r0 00  imm=0x0000000e  index=14
+3bd0  LDM    r0 r0 00  imm=0x0000000f  index=15
+3bd8  LDM    r1 r0 00  imm=0x00000010  index=16
+3be0  ADDR   r0 r1 00  imm=0x00000000
+3be8  LDM    r1 r0 00  imm=0x00000016  index=22
+3bf0  XORR   r0 r1 00  imm=0x00000000
+3bf8  ROLI   r0 r0 00  imm=0x00000004
+3c00  STAGE  r0 r0 00  imm=0x000000ea
+3c08  ADDI   r0 r0 00  imm=0x00000058
+3c10  STM    r0 r0 00  imm=0x0000000f  index=15
+3c18  NOP    r0 r0 00  imm=0x00000000
+3c20  MOVI   r2 r0 00  imm=0x9e3279b6
+3c28  RORI   r2 r0 00  imm=0x00000004
+3c30  LDM    r0 r0 00  imm=0x00000010  index=16
+3c38  LDM    r1 r0 00  imm=0x00000011  index=17
+3c40  ADDR   r0 r1 00  imm=0x00000000
+3c48  LDM    r1 r0 00  imm=0x00000017  index=23
+3c50  XORR   r0 r1 00  imm=0x00000000
+3c58  ROLI   r0 r0 00  imm=0x00000001
+3c60  STAGE  r0 r0 00  imm=0x000000eb
+3c68  ADDI   r0 r0 00  imm=0x00000069
+3c70  STM    r0 r0 00  imm=0x00000010  index=16
+3c78  LDM    r0 r0 00  imm=0x00000011  index=17
+3c80  LDM    r1 r0 00  imm=0x00000012  index=18
+3c88  ADDR   r0 r1 00  imm=0x00000000
+3c90  LDM    r1 r0 00  imm=0x00000018  index=24
+3c98  XORR   r0 r1 00  imm=0x00000000
+3ca0  ROLI   r0 r0 00  imm=0x00000006
+3ca8  STAGE  r0 r0 00  imm=0x000000ec
+3cb0  ADDI   r0 r0 00  imm=0x0000007a
+3cb8  STM    r0 r0 00  imm=0x00000011  index=17
+3cc0  LDM    r0 r0 00  imm=0x00000012  index=18
+3cc8  LDM    r1 r0 00  imm=0x00000013  index=19
+3cd0  ADDR   r0 r1 00  imm=0x00000000
+3cd8  LDM    r1 r0 00  imm=0x00000019  index=25
+3ce0  XORR   r0 r1 00  imm=0x00000000
+3ce8  ROLI   r0 r0 00  imm=0x00000003
+3cf0  STAGE  r0 r0 00  imm=0x000000ed
+3cf8  ADDI   r0 r0 00  imm=0x0000008b
+3d00  STM    r0 r0 00  imm=0x00000012  index=18
+3d08  LDM    r0 r0 00  imm=0x00000013  index=19
+3d10  LDM    r1 r0 00  imm=0x00000014  index=20
+3d18  ADDR   r0 r1 00  imm=0x00000000
+3d20  LDM    r1 r0 00  imm=0x0000001a  index=26
+3d28  XORR   r0 r1 00  imm=0x00000000
+3d30  ROLI   r0 r0 00  imm=0x00000008
+3d38  STAGE  r0 r0 00  imm=0x000000ee
+3d40  ADDI   r0 r0 00  imm=0x0000009c
+3d48  STM    r0 r0 00  imm=0x00000013  index=19
+3d50  LDM    r0 r0 00  imm=0x00000014  index=20
+3d58  LDM    r1 r0 00  imm=0x00000015  index=21
+3d60  ADDR   r0 r1 00  imm=0x00000000
+3d68  LDM    r1 r0 00  imm=0x0000001b  index=27
+3d70  XORR   r0 r1 00  imm=0x00000000
+3d78  ROLI   r0 r0 00  imm=0x00000005
+3d80  STAGE  r0 r0 00  imm=0x000000ef
+3d88  ADDI   r0 r0 00  imm=0x000000ad
+3d90  STM    r0 r0 00  imm=0x00000014  index=20
+3d98  NOP    r0 r0 00  imm=0x00000000
+3da0  MOVI   r2 r0 00  imm=0x9e3279ad
+3da8  RORI   r2 r0 00  imm=0x00000001
+3db0  LDM    r0 r0 00  imm=0x00000015  index=21
+3db8  LDM    r1 r0 00  imm=0x00000016  index=22
+3dc0  ADDR   r0 r1 00  imm=0x00000000
+3dc8  LDM    r1 r0 00  imm=0x0000001c  index=28
+3dd0  XORR   r0 r1 00  imm=0x00000000
+3dd8  ROLI   r0 r0 00  imm=0x00000002
+3de0  STAGE  r0 r0 00  imm=0x000000f0
+3de8  ADDI   r0 r0 00  imm=0x000000be
+3df0  STM    r0 r0 00  imm=0x00000015  index=21
+3df8  LDM    r0 r0 00  imm=0x00000016  index=22
+3e00  LDM    r1 r0 00  imm=0x00000017  index=23
+3e08  ADDR   r0 r1 00  imm=0x00000000
+3e10  LDM    r1 r0 00  imm=0x0000001d  index=29
+3e18  XORR   r0 r1 00  imm=0x00000000
+3e20  ROLI   r0 r0 00  imm=0x00000007
+3e28  STAGE  r0 r0 00  imm=0x000000f1
+3e30  ADDI   r0 r0 00  imm=0x000000cf
+3e38  STM    r0 r0 00  imm=0x00000016  index=22
+3e40  LDM    r0 r0 00  imm=0x00000017  index=23
+3e48  LDM    r1 r0 00  imm=0x00000018  index=24
+3e50  ADDR   r0 r1 00  imm=0x00000000
+3e58  LDM    r1 r0 00  imm=0x0000001e  index=30
+3e60  XORR   r0 r1 00  imm=0x00000000
+3e68  ROLI   r0 r0 00  imm=0x00000004
+3e70  STAGE  r0 r0 00  imm=0x000000f2
+3e78  ADDI   r0 r0 00  imm=0x000000e0
+3e80  STM    r0 r0 00  imm=0x00000017  index=23
+3e88  LDM    r0 r0 00  imm=0x00000018  index=24
+3e90  LDM    r1 r0 00  imm=0x00000019  index=25
+3e98  ADDR   r0 r1 00  imm=0x00000000
+3ea0  LDM    r1 r0 00  imm=0x00000000  index=0
+3ea8  XORR   r0 r1 00  imm=0x00000000
+3eb0  ROLI   r0 r0 00  imm=0x00000001
+3eb8  STAGE  r0 r0 00  imm=0x000000f3
+3ec0  ADDI   r0 r0 00  imm=0x000000f1
+3ec8  STM    r0 r0 00  imm=0x00000018  index=24
+3ed0  LDM    r0 r0 00  imm=0x00000019  index=25
+3ed8  LDM    r1 r0 00  imm=0x0000001a  index=26
+3ee0  ADDR   r0 r1 00  imm=0x00000000
+3ee8  LDM    r1 r0 00  imm=0x00000001  index=1
+3ef0  XORR   r0 r1 00  imm=0x00000000
+3ef8  ROLI   r0 r0 00  imm=0x00000006
+3f00  STAGE  r0 r0 00  imm=0x000000f4
+3f08  ADDI   r0 r0 00  imm=0x00000002
+3f10  STM    r0 r0 00  imm=0x00000019  index=25
+3f18  NOP    r0 r0 00  imm=0x00000000
+3f20  MOVI   r2 r0 00  imm=0x9e3279a0
+3f28  RORI   r2 r0 00  imm=0x00000006
+3f30  LDM    r0 r0 00  imm=0x0000001a  index=26
+3f38  LDM    r1 r0 00  imm=0x0000001b  index=27
+3f40  ADDR   r0 r1 00  imm=0x00000000
+3f48  LDM    r1 r0 00  imm=0x00000002  index=2
+3f50  XORR   r0 r1 00  imm=0x00000000
+3f58  ROLI   r0 r0 00  imm=0x00000003
+3f60  STAGE  r0 r0 00  imm=0x000000f5
+3f68  ADDI   r0 r0 00  imm=0x00000013
+3f70  STM    r0 r0 00  imm=0x0000001a  index=26
+3f78  LDM    r0 r0 00  imm=0x0000001b  index=27
+3f80  LDM    r1 r0 00  imm=0x0000001c  index=28
+3f88  ADDR   r0 r1 00  imm=0x00000000
+3f90  LDM    r1 r0 00  imm=0x00000003  index=3
+3f98  XORR   r0 r1 00  imm=0x00000000
+3fa0  ROLI   r0 r0 00  imm=0x00000008
+3fa8  STAGE  r0 r0 00  imm=0x000000f6
+3fb0  ADDI   r0 r0 00  imm=0x00000024
+3fb8  STM    r0 r0 00  imm=0x0000001b  index=27
+3fc0  LDM    r0 r0 00  imm=0x0000001c  index=28
+3fc8  LDM    r1 r0 00  imm=0x0000001d  index=29
+3fd0  ADDR   r0 r1 00  imm=0x00000000
+3fd8  LDM    r1 r0 00  imm=0x00000004  index=4
+3fe0  XORR   r0 r1 00  imm=0x00000000
+3fe8  ROLI   r0 r0 00  imm=0x00000005
+3ff0  STAGE  r0 r0 00  imm=0x000000f7
+3ff8  ADDI   r0 r0 00  imm=0x00000035
+4000  STM    r0 r0 00  imm=0x0000001c  index=28
+4008  LDM    r0 r0 00  imm=0x0000001d  index=29
+4010  LDM    r1 r0 00  imm=0x0000001e  index=30
+4018  ADDR   r0 r1 00  imm=0x00000000
+4020  LDM    r1 r0 00  imm=0x00000005  index=5
+4028  XORR   r0 r1 00  imm=0x00000000
+4030  ROLI   r0 r0 00  imm=0x00000002
+4038  STAGE  r0 r0 00  imm=0x000000f8
+4040  ADDI   r0 r0 00  imm=0x00000046
+4048  STM    r0 r0 00  imm=0x0000001d  index=29
+4050  LDM    r0 r0 00  imm=0x0000001e  index=30
+4058  LDM    r1 r0 00  imm=0x00000000  index=0
+4060  ADDR   r0 r1 00  imm=0x00000000
+4068  LDM    r1 r0 00  imm=0x00000006  index=6
+4070  XORR   r0 r1 00  imm=0x00000000
+4078  ROLI   r0 r0 00  imm=0x00000007
+4080  STAGE  r0 r0 00  imm=0x000000f9
+4088  ADDI   r0 r0 00  imm=0x00000057
+4090  STM    r0 r0 00  imm=0x0000001e  index=30
+4098  NOP    r0 r0 00  imm=0x00000000
+40a0  MOVI   r2 r0 00  imm=0x9e3279a7
+40a8  RORI   r2 r0 00  imm=0x00000003
+40b0  LDM    r0 r0 00  imm=0x00000000  index=0
+40b8  LDM    r1 r0 00  imm=0x00000001  index=1
+40c0  ADDR   r0 r1 00  imm=0x00000000
+40c8  LDM    r1 r0 00  imm=0x00000007  index=7
+40d0  XORR   r0 r1 00  imm=0x00000000
+40d8  ROLI   r0 r0 00  imm=0x00000004
+40e0  STAGE  r0 r0 00  imm=0x000000fa
+40e8  ADDI   r0 r0 00  imm=0x0000008c
+40f0  STM    r0 r0 00  imm=0x00000000  index=0
+40f8  LDM    r0 r0 00  imm=0x00000001  index=1
+4100  LDM    r1 r0 00  imm=0x00000002  index=2
+4108  ADDR   r0 r1 00  imm=0x00000000
+4110  LDM    r1 r0 00  imm=0x00000008  index=8
+4118  XORR   r0 r1 00  imm=0x00000000
+4120  ROLI   r0 r0 00  imm=0x00000001
+4128  STAGE  r0 r0 00  imm=0x000000fb
+4130  ADDI   r0 r0 00  imm=0x0000009d
+4138  STM    r0 r0 00  imm=0x00000001  index=1
+4140  LDM    r0 r0 00  imm=0x00000002  index=2
+4148  LDM    r1 r0 00  imm=0x00000003  index=3
+4150  ADDR   r0 r1 00  imm=0x00000000
+4158  LDM    r1 r0 00  imm=0x00000009  index=9
+4160  XORR   r0 r1 00  imm=0x00000000
+4168  ROLI   r0 r0 00  imm=0x00000006
+4170  STAGE  r0 r0 00  imm=0x000000fc
+4178  ADDI   r0 r0 00  imm=0x000000ae
+4180  STM    r0 r0 00  imm=0x00000002  index=2
+4188  LDM    r0 r0 00  imm=0x00000003  index=3
+4190  LDM    r1 r0 00  imm=0x00000004  index=4
+4198  ADDR   r0 r1 00  imm=0x00000000
+41a0  LDM    r1 r0 00  imm=0x0000000a  index=10
+41a8  XORR   r0 r1 00  imm=0x00000000
+41b0  ROLI   r0 r0 00  imm=0x00000003
+41b8  STAGE  r0 r0 00  imm=0x000000fd
+41c0  ADDI   r0 r0 00  imm=0x000000bf
+41c8  STM    r0 r0 00  imm=0x00000003  index=3
+41d0  LDM    r0 r0 00  imm=0x00000004  index=4
+41d8  LDM    r1 r0 00  imm=0x00000005  index=5
+41e0  ADDR   r0 r1 00  imm=0x00000000
+41e8  LDM    r1 r0 00  imm=0x0000000b  index=11
+41f0  XORR   r0 r1 00  imm=0x00000000
+41f8  ROLI   r0 r0 00  imm=0x00000008
+4200  STAGE  r0 r0 00  imm=0x000000fe
+4208  ADDI   r0 r0 00  imm=0x000000d0
+4210  STM    r0 r0 00  imm=0x00000004  index=4
+4218  NOP    r0 r0 00  imm=0x00000000
+4220  MOVI   r2 r0 00  imm=0x9e3179bd
+4228  RORI   r2 r0 00  imm=0x00000002
+4230  LDM    r0 r0 00  imm=0x00000005  index=5
+4238  LDM    r1 r0 00  imm=0x00000006  index=6
+4240  ADDR   r0 r1 00  imm=0x00000000
+4248  LDM    r1 r0 00  imm=0x0000000c  index=12
+4250  XORR   r0 r1 00  imm=0x00000000
+4258  ROLI   r0 r0 00  imm=0x00000005
+4260  STAGE  r0 r0 00  imm=0x000000ff
+4268  ADDI   r0 r0 00  imm=0x000000e1
+4270  STM    r0 r0 00  imm=0x00000005  index=5
+4278  LDM    r0 r0 00  imm=0x00000006  index=6
+4280  LDM    r1 r0 00  imm=0x00000007  index=7
+4288  ADDR   r0 r1 00  imm=0x00000000
+4290  LDM    r1 r0 00  imm=0x0000000d  index=13
+4298  XORR   r0 r1 00  imm=0x00000000
+42a0  ROLI   r0 r0 00  imm=0x00000002
+42a8  STAGE  r0 r0 00  imm=0x00000100
+42b0  ADDI   r0 r0 00  imm=0x000000f2
+42b8  STM    r0 r0 00  imm=0x00000006  index=6
+42c0  LDM    r0 r0 00  imm=0x00000007  index=7
+42c8  LDM    r1 r0 00  imm=0x00000008  index=8
+42d0  ADDR   r0 r1 00  imm=0x00000000
+42d8  LDM    r1 r0 00  imm=0x0000000e  index=14
+42e0  XORR   r0 r1 00  imm=0x00000000
+42e8  ROLI   r0 r0 00  imm=0x00000007
+42f0  STAGE  r0 r0 00  imm=0x00000101
+42f8  ADDI   r0 r0 00  imm=0x00000003
+4300  STM    r0 r0 00  imm=0x00000007  index=7
+4308  LDM    r0 r0 00  imm=0x00000008  index=8
+4310  LDM    r1 r0 00  imm=0x00000009  index=9
+4318  ADDR   r0 r1 00  imm=0x00000000
+4320  LDM    r1 r0 00  imm=0x0000000f  index=15
+4328  XORR   r0 r1 00  imm=0x00000000
+4330  ROLI   r0 r0 00  imm=0x00000004
+4338  STAGE  r0 r0 00  imm=0x00000102
+4340  ADDI   r0 r0 00  imm=0x00000014
+4348  STM    r0 r0 00  imm=0x00000008  index=8
+4350  LDM    r0 r0 00  imm=0x00000009  index=9
+4358  LDM    r1 r0 00  imm=0x0000000a  index=10
+4360  ADDR   r0 r1 00  imm=0x00000000
+4368  LDM    r1 r0 00  imm=0x00000010  index=16
+4370  XORR   r0 r1 00  imm=0x00000000
+4378  ROLI   r0 r0 00  imm=0x00000001
+4380  STAGE  r0 r0 00  imm=0x00000103
+4388  ADDI   r0 r0 00  imm=0x00000025
+4390  STM    r0 r0 00  imm=0x00000009  index=9
+4398  NOP    r0 r0 00  imm=0x00000000
+43a0  MOVI   r2 r0 00  imm=0x9e3179b0
+43a8  RORI   r2 r0 00  imm=0x00000007
+43b0  LDM    r0 r0 00  imm=0x0000000a  index=10
+43b8  LDM    r1 r0 00  imm=0x0000000b  index=11
+43c0  ADDR   r0 r1 00  imm=0x00000000
+43c8  LDM    r1 r0 00  imm=0x00000011  index=17
+43d0  XORR   r0 r1 00  imm=0x00000000
+43d8  ROLI   r0 r0 00  imm=0x00000006
+43e0  STAGE  r0 r0 00  imm=0x00000104
+43e8  ADDI   r0 r0 00  imm=0x00000036
+43f0  STM    r0 r0 00  imm=0x0000000a  index=10
+43f8  LDM    r0 r0 00  imm=0x0000000b  index=11
+4400  LDM    r1 r0 00  imm=0x0000000c  index=12
+4408  ADDR   r0 r1 00  imm=0x00000000
+4410  LDM    r1 r0 00  imm=0x00000012  index=18
+4418  XORR   r0 r1 00  imm=0x00000000
+4420  ROLI   r0 r0 00  imm=0x00000003
+4428  STAGE  r0 r0 00  imm=0x00000105
+4430  ADDI   r0 r0 00  imm=0x00000047
+4438  STM    r0 r0 00  imm=0x0000000b  index=11
+4440  LDM    r0 r0 00  imm=0x0000000c  index=12
+4448  LDM    r1 r0 00  imm=0x0000000d  index=13
+4450  ADDR   r0 r1 00  imm=0x00000000
+4458  LDM    r1 r0 00  imm=0x00000013  index=19
+4460  XORR   r0 r1 00  imm=0x00000000
+4468  ROLI   r0 r0 00  imm=0x00000008
+4470  STAGE  r0 r0 00  imm=0x00000106
+4478  ADDI   r0 r0 00  imm=0x00000058
+4480  STM    r0 r0 00  imm=0x0000000c  index=12
+4488  LDM    r0 r0 00  imm=0x0000000d  index=13
+4490  LDM    r1 r0 00  imm=0x0000000e  index=14
+4498  ADDR   r0 r1 00  imm=0x00000000
+44a0  LDM    r1 r0 00  imm=0x00000014  index=20
+44a8  XORR   r0 r1 00  imm=0x00000000
+44b0  ROLI   r0 r0 00  imm=0x00000005
+44b8  STAGE  r0 r0 00  imm=0x00000107
+44c0  ADDI   r0 r0 00  imm=0x00000069
+44c8  STM    r0 r0 00  imm=0x0000000d  index=13
+44d0  LDM    r0 r0 00  imm=0x0000000e  index=14
+44d8  LDM    r1 r0 00  imm=0x0000000f  index=15
+44e0  ADDR   r0 r1 00  imm=0x00000000
+44e8  LDM    r1 r0 00  imm=0x00000015  index=21
+44f0  XORR   r0 r1 00  imm=0x00000000
+44f8  ROLI   r0 r0 00  imm=0x00000002
+4500  STAGE  r0 r0 00  imm=0x00000108
+4508  ADDI   r0 r0 00  imm=0x0000007a
+4510  STM    r0 r0 00  imm=0x0000000e  index=14
+4518  NOP    r0 r0 00  imm=0x00000000
+4520  MOVI   r2 r0 00  imm=0x9e3179b7
+4528  RORI   r2 r0 00  imm=0x00000004
+4530  LDM    r0 r0 00  imm=0x0000000f  index=15
+4538  LDM    r1 r0 00  imm=0x00000010  index=16
+4540  ADDR   r0 r1 00  imm=0x00000000
+4548  LDM    r1 r0 00  imm=0x00000016  index=22
+4550  XORR   r0 r1 00  imm=0x00000000
+4558  ROLI   r0 r0 00  imm=0x00000007
+4560  STAGE  r0 r0 00  imm=0x00000109
+4568  ADDI   r0 r0 00  imm=0x0000008b
+4570  STM    r0 r0 00  imm=0x0000000f  index=15
+4578  LDM    r0 r0 00  imm=0x00000010  index=16
+4580  LDM    r1 r0 00  imm=0x00000011  index=17
+4588  ADDR   r0 r1 00  imm=0x00000000
+4590  LDM    r1 r0 00  imm=0x00000017  index=23
+4598  XORR   r0 r1 00  imm=0x00000000
+45a0  ROLI   r0 r0 00  imm=0x00000004
+45a8  STAGE  r0 r0 00  imm=0x0000010a
+45b0  ADDI   r0 r0 00  imm=0x0000009c
+45b8  STM    r0 r0 00  imm=0x00000010  index=16
+45c0  LDM    r0 r0 00  imm=0x00000011  index=17
+45c8  LDM    r1 r0 00  imm=0x00000012  index=18
+45d0  ADDR   r0 r1 00  imm=0x00000000
+45d8  LDM    r1 r0 00  imm=0x00000018  index=24
+45e0  XORR   r0 r1 00  imm=0x00000000
+45e8  ROLI   r0 r0 00  imm=0x00000001
+45f0  STAGE  r0 r0 00  imm=0x0000010b
+45f8  ADDI   r0 r0 00  imm=0x000000ad
+4600  STM    r0 r0 00  imm=0x00000011  index=17
+4608  LDM    r0 r0 00  imm=0x00000012  index=18
+4610  LDM    r1 r0 00  imm=0x00000013  index=19
+4618  ADDR   r0 r1 00  imm=0x00000000
+4620  LDM    r1 r0 00  imm=0x00000019  index=25
+4628  XORR   r0 r1 00  imm=0x00000000
+4630  ROLI   r0 r0 00  imm=0x00000006
+4638  STAGE  r0 r0 00  imm=0x0000010c
+4640  ADDI   r0 r0 00  imm=0x000000be
+4648  STM    r0 r0 00  imm=0x00000012  index=18
+4650  LDM    r0 r0 00  imm=0x00000013  index=19
+4658  LDM    r1 r0 00  imm=0x00000014  index=20
+4660  ADDR   r0 r1 00  imm=0x00000000
+4668  LDM    r1 r0 00  imm=0x0000001a  index=26
+4670  XORR   r0 r1 00  imm=0x00000000
+4678  ROLI   r0 r0 00  imm=0x00000003
+4680  STAGE  r0 r0 00  imm=0x0000010d
+4688  ADDI   r0 r0 00  imm=0x000000cf
+4690  STM    r0 r0 00  imm=0x00000013  index=19
+4698  NOP    r0 r0 00  imm=0x00000000
+46a0  MOVI   r2 r0 00  imm=0x9e3179aa
+46a8  RORI   r2 r0 00  imm=0x00000001
+46b0  LDM    r0 r0 00  imm=0x00000014  index=20
+46b8  LDM    r1 r0 00  imm=0x00000015  index=21
+46c0  ADDR   r0 r1 00  imm=0x00000000
+46c8  LDM    r1 r0 00  imm=0x0000001b  index=27
+46d0  XORR   r0 r1 00  imm=0x00000000
+46d8  ROLI   r0 r0 00  imm=0x00000008
+46e0  STAGE  r0 r0 00  imm=0x0000010e
+46e8  ADDI   r0 r0 00  imm=0x000000e0
+46f0  STM    r0 r0 00  imm=0x00000014  index=20
+46f8  LDM    r0 r0 00  imm=0x00000015  index=21
+4700  LDM    r1 r0 00  imm=0x00000016  index=22
+4708  ADDR   r0 r1 00  imm=0x00000000
+4710  LDM    r1 r0 00  imm=0x0000001c  index=28
+4718  XORR   r0 r1 00  imm=0x00000000
+4720  ROLI   r0 r0 00  imm=0x00000005
+4728  STAGE  r0 r0 00  imm=0x0000010f
+4730  ADDI   r0 r0 00  imm=0x000000f1
+4738  STM    r0 r0 00  imm=0x00000015  index=21
+4740  LDM    r0 r0 00  imm=0x00000016  index=22
+4748  LDM    r1 r0 00  imm=0x00000017  index=23
+4750  ADDR   r0 r1 00  imm=0x00000000
+4758  LDM    r1 r0 00  imm=0x0000001d  index=29
+4760  XORR   r0 r1 00  imm=0x00000000
+4768  ROLI   r0 r0 00  imm=0x00000002
+4770  STAGE  r0 r0 00  imm=0x00000110
+4778  ADDI   r0 r0 00  imm=0x00000002
+4780  STM    r0 r0 00  imm=0x00000016  index=22
+4788  LDM    r0 r0 00  imm=0x00000017  index=23
+4790  LDM    r1 r0 00  imm=0x00000018  index=24
+4798  ADDR   r0 r1 00  imm=0x00000000
+47a0  LDM    r1 r0 00  imm=0x0000001e  index=30
+47a8  XORR   r0 r1 00  imm=0x00000000
+47b0  ROLI   r0 r0 00  imm=0x00000007
+47b8  STAGE  r0 r0 00  imm=0x00000111
+47c0  ADDI   r0 r0 00  imm=0x00000013
+47c8  STM    r0 r0 00  imm=0x00000017  index=23
+47d0  LDM    r0 r0 00  imm=0x00000018  index=24
+47d8  LDM    r1 r0 00  imm=0x00000019  index=25
+47e0  ADDR   r0 r1 00  imm=0x00000000
+47e8  LDM    r1 r0 00  imm=0x00000000  index=0
+47f0  XORR   r0 r1 00  imm=0x00000000
+47f8  ROLI   r0 r0 00  imm=0x00000004
+4800  STAGE  r0 r0 00  imm=0x00000112
+4808  ADDI   r0 r0 00  imm=0x00000024
+4810  STM    r0 r0 00  imm=0x00000018  index=24
+4818  NOP    r0 r0 00  imm=0x00000000
+4820  MOVI   r2 r0 00  imm=0x9e3179a1
+4828  RORI   r2 r0 00  imm=0x00000006
+4830  LDM    r0 r0 00  imm=0x00000019  index=25
+4838  LDM    r1 r0 00  imm=0x0000001a  index=26
+4840  ADDR   r0 r1 00  imm=0x00000000
+4848  LDM    r1 r0 00  imm=0x00000001  index=1
+4850  XORR   r0 r1 00  imm=0x00000000
+4858  ROLI   r0 r0 00  imm=0x00000001
+4860  STAGE  r0 r0 00  imm=0x00000113
+4868  ADDI   r0 r0 00  imm=0x00000035
+4870  STM    r0 r0 00  imm=0x00000019  index=25
+4878  LDM    r0 r0 00  imm=0x0000001a  index=26
+4880  LDM    r1 r0 00  imm=0x0000001b  index=27
+4888  ADDR   r0 r1 00  imm=0x00000000
+4890  LDM    r1 r0 00  imm=0x00000002  index=2
+4898  XORR   r0 r1 00  imm=0x00000000
+48a0  ROLI   r0 r0 00  imm=0x00000006
+48a8  STAGE  r0 r0 00  imm=0x00000114
+48b0  ADDI   r0 r0 00  imm=0x00000046
+48b8  STM    r0 r0 00  imm=0x0000001a  index=26
+48c0  LDM    r0 r0 00  imm=0x0000001b  index=27
+48c8  LDM    r1 r0 00  imm=0x0000001c  index=28
+48d0  ADDR   r0 r1 00  imm=0x00000000
+48d8  LDM    r1 r0 00  imm=0x00000003  index=3
+48e0  XORR   r0 r1 00  imm=0x00000000
+48e8  ROLI   r0 r0 00  imm=0x00000003
+48f0  STAGE  r0 r0 00  imm=0x00000115
+48f8  ADDI   r0 r0 00  imm=0x00000057
+4900  STM    r0 r0 00  imm=0x0000001b  index=27
+4908  LDM    r0 r0 00  imm=0x0000001c  index=28
+4910  LDM    r1 r0 00  imm=0x0000001d  index=29
+4918  ADDR   r0 r1 00  imm=0x00000000
+4920  LDM    r1 r0 00  imm=0x00000004  index=4
+4928  XORR   r0 r1 00  imm=0x00000000
+4930  ROLI   r0 r0 00  imm=0x00000008
+4938  STAGE  r0 r0 00  imm=0x00000116
+4940  ADDI   r0 r0 00  imm=0x00000068
+4948  STM    r0 r0 00  imm=0x0000001c  index=28
+4950  LDM    r0 r0 00  imm=0x0000001d  index=29
+4958  LDM    r1 r0 00  imm=0x0000001e  index=30
+4960  ADDR   r0 r1 00  imm=0x00000000
+4968  LDM    r1 r0 00  imm=0x00000005  index=5
+4970  XORR   r0 r1 00  imm=0x00000000
+4978  ROLI   r0 r0 00  imm=0x00000005
+4980  STAGE  r0 r0 00  imm=0x00000117
+4988  ADDI   r0 r0 00  imm=0x00000079
+4990  STM    r0 r0 00  imm=0x0000001d  index=29
+4998  NOP    r0 r0 00  imm=0x00000000
+49a0  MOVI   r2 r0 00  imm=0x9e3179a4
+49a8  RORI   r2 r0 00  imm=0x00000003
+49b0  LDM    r0 r0 00  imm=0x0000001e  index=30
+49b8  LDM    r1 r0 00  imm=0x00000000  index=0
+49c0  ADDR   r0 r1 00  imm=0x00000000
+49c8  LDM    r1 r0 00  imm=0x00000006  index=6
+49d0  XORR   r0 r1 00  imm=0x00000000
+49d8  ROLI   r0 r0 00  imm=0x00000002
+49e0  STAGE  r0 r0 00  imm=0x00000118
+49e8  ADDI   r0 r0 00  imm=0x0000008a
+49f0  STM    r0 r0 00  imm=0x0000001e  index=30
+49f8  LDM    r0 r0 00  imm=0x00000000  index=0
+4a00  CMPI8  r0 r0 00  imm=0x000000fd
+4a08  JNZ    r0 r0 00  imm=0x0000005b  target=0x4ce8
+4a10  LDM    r0 r0 00  imm=0x00000001  index=1
+4a18  CMPI8  r0 r0 00  imm=0x000000bd
+4a20  JNZ    r0 r0 00  imm=0x00000058  target=0x4ce8
+4a28  LDM    r0 r0 00  imm=0x00000002  index=2
+4a30  CMPI8  r0 r0 00  imm=0x00000028
+4a38  JNZ    r0 r0 00  imm=0x00000055  target=0x4ce8
+4a40  LDM    r0 r0 00  imm=0x00000003  index=3
+4a48  CMPI8  r0 r0 00  imm=0x000000ce
+4a50  JNZ    r0 r0 00  imm=0x00000052  target=0x4ce8
+4a58  LDM    r0 r0 00  imm=0x00000004  index=4
+4a60  CMPI8  r0 r0 00  imm=0x000000b1
+4a68  JNZ    r0 r0 00  imm=0x0000004f  target=0x4ce8
+4a70  LDM    r0 r0 00  imm=0x00000005  index=5
+4a78  CMPI8  r0 r0 00  imm=0x00000091
+4a80  JNZ    r0 r0 00  imm=0x0000004c  target=0x4ce8
+4a88  LDM    r0 r0 00  imm=0x00000006  index=6
+4a90  CMPI8  r0 r0 00  imm=0x000000f6
+4a98  JNZ    r0 r0 00  imm=0x00000049  target=0x4ce8
+4aa0  LDM    r0 r0 00  imm=0x00000007  index=7
+4aa8  CMPI8  r0 r0 00  imm=0x00000039
+4ab0  JNZ    r0 r0 00  imm=0x00000046  target=0x4ce8
+4ab8  LDM    r0 r0 00  imm=0x00000008  index=8
+4ac0  CMPI8  r0 r0 00  imm=0x000000d7
+4ac8  JNZ    r0 r0 00  imm=0x00000043  target=0x4ce8
+4ad0  LDM    r0 r0 00  imm=0x00000009  index=9
+4ad8  CMPI8  r0 r0 00  imm=0x000000e5
+4ae0  JNZ    r0 r0 00  imm=0x00000040  target=0x4ce8
+4ae8  LDM    r0 r0 00  imm=0x0000000a  index=10
+4af0  CMPI8  r0 r0 00  imm=0x00000031
+4af8  JNZ    r0 r0 00  imm=0x0000003d  target=0x4ce8
+4b00  LDM    r0 r0 00  imm=0x0000000b  index=11
+4b08  CMPI8  r0 r0 00  imm=0x0000008e
+4b10  JNZ    r0 r0 00  imm=0x0000003a  target=0x4ce8
+4b18  LDM    r0 r0 00  imm=0x0000000c  index=12
+4b20  CMPI8  r0 r0 00  imm=0x00000096
+4b28  JNZ    r0 r0 00  imm=0x00000037  target=0x4ce8
+4b30  LDM    r0 r0 00  imm=0x0000000d  index=13
+4b38  CMPI8  r0 r0 00  imm=0x000000d7
+4b40  JNZ    r0 r0 00  imm=0x00000034  target=0x4ce8
+4b48  LDM    r0 r0 00  imm=0x0000000e  index=14
+4b50  CMPI8  r0 r0 00  imm=0x00000002
+4b58  JNZ    r0 r0 00  imm=0x00000031  target=0x4ce8
+4b60  LDM    r0 r0 00  imm=0x0000000f  index=15
+4b68  CMPI8  r0 r0 00  imm=0x00000015
+4b70  JNZ    r0 r0 00  imm=0x0000002e  target=0x4ce8
+4b78  LDM    r0 r0 00  imm=0x00000010  index=16
+4b80  CMPI8  r0 r0 00  imm=0x000000f0
+4b88  JNZ    r0 r0 00  imm=0x0000002b  target=0x4ce8
+4b90  LDM    r0 r0 00  imm=0x00000011  index=17
+4b98  CMPI8  r0 r0 00  imm=0x0000009b
+4ba0  JNZ    r0 r0 00  imm=0x00000028  target=0x4ce8
+4ba8  LDM    r0 r0 00  imm=0x00000012  index=18
+4bb0  CMPI8  r0 r0 00  imm=0x00000038
+4bb8  JNZ    r0 r0 00  imm=0x00000025  target=0x4ce8
+4bc0  LDM    r0 r0 00  imm=0x00000013  index=19
+4bc8  CMPI8  r0 r0 00  imm=0x000000bd
+4bd0  JNZ    r0 r0 00  imm=0x00000022  target=0x4ce8
+4bd8  LDM    r0 r0 00  imm=0x00000014  index=20
+4be0  CMPI8  r0 r0 00  imm=0x000000e7
+4be8  JNZ    r0 r0 00  imm=0x0000001f  target=0x4ce8
+4bf0  LDM    r0 r0 00  imm=0x00000015  index=21
+4bf8  CMPI8  r0 r0 00  imm=0x000000cd
+4c00  JNZ    r0 r0 00  imm=0x0000001c  target=0x4ce8
+4c08  LDM    r0 r0 00  imm=0x00000016  index=22
+4c10  CMPI8  r0 r0 00  imm=0x000000c7
+4c18  JNZ    r0 r0 00  imm=0x00000019  target=0x4ce8
+4c20  LDM    r0 r0 00  imm=0x00000017  index=23
+4c28  CMPI8  r0 r0 00  imm=0x000000ab
+4c30  JNZ    r0 r0 00  imm=0x00000016  target=0x4ce8
+4c38  LDM    r0 r0 00  imm=0x00000018  index=24
+4c40  CMPI8  r0 r0 00  imm=0x00000089
+4c48  JNZ    r0 r0 00  imm=0x00000013  target=0x4ce8
+4c50  LDM    r0 r0 00  imm=0x00000019  index=25
+4c58  CMPI8  r0 r0 00  imm=0x000000a3
+4c60  JNZ    r0 r0 00  imm=0x00000010  target=0x4ce8
+4c68  LDM    r0 r0 00  imm=0x0000001a  index=26
+4c70  CMPI8  r0 r0 00  imm=0x0000003c
+4c78  JNZ    r0 r0 00  imm=0x0000000d  target=0x4ce8
+4c80  LDM    r0 r0 00  imm=0x0000001b  index=27
+4c88  CMPI8  r0 r0 00  imm=0x00000029
+4c90  JNZ    r0 r0 00  imm=0x0000000a  target=0x4ce8
+4c98  LDM    r0 r0 00  imm=0x0000001c  index=28
+4ca0  CMPI8  r0 r0 00  imm=0x000000b7
+4ca8  JNZ    r0 r0 00  imm=0x00000007  target=0x4ce8
+4cb0  LDM    r0 r0 00  imm=0x0000001d  index=29
+4cb8  CMPI8  r0 r0 00  imm=0x00000018
+4cc0  JNZ    r0 r0 00  imm=0x00000004  target=0x4ce8
+4cc8  LDM    r0 r0 00  imm=0x0000001e  index=30
+4cd0  CMPI8  r0 r0 00  imm=0x0000002a
+4cd8  JNZ    r0 r0 00  imm=0x00000001  target=0x4ce8
+4ce0  OK     r0 r0 00  imm=0x00000000
+4ce8  FAIL   r0 r0 00  imm=0x00000000

@@ -1,0 +1,16 @@
+﻿题目名称：cacheline
+分类：PWN
+难度：MEDIUM
+分值：已答出106次，初始分值500.0，当前分值454.44，解出分值453.56
+
+【题目描述】
+缓存行中的跨对象生命周期利用
+
+【附件】
+- cacheline的附件.zip
+  https://pro-resource.dasctf.com/resource/oss/f551898d60f6cb250e7991c7370275fd.zip
+
+【靶机/链接】
+[{"objectId": "endpoint_ff2ec5848dc84670866a03bcd5823b0e", "exposeIps": ["1.14.76.59:21426"], "serviceStatus": "UP", "status": "running", "ports": ["nc/9999"], "users": [], "portMappings": [{"type": "nc", "port": "9999", "proxy": "21426"}], "proxyIps": ["1.14.76.59"], "isProxy": true, "expireTime": 1792834200000}]
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:11）

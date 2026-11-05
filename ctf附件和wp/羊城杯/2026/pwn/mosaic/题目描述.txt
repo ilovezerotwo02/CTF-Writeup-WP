@@ -1,0 +1,13 @@
+﻿题目名称：mosaic
+分类：PWN
+难度：HARD
+分值：已答出10次，初始分值500.0，当前分值499.67，解出分值499.59
+
+【题目描述】
+PNG 工作器与六权限域利用链
+
+【附件】
+- mosaic的附件.zip
+  https://pro-resource.dasctf.com/resource/oss/1c51c3732275cd0f194f5ae1b9b01820.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:11）

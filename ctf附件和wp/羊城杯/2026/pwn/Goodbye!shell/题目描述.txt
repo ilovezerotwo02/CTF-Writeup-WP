@@ -1,0 +1,13 @@
+﻿题目名称：Goodbye!shell
+分类：PWN
+难度：MEDIUM
+分值：已答出286次，初始分值500.0，当前分值200.0，解出分值200.0
+
+【题目描述】
+进来道个别吧，只是这一次，shell 可能不会回应你了。
+
+【附件】
+- attachment.zip
+  https://pro-resource.dasctf.com/resource/oss/064414e7017cf54b009464569dc418a0.zip
+
+（数据来源：https://ycb-bk.dasctf.com/1750/competePage/3241，抓取时间：2026-10-24 14:27:07）
