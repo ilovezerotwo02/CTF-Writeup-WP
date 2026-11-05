@@ -1,0 +1,8 @@
+id	username	display_name	password_hash
+0	vega	Vega Luo	1ac7df128e4f666bcfe64ba395b285ec69f54ab5e1fbf67b1a86f3bac77a8c36
+1	altair	Altair Shen	13b1f7ec5beaefc781e43a3b344371cd49923a8a05edd71844b92f56f6a08d38
+2	capella	Capella Qiu	bc0445a68f9ac5ef6abc67eb1ab3a9d7ca1b727c219ff89c79fd3ac907b7651c
+3	rigel	Rigel Fang	24998eacdca975e40ea56aaf0395ff8c5071016f9eae4d1a6a42f25f5db39171
+4	atlas	Atlas Zeng	4dfbab9993e5e8a92c6ed29b2f86c1dfef0c5a475de9fc37481253e79a5c029c
+# hash 算法：无盐 SHA-256（用自注册账号 sha256("Passw0rd123") 比对验证）
+# altair 明文：freedom（rockyou + 规则爆破）

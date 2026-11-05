@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>诊断 · EasyCMS</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg"/>
+</head>
+<body>
+<header class="nav">
+    <div class="nav-inner">
+        <a class="brand" href="/">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2l2.6 6.9L22 12l-7.4 3.1L12 22l-2.6-6.9L2 12l7.4-3.1z" fill="currentColor"/>
+            </svg>
+            <span>Easy<em>CMS</em></span>
+        </a>
+        <nav class="nav-links">
+            <a href="/">首页</a>
+            <a href="/search">搜索</a>
+            <a href="/team">团队</a>
+        </nav>
+        <div class="nav-actions">
+            
+            
+            <a class="btn btn-primary" href="/compose">创作</a>
+            
+            <a class="btn btn-ghost" href="/logout">退出</a>
+        </div>
+    </div>
+</header>
+
+<main class="wrap narrow">
+
+    <div class="panel">
+        <h3>数据库信息</h3>
+        <p class="muted">
+            SQLSTATE：<code>42601</code>
+        </p>
+        <p class="muted">语句语法错误 (syntax error)</p>
+        <p class="muted">失败语句：</p>
+        <pre class="code">SELECT id, title, summary, author, category FROM articles WHERE title ILIKE E&#39;%a\&#39;&#39;b%&#39; ORDER BY id DESC</pre>
+    </div>
+
+    <a class="btn btn-ghost" href="/">← 返回首页</a>
+</main>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div>
+            <strong>EasyCMS</strong>
+            <p>让每一段内容都能被发现。</p>
+        </div>
+        <div class="footer-links">
+            <a href="/team">团队</a>
+            <a href="/api/health">服务状态</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
