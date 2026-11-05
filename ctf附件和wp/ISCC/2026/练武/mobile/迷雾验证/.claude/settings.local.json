@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xxd \"D:/桌面/wp/mobile/迷雾验证/resources/assets/bin.data\")",
+      "Bash(objdump -t \"D:/桌面/wp/mobile/迷雾验证/resources/lib/x86_64/libmobile01.so\")",
+      "Bash(dpkg -l binutils)",
+      "Read(//usr/**)",
+      "Bash(apt list *)",
+      "Bash(python3 *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(which objdump *)",
+      "Bash(which x86_64-w64-mingw32-objdump)"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "training": {
+    "epochs": 10,
+    "batch_size": 1,
+    "lr": 0.001
+  },
+  "callbacks": {
+    "aux_log_enabled": false,
+    "recovery_enabled":false
+
+  }
+}

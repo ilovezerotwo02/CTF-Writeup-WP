@@ -1,0 +1,21 @@
+=== Context around 655XX ===
+1a9b31460a9ac5fd7e541b840637d0c60de38c321f3166c6d10c97b4ba46dac34a220bb24f6e197141d7f55c7104380d6ba9258245208a355c34298ef03a12cf9ac8321e2f97414a4f52a2a8c944a2d4cabcb7572e1a939a9d086c21a2078673833e0b84b1bdd38690968eac2a0018e1527
+
+这家伙超大只，不过 RSA 就靠它撑场面。
+
+φ(n) = (p-1)×(q-1)：  
+
+欧拉函数值，默默在背后做贡献。
+
+e（公钥指数）=655XX，后面的数字你找找看： 
+
+经典永流传，几乎所有 RSA 都爱它
+
+d（私钥指数 ≡ e⁻¹ mod φ(n)）：  
+
+0x4c4e2be4fbb2b12d8bf25a699e82b55b78fe70f97ef4816950964de536895fe62b9df5e5c953c7a6cfca697f938ea69032c50db18a8f7b403e7f528572a61b2a6adcf7c9d4111a1f1742d03b0712c9631827575ec8d8e2b5ac4ac1a09dd82302f545db535c62c9a523078270edff638c208fbc4e
+
+=== Full text around 655XX ===
+'b1bdd38690968eac2a0018e1527\n\n这家伙超大只，不过 RSA 就靠它撑场面。\n\nφ(n) = (p-1)×(q-1)：  \n\n欧拉函数值，默默在背后做贡献。\n\ne（公钥指数）=655XX，后面的数字你找找看： \n\n经典永流传，几乎所有 RSA 都爱它\n\nd（私钥指数 ≡ e⁻¹ mod φ(n)）：  \n\n0x4c4e2be4fbb2b12d8bf25a699e82b55b78fe70f97ef4816950964de536895fe62b9df5e5c953c7a6cfca697f938ea69032c50db18a8f7b403e7f528572a61b2a6adc'
+
+Text after 655XX: '，后面的数字你找找看： \n\n经'

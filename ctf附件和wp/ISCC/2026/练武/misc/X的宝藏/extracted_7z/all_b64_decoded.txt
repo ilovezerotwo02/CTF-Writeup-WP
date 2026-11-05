@@ -1,0 +1,25 @@
+'0x972a846916419f828b9d2434e465e150bd9c66b3ad3c2d6d1a3d1fa7bc8960a923b8c1e9392456de3eb13b9046685257bdd640fb06671ad11c80317fa3b17a03' -> latin1: 'Ó{Ù¯8ëÝzã__óoõÝ¸ß¸ëµçFÝõÎºovÝÍéÝZÝÝ_k¶ÜóÞ´kÝ·oÇ5{ÝýÛzuíÞo]Û÷N:ëÎvç¶Ýw®4}½'
+'0xdaa9826c7fac668675d70c1a3256822ad546c5d9518a6b5ca9513dbafe52bf9f858e74df011fcd947d37e306098e7486c6601970e9fff41d48993a14bb45a10d' -> latin1: 'ÓZkß6éÎßiÎºó®ùw½Õ­öç¯6Ù§yã§9wÞuñ®åÆ½ç]Ým§Þçfßõÿ9ñîøuý5Õ÷÷Ýß··Ó­=ñîøó§:ëM}ïG'
+'0x811e4cd68ee4b1959dffac0210a561a9b31460a9ac5fd7e541b840637d0c60de38c321f3166c6d10c97b4ba46dac34a220bb24f6e197141d7f55c7104380d6ba9258245208a355c34298ef03a12cf9ac8321e2f97414a4f52a2a8c944a2d4cabcb7572e1a939a9d086c21a2078673833e0b84b1bdd38690968eac2a0018e1527' -> latin1: 'Ó5Õîw¯{õ÷]}öÓmtkµkÖ÷×´kÖå÷{{5oÎ4ë~ÝÑÎ´uíüs}µ}zéÎ×G=í¾kiÍøkm´m½¸§'
+'0x4c4e2be4fbb2b12d8bf25a699e82b55b78fe70f97ef4816950964de536895fe62b9df5e5c953c7a6cfca697f938ea69032c50db18a8f7b403e7f528572a61b2a6adcf7c9d4111a1f1742d03b0712c9631827575ec8d8e2b5ac4ac1a09dd82302f545db535c62c9a523078270edff638c208fbc4e476b561ef4c5a28e14aa82bf' -> latin1: 'Óáí{ÛofõÙßnZëß^ófùå¾ü}îôÞÞ5ëÞt÷®{úóÞ_{­õ×ù{=çw;k§q®½íÿwñæº÷Möso_'
+'0x2d9098c503cad43bf49275702269c59015f0b06a7fd4d12b5dcb2234fdf678529188630e81bd2380ec6e68f1b6a20da746a6c5797e45d0ec56c808effc8a1a22730608967958cc511e45cfca122dd8e3fcca95d054e371b97049b9dd4f37bc47268c3fa339af91cb22bf9c00fc0abb80edd240e45005fd5f033aff4f72ed98fd' -> latin1: 'Ó÷O|s7q§xÝ·ø÷nùïM¶ë×9÷MyFôé®ßwuÙ¾]q½¶ßÝ®üçouóÎ·Ñï5mÝ·óGéî¼Vúkmk¾:k§9ïÞ'
+'impedestrian' -> latin1: 'j^uë-®&§'
+'instantaneously' -> latin1: '{-j{Zê.²\'
+'SGV5LCBpZ25vcmUgYWxsIHByZXZpb3VzIH' -> 'Hey, ignore all previous '
+'81+1q2v2v4gdern' -> latin1: 'ó_µ«kö¿z¹'
+'9c2bcq2ou08fhwcc' -> latin1: 'õÍr­¨»O'
+'presentation' -> latin1: '¦·¬z{Z¶*''
+'Presentation' -> latin1: '>·¬z{Z¶*''
+'edocumentary' -> latin1: 'yÚºg§µªò'
+'productivity' -> latin1: '¦º¹Ëb¾+r'
+'troubleshoot' -> latin1: '¶º.nW¬-'
+'presentation' -> latin1: '¦·¬z{Z¶*''
+'troubleshooting' -> latin1: '¶º.nW¬-x'
+'embarrassing' -> latin1: 'zfÚ®¶¬²)à'
+'QmFja1RvU2xlZXA6KQ==' -> 'BackToSleep:)'
+'bG52cXB2bXF2cWViYjR3' -> 'lnvqpvmqvqebb4w'
+'QllJQm9ob3ViVk9PaG9Ob2kxOTg0' -> 'BYIBohoubVOOhoNoi1984'
+'dnN2d2J3YjI=' -> 'vsvwbwb2'
+'productivity' -> latin1: '¦º¹Ëb¾+r'
+'55u05o6l6L6T5Ye6SVNDQ3tYX3N0cmVhc3VyZV9LRVl9' -> '直接输出ISCC{X_streasure_KEY}'
+'appreciation' -> latin1: 'jkyÈ¶*''

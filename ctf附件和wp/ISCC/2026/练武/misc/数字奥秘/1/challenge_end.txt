@@ -1,0 +1,97 @@
+
+===VM_SOURCE_BEGIN===
+
+class BrainfuckVM:
+    """
+    Brainfuck 变体 VM - 数据解析器
+    
+    指令集:
+        >   指针右移
+        <   指针左移  
+        +   当前单元+1
+        -   当前单元-1
+        [   如果当前单元为0，跳到匹配的 ]
+        ]   如果当前单元非0，跳到匹配的 [
+        .   输出当前单元值（作为整数）
+        ,   输入（忽略，设为0）
+        *   扩展：将当前单元值乘以0.1，存入浮点寄存器
+        #   扩展：输出浮点寄存器值（作为整数）
+    """
+    
+    def __init__(self, max_steps=1000000):
+        self.max_steps = max_steps
+        self.memory = [0] * 30000
+        self.ptr = 0
+        self.pc = 0
+        self.fp_reg = 0.0
+        self.output = []
+        self.steps = 0
+        
+    def run(self, code):
+        self.memory = [0] * 30000
+        self.ptr = 0
+        self.pc = 0
+        self.fp_reg = 0.0
+        self.output = []
+        self.steps = 0
+        
+        jump_table = self._build_jump_table(code)
+        
+        while self.pc < len(code) and self.steps < self.max_steps:
+            self.steps += 1
+            cmd = code[self.pc]
+            
+            if cmd == '>':
+                self.ptr = (self.ptr + 1) % len(self.memory)
+            elif cmd == '<':
+                self.ptr = (self.ptr - 1) % len(self.memory)
+            elif cmd == '+':
+                self.memory[self.ptr] = (self.memory[self.ptr] + 1)
+            elif cmd == '-':
+                self.memory[self.ptr] = (self.memory[self.ptr] - 1)
+            elif cmd == '[':
+                if self.memory[self.ptr] == 0:
+                    self.pc = jump_table.get(self.pc, self.pc)
+            elif cmd == ']':
+                if self.memory[self.ptr] != 0:
+                    self.pc = jump_table.get(self.pc, self.pc)
+            elif cmd == '.':
+                self.output.append(self.memory[self.ptr])
+            elif cmd == ',':
+                self.memory[self.ptr] = 0
+            elif cmd == '*':
+                # 将当前单元值乘以0.1存入浮点寄存器
+                self.fp_reg = self.memory[self.ptr] * 0.1
+            elif cmd == '#':
+                # 输出浮点寄存器值（作为整数）
+                val = int(self.fp_reg)  # 直接截断
+                self.output.append(val)
+            
+            self.pc += 1
+        
+        return self.output
+    
+    def _build_jump_table(self, code):
+        stack = []
+        table = {}
+        for i, c in enumerate(code):
+            if c == '[':
+                stack.append(i)
+            elif c == ']':
+                if stack:
+                    j = stack.pop()
+                    table[j] = i
+                    table[i] = j
+        return table
+
+
+# 使用示例
+if __name__ == "__main__":
+    # 读取并执行代码
+    with open("sensor_data.bf", "r") as f:
+        code = f.read()
+    vm = BrainfuckVM()
+    result = vm.run(code)
+    print("Sensor data:", result)
+
+===VM_SOURCE_END===
