@@ -1,0 +1,6 @@
+Found ISCC{ at offset 0: ISCC{A35_128_51pv©\¢¤	ÜÿT	Zgöï(}
+
+Flag bytes with context:
+Flag NOT found in decrypted data!
+First 80 bytes: 495343437b4133355f3132385f3531707695a917915ca2a409dcff54095a67f6ef287db813fc29d1c25d84d5ec9a1f4d47007ce780b9f32121287b2a16195534bbb3c7648cb278783bfc402d3b6856f0
+First 80 asc: ISCC{A35_128_51pv....\.....T.Zg..(}...)..].....MG.|....!!({*..U4...d..xx;.@-;hV.

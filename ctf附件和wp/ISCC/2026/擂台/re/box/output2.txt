@@ -1,0 +1,38 @@
+Found at offset 0: ISCC{A35_128_51pv©\¢¤	ÜÿT	Zgöï(}
+
+All patterned blocks (decrypted):
+  Block   0: 495343437b4133355f3132385f353170  ISCC{A35_128_51p
+  Block   5: 835343437b4133ca5f31ce385f153170  .SCC{A3._1.8_.1p
+  Block  14: 495343747b41c0355f0f323841353170  ISCt{A.5_.28A51p
+  Block  27: 49539c437b5b3335d03132385f3531ed  IS.C{[35.128_51.
+  Block  44: 49464343c54133355f3132bb5f359a70  IFCC.A35_12._5.p
+  Block  65: 49d54343754133355f3132175f355170  I.CCuA35_12._5Qp
+  Block  90: fd5343437b4133265f3149385fde3170  .SCC{A3&_1I8_.1p
+  Block 119: 495343727b41db355fde32383b353170  ISCr{A.5_.28;51p
+  Block 152: 4953c7437b603335ef3132385f353128  IS.C{`35.128_51(
+  Block 189: 4953cb437b703335dc3132385f3531d6  IS.C{p35.128_51.
+  Block 230: 491f4343cc4133355f3132845f359070  I.CC.A35_12._5.p
+  Block 275: d55343437b4133195f3180385f823170  .SCC{A3._1.8_.1p
+  Block 324: 495343577b417e355f213238dc353170  ISCW{A~5_!28.51p
+  Block 377: 495343217b41d5355fdc323873353170  ISC!{A.5_.28s51p
+  Block 434: 495301437b163335ce3132385f35313c  IS.C{.35.128_51<
+  Block 495: 49cc4343204133355f3132015f356670  I.CC A35_12._5fp
+  Block 560: 015343437b4133885f3112385fb63170  .SCC{A3._1.8_.1p
+
+Varying position plaintexts:
+  Group A, pos 0: 83(.) fd(.) d5(.) 01(.)
+  Group A, pos 7: ca(.) 26(&) 19(.) 88(.)
+  Group A, pos 10: ce(.) 49(I) 80(.) 12(.)
+  Group A, pos 13: 15(.) de(.) 82(.) b6(.)
+  Group B, pos 3: 74(t) 72(r) 57(W) 21(!)
+  Group B, pos 6: c0(.) db(.) 7e(~) d5(.)
+  Group B, pos 9: 0f(.) de(.) 21(!) dc(.)
+  Group B, pos 12: 41(A) 3b(;) dc(.) 73(s)
+  Group C, pos 2: 9c(.) c7(.) cb(.) 01(.)
+  Group C, pos 5: 5b([) 60(`) 70(p) 16(.)
+  Group C, pos 8: d0(.) ef(.) dc(.) ce(.)
+  Group C, pos 15: ed(.) 28(() d6(.) 3c(<)
+  Group D, pos 1: 46(F) d5(.) 1f(.) cc(.)
+  Group D, pos 4: c5(.) 75(u) cc(.) 20( )
+  Group D, pos 11: bb(.) 17(.) 84(.) 01(.)
+  Group D, pos 14: 9a(.) 51(Q) 90(.) 66(f)

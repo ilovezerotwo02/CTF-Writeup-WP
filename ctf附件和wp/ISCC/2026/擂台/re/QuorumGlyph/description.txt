@@ -1,0 +1,12 @@
+题目名：QuorumGlyph
+
+作者：c0iq
+
+题目描述：
+One witness lies. Two are incomplete. Three agree.
+
+附件：
+QuorumGlyph
+
+备注：
+Linux x86_64 ELF。输入 flag 后输出 Yes??? / No???。

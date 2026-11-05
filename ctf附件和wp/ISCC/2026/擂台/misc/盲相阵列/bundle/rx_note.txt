@@ -1,0 +1,9 @@
+Blind Phase Array receiver note
+===============================
+The dumped CSV contains complex I/Q samples after a faulty downconverter.
+Sample rate: 48000 Hz. Nominal symbol rate: 1200 baud.
+The residual carrier offset is close to +1700 Hz.
+The symbol boundary is not at sample 0; find it with the training block.
+The first 80 recovered symbols are training/sync symbols.
+Payload path from the old FPGA notes: PN mask -> 16-lane column DMA -> H(7,4) nibbles -> BP1 frame.
+Selected codewords are expected to contain one bad bit. CRC32 at the frame tail is the final integrity check.

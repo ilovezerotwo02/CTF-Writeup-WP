@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 16 16:44:16 2026
+Invocation: C:\Users\ASUS\AppData\Local\Temp\_MEI308362\res\foremost\foremost.exe -i D:\桌面\wp\擂台\misc\卜肆残局\1\卜肆残局\地理-洛书盘.bmp -o D:\桌面\wp\擂台\misc\卜肆残局\1\卜肆残局\foremost_output 
+Output directory: D:\桌面\wp\擂台\misc\卜肆残局\1\卜肆残局\foremost_output
+Configuration file: D:\Program Files\foremost\foremost.conf
+------------------------------------------------------------------
+File: D:\桌面\wp\擂台\misc\卜肆残局\1\卜肆残局\地理-洛书盘.bmp
+Start: Sat May 16 16:44:16 2026
+Length: 676 KB (692795 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.bmp 	     675 KB 	          0 	  (480 x 480)
+1:	00001350.zip 	       1 KB 	     691254 	 
+Finish: Sat May 16 16:44:16 2026
+
+2 FILES EXTRACTED
+	
+bmp:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat May 16 16:44:16 2026

@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 16 00:00:38 2026
+Invocation: C:\Users\ASUS\AppData\Local\Temp\_MEI218562\res\foremost\foremost.exe -i D:\桌面\wp\擂台\misc\神秘文件Plus\Herta_1.png -o D:\桌面\wp\擂台\misc\神秘文件Plus\foremost_output 
+Output directory: D:\桌面\wp\擂台\misc\神秘文件Plus\foremost_output
+Configuration file: D:\Program Files\foremost\foremost.conf
+------------------------------------------------------------------
+File: D:\桌面\wp\擂台\misc\神秘文件Plus\Herta_1.png
+Start: Sat May 16 00:00:38 2026
+Length: 9 MB (10162563 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       4 MB 	          0 	  (1816 x 2608)
+Finish: Sat May 16 00:00:39 2026
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat May 16 00:00:39 2026
