@@ -1,0 +1,9 @@
+version: "3"
+services:
+  pwn:
+    build: .
+    image: challenge_alictf_syncvault
+    ports:
+      - "10000:10000"
+    environment:
+      - FLAG=alictf{test_flag}
