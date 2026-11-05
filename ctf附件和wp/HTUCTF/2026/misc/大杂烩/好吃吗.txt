@@ -1,0 +1,369 @@
+Base Stew.
+
+Ingredients.
+61 g x 7
+61 g w 7
+119 g v 7
+82 g u 7
+85 g t 7
+74 g s 7
+108 g r 7
+84 g q 7
+75 g p 7
+100 g o 7
+49 g n 7
+82 g m 7
+81 g l 7
+86 g k 7
+107 g j 7
+101 g i 7
+121 g h 7
+70 g g 7
+48 g f 7
+81 g e 7
+107 g d 7
+74 g c 7
+84 g b 7
+97 g a 7
+97 g z 6
+86 g y 6
+49 g x 6
+81 g w 6
+50 g v 6
+86 g u 6
+110 g t 6
+86 g s 6
+49 g r 6
+108 g q 6
+88 g p 6
+79 g o 6
+81 g n 6
+70 g m 6
+88 g l 6
+77 g k 6
+85 g j 6
+86 g i 6
+50 g h 6
+82 g g 6
+53 g f 6
+70 g e 6
+106 g d 6
+97 g c 6
+77 g b 6
+74 g a 6
+86 g z 5
+79 g y 5
+120 g x 5
+90 g w 5
+85 g v 5
+97 g u 5
+51 g t 5
+86 g s 5
+108 g r 5
+78 g q 5
+76 g p 5
+66 g o 5
+88 g n 5
+83 g m 5
+105 g l 5
+112 g k 5
+86 g j 5
+97 g i 5
+51 g h 5
+120 g g 5
+109 g f 5
+98 g e 5
+119 g d 5
+77 g c 5
+88 g b 5
+85 g a 5
+121 g z 4
+66 g y 4
+88 g x 4
+98 g w 4
+72 g v 4
+120 g u 4
+107 g t 4
+78 g s 4
+104 g r 4
+100 g q 4
+107 g p 4
+87 g o 4
+48 g n 4
+107 g m 4
+122 g l 4
+86 g k 4
+115 g j 4
+78 g i 4
+71 g h 4
+79 g g 4
+120 g f 4
+69 g e 4
+72 g d 4
+86 g c 4
+68 g b 4
+104 g a 4
+106 g z 3
+100 g y 3
+49 g x 3
+49 g w 3
+87 g v 3
+78 g u 3
+109 g t 3
+100 g s 3
+109 g r 3
+84 g q 3
+88 g p 3
+108 g o 3
+72 g n 3
+86 g m 3
+75 g l 3
+74 g k 3
+72 g j 3
+82 g i 3
+72 g h 3
+82 g g 3
+107 g f 3
+100 g e 3
+84 g d 3
+70 g c 3
+108 g b 3
+101 g a 3
+76 g z 2
+104 g y 2
+122 g x 2
+90 g w 2
+90 g v 2
+100 g u 2
+108 g t 2
+90 g s 2
+77 g r 2
+90 g q 2
+70 g p 2
+83 g o 2
+85 g n 2
+100 g m 2
+50 g l 2
+77 g k 2
+72 g j 2
+104 g i 2
+68 g h 2
+84 g g 2
+84 g f 2
+90 g e 2
+107 g d 2
+83 g c 2
+69 g b 2
+108 g a 2
+51 g z
+83 g y
+73 g x
+86 g w
+108 g v
+84 g u
+49 g t
+90 g s
+86 g r
+89 g q
+50 g p
+86 g o
+110 g n
+99 g m
+104 g l
+86 g k
+50 g j
+83 g i
+79 g h
+57 g g
+107 g f
+81 g e
+106 g d
+104 g c
+51 g b
+81 g a
+
+Method.
+Put x 7 into the mixing bowl.
+Put w 7 into the mixing bowl.
+Put v 7 into the mixing bowl.
+Put u 7 into the mixing bowl.
+Put t 7 into the mixing bowl.
+Put s 7 into the mixing bowl.
+Put r 7 into the mixing bowl.
+Put q 7 into the mixing bowl.
+Put p 7 into the mixing bowl.
+Put o 7 into the mixing bowl.
+Put n 7 into the mixing bowl.
+Put m 7 into the mixing bowl.
+Put l 7 into the mixing bowl.
+Put k 7 into the mixing bowl.
+Put j 7 into the mixing bowl.
+Put i 7 into the mixing bowl.
+Put h 7 into the mixing bowl.
+Put g 7 into the mixing bowl.
+Put f 7 into the mixing bowl.
+Put e 7 into the mixing bowl.
+Put d 7 into the mixing bowl.
+Put c 7 into the mixing bowl.
+Put b 7 into the mixing bowl.
+Put a 7 into the mixing bowl.
+Put z 6 into the mixing bowl.
+Put y 6 into the mixing bowl.
+Put x 6 into the mixing bowl.
+Put w 6 into the mixing bowl.
+Put v 6 into the mixing bowl.
+Put u 6 into the mixing bowl.
+Put t 6 into the mixing bowl.
+Put s 6 into the mixing bowl.
+Put r 6 into the mixing bowl.
+Put q 6 into the mixing bowl.
+Put p 6 into the mixing bowl.
+Put o 6 into the mixing bowl.
+Put n 6 into the mixing bowl.
+Put m 6 into the mixing bowl.
+Put l 6 into the mixing bowl.
+Put k 6 into the mixing bowl.
+Put j 6 into the mixing bowl.
+Put i 6 into the mixing bowl.
+Put h 6 into the mixing bowl.
+Put g 6 into the mixing bowl.
+Put f 6 into the mixing bowl.
+Put e 6 into the mixing bowl.
+Put d 6 into the mixing bowl.
+Put c 6 into the mixing bowl.
+Put b 6 into the mixing bowl.
+Put a 6 into the mixing bowl.
+Put z 5 into the mixing bowl.
+Put y 5 into the mixing bowl.
+Put x 5 into the mixing bowl.
+Put w 5 into the mixing bowl.
+Put v 5 into the mixing bowl.
+Put u 5 into the mixing bowl.
+Put t 5 into the mixing bowl.
+Put s 5 into the mixing bowl.
+Put r 5 into the mixing bowl.
+Put q 5 into the mixing bowl.
+Put p 5 into the mixing bowl.
+Put o 5 into the mixing bowl.
+Put n 5 into the mixing bowl.
+Put m 5 into the mixing bowl.
+Put l 5 into the mixing bowl.
+Put k 5 into the mixing bowl.
+Put j 5 into the mixing bowl.
+Put i 5 into the mixing bowl.
+Put h 5 into the mixing bowl.
+Put g 5 into the mixing bowl.
+Put f 5 into the mixing bowl.
+Put e 5 into the mixing bowl.
+Put d 5 into the mixing bowl.
+Put c 5 into the mixing bowl.
+Put b 5 into the mixing bowl.
+Put a 5 into the mixing bowl.
+Put z 4 into the mixing bowl.
+Put y 4 into the mixing bowl.
+Put x 4 into the mixing bowl.
+Put w 4 into the mixing bowl.
+Put v 4 into the mixing bowl.
+Put u 4 into the mixing bowl.
+Put t 4 into the mixing bowl.
+Put s 4 into the mixing bowl.
+Put r 4 into the mixing bowl.
+Put q 4 into the mixing bowl.
+Put p 4 into the mixing bowl.
+Put o 4 into the mixing bowl.
+Put n 4 into the mixing bowl.
+Put m 4 into the mixing bowl.
+Put l 4 into the mixing bowl.
+Put k 4 into the mixing bowl.
+Put j 4 into the mixing bowl.
+Put i 4 into the mixing bowl.
+Put h 4 into the mixing bowl.
+Put g 4 into the mixing bowl.
+Put f 4 into the mixing bowl.
+Put e 4 into the mixing bowl.
+Put d 4 into the mixing bowl.
+Put c 4 into the mixing bowl.
+Put b 4 into the mixing bowl.
+Put a 4 into the mixing bowl.
+Put z 3 into the mixing bowl.
+Put y 3 into the mixing bowl.
+Put x 3 into the mixing bowl.
+Put w 3 into the mixing bowl.
+Put v 3 into the mixing bowl.
+Put u 3 into the mixing bowl.
+Put t 3 into the mixing bowl.
+Put s 3 into the mixing bowl.
+Put r 3 into the mixing bowl.
+Put q 3 into the mixing bowl.
+Put p 3 into the mixing bowl.
+Put o 3 into the mixing bowl.
+Put n 3 into the mixing bowl.
+Put m 3 into the mixing bowl.
+Put l 3 into the mixing bowl.
+Put k 3 into the mixing bowl.
+Put j 3 into the mixing bowl.
+Put i 3 into the mixing bowl.
+Put h 3 into the mixing bowl.
+Put g 3 into the mixing bowl.
+Put f 3 into the mixing bowl.
+Put e 3 into the mixing bowl.
+Put d 3 into the mixing bowl.
+Put c 3 into the mixing bowl.
+Put b 3 into the mixing bowl.
+Put a 3 into the mixing bowl.
+Put z 2 into the mixing bowl.
+Put y 2 into the mixing bowl.
+Put x 2 into the mixing bowl.
+Put w 2 into the mixing bowl.
+Put v 2 into the mixing bowl.
+Put u 2 into the mixing bowl.
+Put t 2 into the mixing bowl.
+Put s 2 into the mixing bowl.
+Put r 2 into the mixing bowl.
+Put q 2 into the mixing bowl.
+Put p 2 into the mixing bowl.
+Put o 2 into the mixing bowl.
+Put n 2 into the mixing bowl.
+Put m 2 into the mixing bowl.
+Put l 2 into the mixing bowl.
+Put k 2 into the mixing bowl.
+Put j 2 into the mixing bowl.
+Put i 2 into the mixing bowl.
+Put h 2 into the mixing bowl.
+Put g 2 into the mixing bowl.
+Put f 2 into the mixing bowl.
+Put e 2 into the mixing bowl.
+Put d 2 into the mixing bowl.
+Put c 2 into the mixing bowl.
+Put b 2 into the mixing bowl.
+Put a 2 into the mixing bowl.
+Put z into the mixing bowl.
+Put y into the mixing bowl.
+Put x into the mixing bowl.
+Put w into the mixing bowl.
+Put v into the mixing bowl.
+Put u into the mixing bowl.
+Put t into the mixing bowl.
+Put s into the mixing bowl.
+Put r into the mixing bowl.
+Put q into the mixing bowl.
+Put p into the mixing bowl.
+Put o into the mixing bowl.
+Put n into the mixing bowl.
+Put m into the mixing bowl.
+Put l into the mixing bowl.
+Put k into the mixing bowl.
+Put j into the mixing bowl.
+Put i into the mixing bowl.
+Put h into the mixing bowl.
+Put g into the mixing bowl.
+Put f into the mixing bowl.
+Put e into the mixing bowl.
+Put d into the mixing bowl.
+Put c into the mixing bowl.
+Put b into the mixing bowl.
+Put a into the mixing bowl.
+Liquefy contents of the mixing bowl.
+Pour contents of the mixing bowl into the baking dish.
+
+Serves 180.

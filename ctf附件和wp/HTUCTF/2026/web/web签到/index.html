@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!--
+  termzero build 0.9.3 · legacy host
+  运维备注：这台机器上还留着上一任管理员留下的部署记录，上线前没清。
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#06090b">
+  <title>零号终端 · TERMINAL ZERO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <main class="stage">
+    <header class="topbar">
+      <span class="brand"><i class="dot"></i>TERMINAL&nbsp;ZERO</span>
+      <span class="meta"><span id="pidText">PID 0</span> · <span id="stateText">READY</span></span>
+    </header>
+
+    <section class="hud is-hidden" id="hud">
+      <div class="hud-cell">
+        <span class="hud-label">层</span>
+        <span class="hud-value" id="hudLevel">1/5</span>
+      </div>
+      <div class="hud-cell hud-cell--wide">
+        <span class="hud-label" id="hudName">引导扇区</span>
+        <span class="hud-sub" id="hudSub">BOOT SECTOR</span>
+      </div>
+      <div class="hud-cell">
+        <span class="hud-label">令牌</span>
+        <span class="hud-keys" id="hudKeys"></span>
+      </div>
+      <div class="hud-cell hud-cell--time">
+        <span class="hud-label">剩余</span>
+        <span class="hud-value" id="hudTime">45.0s</span>
+      </div>
+    </section>
+
+    <div class="timebar"><span id="timeFill"></span></div>
+
+    <section class="screen" id="screen">
+      <canvas id="game" width="780" height="510" aria-label="零号终端游戏区"></canvas>
+      <div class="crt" aria-hidden="true"></div>
+    </section>
+
+    <footer class="legend">
+      <span><b class="k k--self"></b>你</span>
+      <span><b class="k k--key"></b>校验令牌</span>
+      <span><b class="k k--exit"></b>出口</span>
+      <span><b class="k k--guard"></b>哨兵</span>
+      <span class="legend-tip">WASD / 方向键移动 · R 重开本层</span>
+    </footer>
+  </main>
+
+  <div class="dpad" id="dpad" aria-hidden="true">
+    <button data-dir="up" aria-label="上">▲</button>
+    <button data-dir="left" aria-label="左">◀</button>
+    <button data-dir="right" aria-label="右">▶</button>
+    <button data-dir="down" aria-label="下">▼</button>
+  </div>
+
+  <!-- 开始界面 -->
+  <div class="overlay" id="startScreen">
+    <div class="panel">
+      <p class="kicker">legacy host · /dev/mem</p>
+      <h1 class="title">零号终端</h1>
+      <p class="title-en">TERMINAL&nbsp;ZERO</p>
+      <div class="bootlog" id="bootlog"></div>
+      <p class="brief">
+        你是这台老主机里最后一个还在运行的进程。<br>
+        内核即将回收内存 —— 穿过五层分区，收齐校验令牌，从核心出口离开。
+      </p>
+      <button class="btn" id="btnStart">接入系统 <span class="btn-key">ENTER</span></button>
+      <p class="fineprint">方向键 / WASD 移动 · 出口需要令牌全部到手才会亮起</p>
+    </div>
+  </div>
+
+  <!-- 失败 -->
+  <div class="overlay is-hidden" id="overScreen">
+    <div class="panel panel--danger">
+      <p class="kicker kicker--danger">signal lost</p>
+      <h2 class="title title--sm">进程已终止</h2>
+      <p class="brief" id="overReason">哨兵捕获了你的执行流。</p>
+      <p class="statline" id="overStat"></p>
+      <button class="btn btn--danger" id="btnRetry">从本层重启 <span class="btn-key">R</span></button>
+    </div>
+  </div>
+
+  <!-- 通关 -->
+  <div class="overlay is-hidden" id="winScreen">
+    <div class="panel panel--win">
+      <p class="kicker">core unlocked</p>
+      <h2 class="title title--sm">零号核心已解锁</h2>
+      <p class="brief">五层分区全部穿过，内核把最后的密钥交给了你。</p>
+      <div class="flag" id="flagText">HTUCTF{...}</div>
+      <p class="statline" id="winStat"></p>
+      <button class="btn btn--ghost" id="btnAgain">再来一次</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="game.js"></script>
+</body>
+
+</html>

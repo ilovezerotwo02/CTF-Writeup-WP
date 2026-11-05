@@ -1,0 +1,169 @@
+   0 RESUME                         
+   2 LOAD_CONST                     'HTU 三重迷宫 - a small interactive reverse-engineering challenge.'
+   4 STORE_NAME                     __doc__
+   6 LOAD_SMALL_INT                 
+   8 LOAD_CONST                     ('annotations',)
+  10 IMPORT_NAME                    __future__
+  12 IMPORT_FROM                    annotations
+  14 STORE_NAME                     annotations
+  16 POP_TOP                        
+  18 LOAD_SMALL_INT                 
+  20 LOAD_CONST                     None
+  22 IMPORT_NAME                    msvcrt
+  24 STORE_NAME                     msvcrt
+  26 LOAD_SMALL_INT                 
+  28 LOAD_CONST                     None
+  30 IMPORT_NAME                    os
+  32 STORE_NAME                     os
+  34 LOAD_SMALL_INT                 
+  36 LOAD_CONST                     None
+  38 IMPORT_NAME                    shutil
+  40 STORE_NAME                     shutil
+  42 LOAD_SMALL_INT                 
+  44 LOAD_CONST                     None
+  46 IMPORT_NAME                    sys
+  48 STORE_NAME                     sys
+  50 LOAD_SMALL_INT                 
+  52 LOAD_CONST                     None
+  54 IMPORT_NAME                    tempfile
+  56 STORE_NAME                     tempfile
+  58 LOAD_SMALL_INT                 
+  60 LOAD_CONST                     None
+  62 IMPORT_NAME                    time
+  64 STORE_NAME                     time
+  66 LOAD_CONST                     'HTU版《废都物语》———启程，妖精之塔！'
+  68 STORE_NAME                     TITLE
+  70 LOAD_CONST                     (('#########################', '#S#.........#...........#', '#.#.###.#####.#######.#.#', '#.#...#.....#.#.....#.#.#', '#.###.#####.#.#.###.#.#.#', '#.#A..#...#.#.#...#.#.#.#', '#.###.#.#.#.#.###.###.#.#', '#...#...#.#.....#.#...#.#', '###.###########.#.#.###.#', '#...#...#.....#...#.#...#', '#.###.#.#.###.###.#.#.###', '#.....#...#...#...#.#...#', '###########.#####.#.###.#', '#...#.....#.....#.#...#.#', '#.###.###.#####.#####.#.#', '#......B#.............#C#', '#########################'), ('#########################', '#S#.....#...............#', '#.#.###.#.#######.#####.#', '#.#...#...#.....#.#.....#', '#.###.#####.###.#.#.#####', '#.#A..#...#.#...#.#.....#', '#.#####.#.#.#.#######.#.#', '#.#.....#...#.#.....#.#.#', '#.#.#########.#.###.###.#', '#...#.....#...#...#...#.#', '#####.#.###.#####.###.#.#', '#...#.#.#...#.....#.#...#', '###.#.#.#.###.#####.###.#', '#...#.#.#.#B..#...#.....#', '#.###.#.#.###.#.###.#####', '#.....#.......#........C#', '#########################'), ('#########################', '#S....#.......#.......#.#', '#####.#.#.###.#.#####.#.#', '#...#.#A#.#.#.#.....#.#.#', '#.#.#.###.#.#.#####.#.#.#', '#.#.#.#...#.#.#.....#...#', '#.#.#.#.###.#.#.#########', '#.#...#...#...#.....#...#', '#.#####.#.###.#.###.#.#.#', '#...#...#...#.#..B#...#.#', '###.#.#####.#.#####.###.#', '#.#.#.....#.#.....#...#.#', '#.#.#######.#####.#####.#', '#.#.#...#...#.#...#.....#', '#.#.#.#.#.###.#.###.###.#', '#.....#...#.........#C..#', '#########################'))
+  72 STORE_NAME                     _MAPS
+  74 LOAD_CONST                     (0, 2, 1)
+  76 STORE_NAME                     _CONTINUE_EXIT
+  78 LOAD_CONST                     '23456789ABCDEFGHJKLMNPQRSTUVWXYZ'
+  80 STORE_NAME                     _CREDENTIAL_ALPHABET
+  82 LOAD_CONST                     'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
+  84 STORE_NAME                     _KEY_ALPHABET
+  86 LOAD_CONST                     (23, 163, 92, 225, 40, 150, 79, 210)
+  88 STORE_NAME                     _KEY_SALT
+  90 LOAD_CONST                     (7, 2, 10, 0, 5, 11, 3, 8, 1, 6, 4, 9)
+  92 STORE_NAME                     _KEY_ORDER
+  94 LOAD_CONST                     (11, 50, 3, 34, 30, 33, 13, 43, 1, 14, 26, 7, 20, 35, 55, 25, 39, 49, 42, 46, 54, 4, 48, 51, 2, 23, 32, 22, 9, 5, 16, 24, 12, 37, 45, 47, 27, 44, 31, 36, 41, 38, 21, 8, 52, 28, 10, 19, 18, 17, 29, 53, 40, 6, 15, 0)
+  96 STORE_NAME                     _FLAG_ORDER
+  98 LOAD_CONST                     (11, 29, 7, 41, 18, 3, 37)
+ 100 STORE_NAME                     _FLAG_SALT
+ 102 LOAD_CONST                     (44, 58, 2, 48, 16, 65, 32, 90, 90, 70, 93, 16, 55, 72, 36, 83, 93, 18, 46, 64, 27, 52, 15, 10, 78, 48, 64, 94, 36, 61, 7, 73, 58, 20, 43, 74, 40, 5, 51, 66, 48, 53, 78, 65, 72, 45, 6, 76, 83, 28, 45, 3, 43, 31, 79, 13)
+ 104 STORE_NAME                     _FLAG_BOX
+ 106 LOAD_CONST                     ('assets/fail1.jpg', 'assets/fail2.jpg', 'assets/fail3.jpg')
+ 108 STORE_NAME                     _FAIL_IMAGES
+ 110 LOAD_CONST                     'tower_lower'
+ 112 LOAD_CONST                     'assets/tower_lower.jpg'
+ 114 LOAD_CONST                     'fairy_king'
+ 116 LOAD_CONST                     'assets/fairy_king.jpg'
+ 118 BUILD_MAP                      
+ 120 STORE_NAME                     _OPTIONAL_CG_IMAGES
+ 122 LOAD_CONST                     (('【你们再一次的回到了这里，回到了你们进入妖精之塔的地方，疲惫与麻木逐渐蔓延全身。白雾逐渐蔓延至整个森林，你们渐渐失去意识······】', '【“主人桑，主人桑，醒醒嘛，不要睡觉嘛，一起玩好不好~" 】', '【“真的嘛！主人桑,你真是太好了>v<,咪啪~”】'), ('【你们再一次的回到了这里，回到了你们进入妖精之塔的地方，疲惫与麻木逐渐蔓延全身。白雾逐渐蔓延至整个森林，你们渐渐失去意识······】', '【"快醒醒，快醒醒啦，不要再睡了嘛"】', '【已经到了要开始忙碌的时候了哦~】'), ('【你们再一次的回到了这里，回到了你们进入妖精之塔的地方，疲惫与麻木逐渐蔓延全身。白雾逐渐蔓延至整个森林，你们渐渐失去意识······】', '【哥哥，哥哥，快醒醒，不要再睡了】', '【再睡五分钟？不可以，已经好几个五分钟了！】', '【······最后一次？唔······好吧······】'))
+ 124 STORE_NAME                     _FAIL_STORIES
+ 126 LOAD_CONST                     ('【砰！你不小心撞到了墙壁，等等，为什么回来了？】', '【砰！······这是第二次了】', '【砰！你似乎觉得头有些晕忽忽的······】', '【砰！你的身体逐渐变得沉重，似乎难以行动】', '【砰！不知为何，你突然觉得或许你应该停下来】')
+ 128 STORE_NAME                     _WALL_MESSAGES
+ 130 LOAD_CONST                     'W'
+ 132 LOAD_CONST                     (-1, 0)
+ 134 LOAD_CONST                     'A'
+ 136 LOAD_CONST                     (0, -1)
+ 138 LOAD_CONST                     'S'
+ 140 LOAD_CONST                     (1, 0)
+ 142 LOAD_CONST                     'D'
+ 144 LOAD_CONST                     (0, 1)
+ 146 BUILD_MAP                      
+ 148 STORE_NAME                     _MOVE
+ 150 LOAD_CONST                     <code object __annotate__ at 0x000001C746597E30, file "htu_maze_route.py", line 138>
+ 152 MAKE_FUNCTION                  
+ 154 LOAD_CONST                     <code object _find at 0x000001C746046550, file "htu_maze_route.py", line 138>
+ 156 MAKE_FUNCTION                  
+ 158 SET_FUNCTION_ATTRIBUTE         annotate
+ 160 STORE_NAME                     _find
+ 162 LOAD_CONST                     <code object __annotate__ at 0x000001C746E7A130, file "htu_maze_route.py", line 146>
+ 164 MAKE_FUNCTION                  
+ 166 LOAD_CONST                     <code object _wall_char at 0x000001C745F76790, file "htu_maze_route.py", line 146>
+ 168 MAKE_FUNCTION                  
+ 170 SET_FUNCTION_ATTRIBUTE         annotate
+ 172 STORE_NAME                     _wall_char
+ 174 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB16B0, file "htu_maze_route.py", line 159>
+ 176 MAKE_FUNCTION                  
+ 178 LOAD_CONST                     <code object _clear at 0x000001C746DB1B60, file "htu_maze_route.py", line 159>
+ 180 MAKE_FUNCTION                  
+ 182 SET_FUNCTION_ATTRIBUTE         annotate
+ 184 STORE_NAME                     _clear
+ 186 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB21F0, file "htu_maze_route.py", line 163>
+ 188 MAKE_FUNCTION                  
+ 190 LOAD_CONST                     <code object _show_failure_image at 0x000001C745A1A430, file "htu_maze_route.py", line 163>
+ 192 MAKE_FUNCTION                  
+ 194 SET_FUNCTION_ATTRIBUTE         annotate
+ 196 STORE_NAME                     _show_failure_image
+ 198 LOAD_CONST                     <code object __annotate__ at 0x000001C746E7A230, file "htu_maze_route.py", line 169>
+ 200 MAKE_FUNCTION                  
+ 202 LOAD_CONST                     <code object _open_external_image at 0x000001C7461DBB80, file "htu_maze_route.py", line 169>
+ 204 MAKE_FUNCTION                  
+ 206 SET_FUNCTION_ATTRIBUTE         annotate
+ 208 STORE_NAME                     _open_external_image
+ 210 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB22E0, file "htu_maze_route.py", line 183>
+ 212 MAKE_FUNCTION                  
+ 214 LOAD_CONST                     <code object _show_optional_cg at 0x000001C746DADE30, file "htu_maze_route.py", line 183>
+ 216 MAKE_FUNCTION                  
+ 218 SET_FUNCTION_ATTRIBUTE         annotate
+ 220 STORE_NAME                     _show_optional_cg
+ 222 LOAD_CONST                     ('',)
+ 224 LOAD_CONST                     <code object __annotate__ at 0x000001C746E7A330, file "htu_maze_route.py", line 189>
+ 226 MAKE_FUNCTION                  
+ 228 LOAD_CONST                     <code object _show_failure_event at 0x000001C7461DA1E0, file "htu_maze_route.py", line 189>
+ 230 MAKE_FUNCTION                  
+ 232 SET_FUNCTION_ATTRIBUTE         annotate
+ 234 SET_FUNCTION_ATTRIBUTE         defaults
+ 236 STORE_NAME                     _show_failure_event
+ 238 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB23D0, file "htu_maze_route.py", line 213>
+ 240 MAKE_FUNCTION                  
+ 242 LOAD_CONST                     <code object _show_victory_scene at 0x000001C745F735D0, file "htu_maze_route.py", line 213>
+ 244 MAKE_FUNCTION                  
+ 246 SET_FUNCTION_ATTRIBUTE         annotate
+ 248 STORE_NAME                     _show_victory_scene
+ 250 LOAD_CONST                     <code object __annotate__ at 0x000001C746E7A430, file "htu_maze_route.py", line 232>
+ 252 MAKE_FUNCTION                  
+ 254 LOAD_CONST                     <code object _draw at 0x000001C745F85710, file "htu_maze_route.py", line 232>
+ 256 MAKE_FUNCTION                  
+ 258 SET_FUNCTION_ATTRIBUTE         annotate
+ 260 STORE_NAME                     _draw
+ 262 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB25B0, file "htu_maze_route.py", line 272>
+ 264 MAKE_FUNCTION                  
+ 266 LOAD_CONST                     <code object _final_credential at 0x000001C745B7AD60, file "htu_maze_route.py", line 272>
+ 268 MAKE_FUNCTION                  
+ 270 SET_FUNCTION_ATTRIBUTE         annotate
+ 272 STORE_NAME                     _final_credential
+ 274 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB26A0, file "htu_maze_route.py", line 293>
+ 276 MAKE_FUNCTION                  
+ 278 LOAD_CONST                     <code object _derive_console_key at 0x000001C743AFB660, file "htu_maze_route.py", line 293>
+ 280 MAKE_FUNCTION                  
+ 282 SET_FUNCTION_ATTRIBUTE         annotate
+ 284 STORE_NAME                     _derive_console_key
+ 286 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB2790, file "htu_maze_route.py", line 307>
+ 288 MAKE_FUNCTION                  
+ 290 LOAD_CONST                     <code object _open_flag at 0x000001C745EF5660, file "htu_maze_route.py", line 307>
+ 292 MAKE_FUNCTION                  
+ 294 SET_FUNCTION_ATTRIBUTE         annotate
+ 296 STORE_NAME                     _open_flag
+ 298 LOAD_CONST                     <code object __annotate__ at 0x000001C746DB2880, file "htu_maze_route.py", line 317>
+ 300 MAKE_FUNCTION                  
+ 302 LOAD_CONST                     <code object main at 0x000001C745E2EFC0, file "htu_maze_route.py", line 317>
+ 304 MAKE_FUNCTION                  
+ 306 SET_FUNCTION_ATTRIBUTE         annotate
+ 308 STORE_NAME                     main
+ 310 LOAD_NAME                      __name__
+ 312 LOAD_CONST                     '__main__'
+ 314 COMPARE_OP                     bool(==)
+ 318 POP_JUMP_IF_FALSE              to L1
+ 322 NOT_TAKEN                      
+ 324 LOAD_NAME                      SystemExit
+ 326 PUSH_NULL                      
+ 328 LOAD_NAME                      main
+ 330 PUSH_NULL                      
+ 332 CALL                           
+ 340 CALL                           
+ 348 RAISE_VARARGS                  
+ 350 LOAD_CONST                     None
+ 352 RETURN_VALUE                   

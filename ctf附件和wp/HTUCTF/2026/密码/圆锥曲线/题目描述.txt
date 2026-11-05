@@ -1,0 +1,9 @@
+题目：圆锥曲线
+分类：Crypto
+分值：1000
+类型：StaticAttachment
+描述：我重生了，重生在高考数学写圆锥曲线的现场。不过，草稿纸上的方程怎么从来没见过？x^2 - D*y^2 = 1 (mod p)
+提示：无
+附件：/assets/f8a00b8d2981a1206ae8a574cab7360ddaf42efd863331ecb82e76d1d80368f5/圆锥曲线.zip（下载于 圆锥曲线.zip）
+实例：无
+flag：HTUCTF{I_hate_conic_section}

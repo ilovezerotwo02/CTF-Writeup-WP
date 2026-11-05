@@ -1,0 +1,9 @@
+题目：borrow
+分类：Pwn
+分值：1000
+类型：DynamicContainer
+描述：魔理沙又来红魔馆来借书了，不过正门看守的人居然还醒着没有睡觉，那看来正门是走不了了。你能够帮助莫理沙借到她想要的书吗？
+提示：(由于一些原因，拿到shell之后直接 cat /flag 即可获得flag)
+附件：/assets/a033eb210da040c948883c7f364d1e651a6190f3e5ce89557d455367b418a4a9/borrow（下载于 borrow (13704B)）
+实例：103.163.47.230:33608
+flag：HTUCTF{f9759d8f-44b9-48ac-8fff-6eb327cc689d}（已提交 Accepted，本队一血）

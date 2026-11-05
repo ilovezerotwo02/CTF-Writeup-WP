@@ -1,0 +1,22 @@
+======================================================================
+[/flag : line 1] hit=True
+payload(base64 marshal) > Traceback (most recent call last):
+  File "/app/jail.py", line 63, in main
+    eval(co, {"__builtins__": None})
+  File "/flag", line 1, in <module>
+    HTUCTF{11a5d2fe-19bc-4dfb-a9f6-de8be4fbadd3}
+ZeroDivisionError: division by zero
+======================================================================
+[/flag : line 2] hit=True
+payload(base64 marshal) > Traceback (most recent call last):
+  File "/app/jail.py", line 63, in main
+    eval(co, {"__builtins__": None})
+  File "/flag", line 2, in <module>
+ZeroDivisionError: division by zero
+======================================================================
+[/flag : line 3] hit=True
+payload(base64 marshal) > Traceback (most recent call last):
+  File "/app/jail.py", line 63, in main
+    eval(co, {"__builtins__": None})
+  File "/flag", line 3, in <module>
+ZeroDivisionError: division by zero

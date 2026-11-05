@@ -1,0 +1,407 @@
+3.14.4 (main, Apr  7 2026, 20:48:46) [MSC v.1944 64 bit (AMD64)]
+######################################################################
+# FUNC: _final_credential
+# names: ('enumerate', 'ord', 'range', 'append', '_CREDENTIAL_ALPHABET', 'len', 'join')
+# varnames: ('route', 'state', 'index', 'exit_name', 'parts', 'block', 'word', '_')
+# freevars: () cellvars: ()
+# consts:
+   [0] 1831565813
+   [1] 4294967295
+   [2] 73244475
+   [3] 2654435769
+   [4] 2712847316
+   [5] 1267611
+   [6] 1664525
+   [7] 1013904223
+   [8] ''
+   [9] 'TRI-'
+   [10] '-'
+######################################################################
+272           RESUME                   0
+
+273           LOAD_CONST               0 (1831565813)
+              STORE_FAST               1 (state)
+
+274           LOAD_GLOBAL              1 (enumerate + NULL)
+              LOAD_FAST_BORROW         0 (route)
+              LOAD_SMALL_INT           1
+              CALL                     2
+              GET_ITER
+      L1:     FOR_ITER               104 (to L2)
+              UNPACK_SEQUENCE          2
+              STORE_FAST_STORE_FAST   35 (index, exit_name)
+
+275           LOAD_FAST_BORROW         1 (state)
+              LOAD_SMALL_INT           7
+              BINARY_OP                3 (<<)
+              LOAD_FAST_BORROW         1 (state)
+              LOAD_SMALL_INT          25
+              BINARY_OP                9 (>>)
+              BINARY_OP                7 (|)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              STORE_FAST               1 (state)
+
+276           LOAD_FAST_BORROW         1 (state)
+              LOAD_GLOBAL              3 (ord + NULL)
+              LOAD_FAST_BORROW         3 (exit_name)
+              CALL                     1
+              LOAD_CONST               2 (73244475)
+              BINARY_OP                5 (*)
+              LOAD_FAST_BORROW         2 (index)
+              LOAD_CONST               3 (2654435769)
+              BINARY_OP                5 (*)
+              BINARY_OP               12 (^)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+277           LOAD_FAST_BORROW         1 (state)
+              LOAD_CONST               4 (2712847316)
+              BINARY_OP                0 (+)
+              LOAD_FAST_BORROW         2 (index)
+              LOAD_CONST               5 (1267611)
+              BINARY_OP                5 (*)
+              BINARY_OP                0 (+)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              STORE_FAST               1 (state)
+              JUMP_BACKWARD          106 (to L1)
+
+274   L2:     END_FOR
+              POP_ITER
+
+279           BUILD_LIST               0
+              STORE_FAST               4 (parts)
+
+280           LOAD_GLOBAL              5 (range + NULL)
+              LOAD_SMALL_INT           3
+              CALL                     1
+              GET_ITER
+      L3:     FOR_ITER               201 (to L6)
+              STORE_FAST               5 (block)
+
+281           LOAD_FAST_BORROW         1 (state)
+              LOAD_CONST               6 (1664525)
+              BINARY_OP                5 (*)
+              LOAD_CONST               7 (1013904223)
+              BINARY_OP                0 (+)
+              LOAD_FAST_BORROW         5 (block)
+              BINARY_OP                0 (+)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              STORE_FAST               1 (state)
+
+282           BUILD_LIST               0
+              STORE_FAST               6 (word)
+
+283           LOAD_GLOBAL              5 (range + NULL)
+              LOAD_SMALL_INT           4
+              CALL                     1
+              GET_ITER
+      L4:     FOR_ITER               119 (to L5)
+              STORE_FAST               7 (_)
+
+284           LOAD_FAST_BORROW_LOAD_FAST_BORROW 17 (state, state)
+              LOAD_SMALL_INT          13
+              BINARY_OP                3 (<<)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+285           LOAD_FAST_BORROW_LOAD_FAST_BORROW 17 (state, state)
+              LOAD_SMALL_INT          17
+              BINARY_OP                9 (>>)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+286           LOAD_FAST_BORROW_LOAD_FAST_BORROW 17 (state, state)
+              LOAD_SMALL_INT           5
+              BINARY_OP                3 (<<)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+287           LOAD_FAST_BORROW         1 (state)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP               14 (&=)
+              STORE_FAST               1 (state)
+
+288           LOAD_FAST_BORROW         6 (word)
+              LOAD_ATTR                7 (append + NULL|self)
+              LOAD_GLOBAL              8 (_CREDENTIAL_ALPHABET)
+              LOAD_FAST_BORROW         1 (state)
+              LOAD_GLOBAL             11 (len + NULL)
+              LOAD_GLOBAL              8 (_CREDENTIAL_ALPHABET)
+              CALL                     1
+              BINARY_OP                6 (%)
+              BINARY_OP               26 ([])
+              CALL                     1
+              POP_TOP
+              JUMP_BACKWARD          121 (to L4)
+
+283   L5:     END_FOR
+              POP_ITER
+
+289           LOAD_FAST_BORROW         4 (parts)
+              LOAD_ATTR                7 (append + NULL|self)
+              LOAD_CONST               8 ('')
+              LOAD_ATTR               13 (join + NULL|self)
+              LOAD_FAST_BORROW         6 (word)
+              CALL                     1
+              CALL                     1
+              POP_TOP
+              JUMP_BACKWARD          203 (to L3)
+
+280   L6:     END_FOR
+              POP_ITER
+
+290           LOAD_CONST               9 ('TRI-')
+              LOAD_CONST              10 ('-')
+              LOAD_ATTR               13 (join + NULL|self)
+              LOAD_FAST_BORROW         4 (parts)
+              CALL                     1
+              BINARY_OP                0 (+)
+              RETURN_VALUE
+
+######################################################################
+# FUNC: _derive_console_key
+# names: ('replace', 'enumerate', 'ord', '_KEY_SALT', 'len', 'range', '_KEY_ORDER', 'append', '_KEY_ALPHABET', 'join')
+# varnames: ('credential', 'compact', 'state', 'index', 'char')
+# freevars: () cellvars: ('raw',)
+# consts:
+   [0] '-'
+   [1] ''
+   [2] 3237998097
+   [3] 4294967295
+   [4] 1103515245
+   [5] 12345
+   [6] <code <genexpr>>
+######################################################################
+  --           MAKE_CELL                5 (raw)
+
+ 293           RESUME                   0
+
+ 294           LOAD_FAST_BORROW         0 (credential)
+               LOAD_ATTR                1 (replace + NULL|self)
+               LOAD_CONST               0 ('-')
+               LOAD_CONST               1 ('')
+               CALL                     2
+               STORE_FAST               1 (compact)
+
+ 295           LOAD_CONST               2 (3237998097)
+               STORE_FAST               2 (state)
+
+ 296           LOAD_GLOBAL              3 (enumerate + NULL)
+               LOAD_FAST_BORROW         1 (compact)
+               CALL                     1
+               GET_ITER
+       L1:     FOR_ITER               112 (to L2)
+               UNPACK_SEQUENCE          2
+               STORE_FAST_STORE_FAST   52 (index, char)
+
+ 297           LOAD_FAST_BORROW         2 (state)
+               LOAD_GLOBAL              5 (ord + NULL)
+               LOAD_FAST_BORROW         4 (char)
+               CALL                     1
+               LOAD_GLOBAL              6 (_KEY_SALT)
+               LOAD_FAST_BORROW         3 (index)
+               LOAD_GLOBAL              9 (len + NULL)
+               LOAD_GLOBAL              6 (_KEY_SALT)
+               CALL                     1
+               BINARY_OP                6 (%)
+               BINARY_OP               26 ([])
+               BINARY_OP               12 (^)
+               BINARY_OP                0 (+)
+               LOAD_CONST               3 (4294967295)
+               BINARY_OP                1 (&)
+               STORE_FAST               2 (state)
+
+ 298           LOAD_FAST_BORROW         2 (state)
+               LOAD_SMALL_INT          33
+               BINARY_OP                5 (*)
+               LOAD_FAST_BORROW         2 (state)
+               LOAD_SMALL_INT          11
+               BINARY_OP                9 (>>)
+               BINARY_OP               12 (^)
+               LOAD_FAST_BORROW         3 (index)
+               LOAD_SMALL_INT          81
+               BINARY_OP                5 (*)
+               BINARY_OP               12 (^)
+               LOAD_CONST               3 (4294967295)
+               BINARY_OP                1 (&)
+               STORE_FAST               2 (state)
+               JUMP_BACKWARD          114 (to L1)
+
+ 296   L2:     END_FOR
+               POP_ITER
+
+ 300           BUILD_LIST               0
+               STORE_DEREF              5 (raw)
+
+ 301           LOAD_GLOBAL             11 (range + NULL)
+               LOAD_GLOBAL              9 (len + NULL)
+               LOAD_GLOBAL             12 (_KEY_ORDER)
+               CALL                     1
+               CALL                     1
+               GET_ITER
+       L3:     FOR_ITER               112 (to L4)
+               STORE_FAST               3 (index)
+
+ 302           LOAD_FAST_BORROW         2 (state)
+               LOAD_CONST               4 (1103515245)
+               BINARY_OP                5 (*)
+               LOAD_CONST               5 (12345)
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL              6 (_KEY_SALT)
+               LOAD_FAST_BORROW         3 (index)
+               LOAD_GLOBAL              9 (len + NULL)
+               LOAD_GLOBAL              6 (_KEY_SALT)
+               CALL                     1
+               BINARY_OP                6 (%)
+               BINARY_OP               26 ([])
+               BINARY_OP                0 (+)
+               LOAD_CONST               3 (4294967295)
+               BINARY_OP                1 (&)
+               STORE_FAST               2 (state)
+
+ 303           LOAD_DEREF               5 (raw)
+               LOAD_ATTR               15 (append + NULL|self)
+               LOAD_GLOBAL             16 (_KEY_ALPHABET)
+               LOAD_FAST_BORROW         2 (state)
+               LOAD_GLOBAL              9 (len + NULL)
+               LOAD_GLOBAL             16 (_KEY_ALPHABET)
+               CALL                     1
+               BINARY_OP                6 (%)
+               BINARY_OP               26 ([])
+               CALL                     1
+               POP_TOP
+               JUMP_BACKWARD          114 (to L3)
+
+ 301   L4:     END_FOR
+               POP_ITER
+
+ 304           LOAD_CONST               1 ('')
+               LOAD_ATTR               19 (join + NULL|self)
+               LOAD_FAST_BORROW         5 (raw)
+               BUILD_TUPLE              1
+               LOAD_CONST               6 (<code object <genexpr> at 0x000002A6FB690250, file "htu_maze_route.py", line 304>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               LOAD_GLOBAL             12 (_KEY_ORDER)
+               GET_ITER
+               CALL                     0
+               CALL                     1
+               RETURN_VALUE
+
+Disassembly of <code object <genexpr> at 0x000002A6FB690250, file "htu_maze_route.py", line 304>:
+  --           COPY_FREE_VARS           1
+
+ 304           RETURN_GENERATOR
+               POP_TOP
+       L1:     RESUME                   0
+               LOAD_FAST                0 (.0)
+       L2:     FOR_ITER                14 (to L3)
+               STORE_FAST               1 (index)
+               LOAD_DEREF               2 (raw)
+               LOAD_FAST_BORROW         1 (index)
+               BINARY_OP               26 ([])
+               YIELD_VALUE              0
+               RESUME                   5
+               POP_TOP
+               JUMP_BACKWARD           16 (to L2)
+       L3:     END_FOR
+               POP_ITER
+               LOAD_CONST               0 (None)
+               RETURN_VALUE
+
+  --   L4:     CALL_INTRINSIC_1         3 (INTRINSIC_STOPITERATION_ERROR)
+               RERAISE                  1
+ExceptionTable:
+  L1 to L4 -> L4 [0] lasti
+
+######################################################################
+# FUNC: _open_flag
+# names: ('encode', 'len', '_FLAG_BOX', 'enumerate', '_FLAG_ORDER', '_FLAG_SALT', 'chr', 'join')
+# varnames: ('console_key', 'key_bytes', 'restored', 'index', 'storage_index', 'shift')
+# freevars: () cellvars: ()
+# consts:
+   [0] 'ascii'
+   [1] ' '
+   [2] ''
+######################################################################
+307           RESUME                   0
+
+308           LOAD_FAST_BORROW         0 (console_key)
+              LOAD_ATTR                1 (encode + NULL|self)
+              LOAD_CONST               0 ('ascii')
+              CALL                     1
+              STORE_FAST               1 (key_bytes)
+
+309           LOAD_CONST               1 (' ')
+              BUILD_LIST               1
+              LOAD_GLOBAL              3 (len + NULL)
+              LOAD_GLOBAL              4 (_FLAG_BOX)
+              CALL                     1
+              BINARY_OP                5 (*)
+              STORE_FAST               2 (restored)
+
+310           LOAD_GLOBAL              7 (enumerate + NULL)
+              LOAD_GLOBAL              8 (_FLAG_ORDER)
+              CALL                     1
+              GET_ITER
+      L1:     FOR_ITER               133 (to L2)
+              UNPACK_SEQUENCE          2
+              STORE_FAST_STORE_FAST   52 (index, storage_index)
+
+311           LOAD_FAST_BORROW_LOAD_FAST_BORROW 19 (key_bytes, index)
+              LOAD_GLOBAL              3 (len + NULL)
+              LOAD_FAST_BORROW         1 (key_bytes)
+              CALL                     1
+              BINARY_OP                6 (%)
+              BINARY_OP               26 ([])
+              LOAD_GLOBAL             10 (_FLAG_SALT)
+              LOAD_FAST_BORROW         3 (index)
+              LOAD_GLOBAL              3 (len + NULL)
+              LOAD_GLOBAL             10 (_FLAG_SALT)
+              CALL                     1
+              BINARY_OP                6 (%)
+              BINARY_OP               26 ([])
+              BINARY_OP                0 (+)
+
+312           LOAD_FAST_BORROW         3 (index)
+              LOAD_SMALL_INT           3
+              BINARY_OP                0 (+)
+
+311           BINARY_OP                5 (*)
+
+312           LOAD_SMALL_INT          95
+
+311           BINARY_OP                6 (%)
+              STORE_FAST               5 (shift)
+
+313           LOAD_GLOBAL             13 (chr + NULL)
+              LOAD_GLOBAL              4 (_FLAG_BOX)
+              LOAD_FAST_BORROW         4 (storage_index)
+              BINARY_OP               26 ([])
+              LOAD_FAST_BORROW         5 (shift)
+              BINARY_OP               10 (-)
+              LOAD_SMALL_INT          95
+              BINARY_OP                6 (%)
+              LOAD_SMALL_INT          32
+              BINARY_OP                0 (+)
+              CALL                     1
+              LOAD_FAST_BORROW_LOAD_FAST_BORROW 35 (restored, index)
+              STORE_SUBSCR
+              JUMP_BACKWARD          135 (to L1)
+
+310   L2:     END_FOR
+              POP_ITER
+
+314           LOAD_CONST               2 ('')
+              LOAD_ATTR               15 (join + NULL|self)
+              LOAD_FAST_BORROW         2 (restored)
+              CALL                     1
+              RETURN_VALUE
+

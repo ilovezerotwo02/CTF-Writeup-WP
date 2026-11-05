@@ -1,0 +1,10 @@
+题目：pyjail?!
+分类：Misc
+分值：1000
+类型：DynamicContainer
+描述：一个小小的python jail...试着绕过并拿到flag!
+通过nc ip port连接
+提示：无
+附件：/assets/2268950e5cd2f9611543bdeba1e74abcc7b10acd9899632ad1be24e1d8813731/pyjail-ez.zip（下载于 pyjail-ez.zip）
+实例：103.163.47.230:33638
+flag：HTUCTF{f3c38ce3-c29f-4e95-b3db-555fd8047bd0}（已提交 Accepted）

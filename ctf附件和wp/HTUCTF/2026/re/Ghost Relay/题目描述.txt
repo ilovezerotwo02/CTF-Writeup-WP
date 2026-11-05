@@ -1,0 +1,11 @@
+题目：Ghost Relay
+分类：Reverse
+分值：1000
+类型：StaticAttachment
+描述：幽灵中继站失去动力，只有积累足够能量才能取回档案。
+工程师说，最快的方法不一定是老老实实通关……
+你可以玩游戏、研究程序，或者从 CPU 的角度寻找捷径。
+提示：无
+附件：/assets/6a7ca593b869690cb77966ec612aac4748f2c946e3460056b486f57de9b0c21f/GhostRelay.exe（下载于 GhostRelay.exe (7680B)）
+实例：无
+flag：HTUCTF{V4ult_Guard_One_Register_Away}

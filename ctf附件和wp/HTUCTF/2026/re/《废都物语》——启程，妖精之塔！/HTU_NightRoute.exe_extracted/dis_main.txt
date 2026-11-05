@@ -1,0 +1,692 @@
+######################################################################
+# FUNC: main
+# names: ('os', 'name', 'print', 'sys', 'stdout', 'reconfigure', 'AttributeError', 'OSError', '_find', '_draw', 'msvcrt', 'getwch', 'upper', '_clear', 'clear', '_MOVE', '_MAPS', '_WALL_MESSAGES', '_show_failure_event', 'index', '_CONTINUE_EXIT', 'append', 'len', '_final_credential', '_show_victory_scene', 'input', 'strip', '_derive_console_key', 'TITLE', '_open_flag')
+# varnames: ('level', 'pos', 'phase', 'corridor_pos', 'route', 'wrong_exit_streak', 'wall_hits', 'message', 'key', 'dr', 'dc', 'nxt', 'wall_message', 'cell', 'exit_index', 'credential', 'candidate')
+######################################################################
+ 317            RESUME                   0
+
+ 318            LOAD_GLOBAL              0 (os)
+                LOAD_ATTR                2 (name)
+                LOAD_CONST               0 ('nt')
+                COMPARE_OP             119 (bool(!=))
+                POP_JUMP_IF_FALSE       14 (to L1)
+                NOT_TAKEN
+
+ 319            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST               1 ('This challenge requires Windows console keyboard input.')
+                CALL                     1
+                POP_TOP
+
+ 320            LOAD_SMALL_INT           1
+                RETURN_VALUE
+
+ 322    L1:     NOP
+
+ 323    L2:     LOAD_GLOBAL              6 (sys)
+                LOAD_ATTR                8 (stdout)
+                LOAD_ATTR               11 (reconfigure + NULL|self)
+                LOAD_CONST               2 ('utf-8')
+                LOAD_CONST               3 (('encoding',))
+                CALL_KW                  1
+                POP_TOP
+
+ 327    L3:     LOAD_SMALL_INT           0
+                STORE_FAST               0 (level)
+
+ 328            LOAD_GLOBAL             17 (_find + NULL)
+                LOAD_FAST_BORROW         0 (level)
+                LOAD_CONST               4 ('S')
+                CALL                     2
+                STORE_FAST               1 (pos)
+
+ 329            LOAD_CONST               5 ('maze')
+                STORE_FAST               2 (phase)
+
+ 330            LOAD_SMALL_INT           0
+                STORE_FAST               3 (corridor_pos)
+
+ 331            BUILD_LIST               0
+                STORE_FAST               4 (route)
+
+ 332            BUILD_LIST               0
+                LOAD_CONST              34 ((0, 0, 0))
+                LIST_EXTEND              1
+                STORE_FAST               5 (wrong_exit_streak)
+
+ 335            LOAD_SMALL_INT           0
+                STORE_FAST               6 (wall_hits)
+
+ 336            LOAD_CONST               6 ('从第一层入口开始。')
+                STORE_FAST               7 (message)
+
+ 338    L4:     NOP
+
+ 339            LOAD_GLOBAL             19 (_draw + NULL)
+                LOAD_FAST_BORROW_LOAD_FAST_BORROW 1 (level, pos)
+                LOAD_FAST_BORROW_LOAD_FAST_BORROW 35 (phase, corridor_pos)
+                LOAD_FAST_BORROW         7 (message)
+                CALL                     5
+                POP_TOP
+
+ 340            LOAD_CONST               7 ('')
+                STORE_FAST               7 (message)
+
+ 341            LOAD_GLOBAL             20 (msvcrt)
+                LOAD_ATTR               22 (getwch)
+                PUSH_NULL
+                CALL                     0
+                LOAD_ATTR               25 (upper + NULL|self)
+                CALL                     0
+                STORE_FAST               8 (key)
+
+ 343            LOAD_FAST_BORROW         8 (key)
+                LOAD_CONST               8 ('Q')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       24 (to L5)
+                NOT_TAKEN
+
+ 344            LOAD_GLOBAL             27 (_clear + NULL)
+                CALL                     0
+                POP_TOP
+
+ 345            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST               9 ('调度台关闭。')
+                CALL                     1
+                POP_TOP
+
+ 346            LOAD_SMALL_INT           0
+                RETURN_VALUE
+
+ 348    L5:     LOAD_FAST_BORROW         2 (phase)
+                LOAD_CONST              10 ('return')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       65 (to L9)
+                NOT_TAKEN
+
+ 349            LOAD_FAST_BORROW         8 (key)
+                LOAD_CONST              11 ('D')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       54 (to L7)
+                NOT_TAKEN
+
+ 350            LOAD_FAST_BORROW         3 (corridor_pos)
+                LOAD_SMALL_INT           1
+                BINARY_OP               13 (+=)
+                STORE_FAST               3 (corridor_pos)
+
+ 351            LOAD_FAST_BORROW         3 (corridor_pos)
+                LOAD_SMALL_INT          18
+                COMPARE_OP             188 (bool(>=))
+                POP_JUMP_IF_FALSE       37 (to L6)
+                NOT_TAKEN
+
+ 352            LOAD_SMALL_INT           0
+                STORE_FAST               0 (level)
+
+ 353            LOAD_GLOBAL             17 (_find + NULL)
+                LOAD_FAST_BORROW         0 (level)
+                LOAD_CONST               4 ('S')
+                CALL                     2
+                STORE_FAST               1 (pos)
+
+ 354            LOAD_CONST               5 ('maze')
+                STORE_FAST               2 (phase)
+
+ 355            LOAD_SMALL_INT           0
+                STORE_FAST               3 (corridor_pos)
+
+ 356            LOAD_FAST_BORROW         4 (route)
+                LOAD_ATTR               29 (clear + NULL|self)
+                CALL                     0
+                POP_TOP
+
+ 357            LOAD_CONST              12 ('回程通道已穿过，回到第一层起点。')
+                STORE_FAST               7 (message)
+
+  --    L6:     JUMP_FORWARD             2 (to L8)
+
+ 359    L7:     LOAD_CONST              13 ('通道是单向的，只能按 D。')
+                STORE_FAST               7 (message)
+
+ 360    L8:     JUMP_BACKWARD          152 (to L4)
+
+ 362    L9:     LOAD_FAST_BORROW         8 (key)
+                LOAD_GLOBAL             30 (_MOVE)
+                CONTAINS_OP              1 (not in)
+                POP_JUMP_IF_FALSE        5 (to L10)
+                NOT_TAKEN
+
+ 363            LOAD_CONST              14 ('无效指令：使用 W、A、S、D，或按 Q 退出。')
+                STORE_FAST               7 (message)
+
+ 364            JUMP_BACKWARD          167 (to L4)
+
+ 366   L10:     LOAD_GLOBAL             30 (_MOVE)
+                LOAD_FAST_BORROW         8 (key)
+                BINARY_OP               26 ([])
+                UNPACK_SEQUENCE          2
+                STORE_FAST_STORE_FAST  154 (dr, dc)
+
+ 367            LOAD_FAST_BORROW         1 (pos)
+                LOAD_SMALL_INT           0
+                BINARY_OP               26 ([])
+                LOAD_FAST_BORROW         9 (dr)
+                BINARY_OP                0 (+)
+                LOAD_FAST_BORROW         1 (pos)
+                LOAD_SMALL_INT           1
+                BINARY_OP               26 ([])
+                LOAD_FAST_BORROW        10 (dc)
+                BINARY_OP                0 (+)
+                BUILD_TUPLE              2
+                STORE_FAST              11 (nxt)
+
+ 368            LOAD_GLOBAL             32 (_MAPS)
+                LOAD_FAST_BORROW         0 (level)
+                BINARY_OP               26 ([])
+                LOAD_FAST_BORROW        11 (nxt)
+                LOAD_SMALL_INT           0
+                BINARY_OP               26 ([])
+                BINARY_OP               26 ([])
+                LOAD_FAST_BORROW        11 (nxt)
+                LOAD_SMALL_INT           1
+                BINARY_OP               26 ([])
+                BINARY_OP               26 ([])
+                LOAD_CONST              15 ('#')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       76 (to L12)
+                NOT_TAKEN
+
+ 369            LOAD_FAST_BORROW         6 (wall_hits)
+                LOAD_SMALL_INT           1
+                BINARY_OP               13 (+=)
+                STORE_FAST               6 (wall_hits)
+
+ 370            LOAD_GLOBAL             34 (_WALL_MESSAGES)
+                LOAD_FAST_BORROW         6 (wall_hits)
+                LOAD_SMALL_INT           1
+                BINARY_OP               10 (-)
+                BINARY_OP               26 ([])
+                STORE_FAST              12 (wall_message)
+
+ 371            LOAD_FAST_BORROW         6 (wall_hits)
+                LOAD_SMALL_INT           5
+                COMPARE_OP             188 (bool(>=))
+                POP_JUMP_IF_FALSE       17 (to L11)
+                NOT_TAKEN
+
+ 372            LOAD_GLOBAL             37 (_show_failure_event + NULL)
+
+ 373            LOAD_FAST_BORROW         0 (level)
+
+ 374            LOAD_CONST              16 ('撞墙次数达到五次')
+
+ 375            LOAD_FAST_BORROW        12 (wall_message)
+
+ 372            LOAD_CONST              17 (('opening_message',))
+                CALL_KW                  3
+                POP_TOP
+
+ 377            LOAD_SMALL_INT           0
+                RETURN_VALUE
+
+ 378   L11:     LOAD_GLOBAL             17 (_find + NULL)
+                LOAD_FAST_BORROW         0 (level)
+                LOAD_CONST               4 ('S')
+                CALL                     2
+                STORE_FAST               1 (pos)
+
+ 380            LOAD_FAST_BORROW        12 (wall_message)
+                FORMAT_SIMPLE
+                LOAD_CONST              18 ('\n撞墙了，本层重置到入口。总撞墙次数：')
+
+ 381            LOAD_FAST_BORROW         6 (wall_hits)
+                FORMAT_SIMPLE
+                LOAD_CONST              19 ('/5')
+
+ 380            BUILD_STRING             4
+
+ 379            STORE_FAST               7 (message)
+
+ 383            EXTENDED_ARG             1
+                JUMP_BACKWARD          335 (to L4)
+
+ 385   L12:     LOAD_FAST               11 (nxt)
+                STORE_FAST               1 (pos)
+
+ 386            LOAD_GLOBAL             32 (_MAPS)
+                LOAD_FAST_BORROW         0 (level)
+                BINARY_OP               26 ([])
+                LOAD_FAST_BORROW         1 (pos)
+                LOAD_SMALL_INT           0
+                BINARY_OP               26 ([])
+                BINARY_OP               26 ([])
+                LOAD_FAST_BORROW         1 (pos)
+                LOAD_SMALL_INT           1
+                BINARY_OP               26 ([])
+                BINARY_OP               26 ([])
+                STORE_FAST              13 (cell)
+
+ 387            LOAD_FAST_BORROW        13 (cell)
+                LOAD_CONST              20 ('ABC')
+                CONTAINS_OP              1 (not in)
+                POP_JUMP_IF_FALSE        4 (to L13)
+                NOT_TAKEN
+
+ 388            EXTENDED_ARG             1
+                JUMP_BACKWARD          388 (to L4)
+
+ 390   L13:     LOAD_CONST              20 ('ABC')
+                LOAD_ATTR               39 (index + NULL|self)
+                LOAD_FAST_BORROW        13 (cell)
+                CALL                     1
+                STORE_FAST              14 (exit_index)
+
+ 391            LOAD_FAST_BORROW        14 (exit_index)
+                LOAD_GLOBAL             40 (_CONTINUE_EXIT)
+                LOAD_FAST_BORROW         0 (level)
+                BINARY_OP               26 ([])
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             1
+                POP_JUMP_IF_FALSE      314 (to L16)
+                NOT_TAKEN
+
+ 392            LOAD_SMALL_INT           0
+                LOAD_FAST_BORROW_LOAD_FAST_BORROW 80 (wrong_exit_streak, level)
+                STORE_SUBSCR
+
+ 393            LOAD_FAST_BORROW         4 (route)
+                LOAD_ATTR               43 (append + NULL|self)
+                LOAD_FAST_BORROW        13 (cell)
+                CALL                     1
+                POP_TOP
+
+ 394            LOAD_FAST_BORROW         0 (level)
+                LOAD_GLOBAL             45 (len + NULL)
+                LOAD_GLOBAL             32 (_MAPS)
+                CALL                     1
+                LOAD_SMALL_INT           1
+                BINARY_OP               10 (-)
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE      226 (to L15)
+                NOT_TAKEN
+
+ 395            LOAD_CONST              21 ('done')
+                STORE_FAST               2 (phase)
+
+ 396            LOAD_GLOBAL             47 (_final_credential + NULL)
+                LOAD_FAST_BORROW         4 (route)
+                CALL                     1
+                STORE_FAST              15 (credential)
+
+ 397            LOAD_GLOBAL             49 (_show_victory_scene + NULL)
+                LOAD_FAST_BORROW        15 (credential)
+                CALL                     1
+                POP_TOP
+
+ 398            LOAD_GLOBAL             51 (input + NULL)
+                LOAD_CONST              22 ('输入终端密钥：')
+                CALL                     1
+                LOAD_ATTR               53 (strip + NULL|self)
+                CALL                     0
+                LOAD_ATTR               25 (upper + NULL|self)
+                CALL                     0
+                STORE_FAST              16 (candidate)
+
+ 399            LOAD_FAST_BORROW        16 (candidate)
+                LOAD_GLOBAL             55 (_derive_console_key + NULL)
+                LOAD_FAST_BORROW        15 (credential)
+                CALL                     1
+                COMPARE_OP             119 (bool(!=))
+                POP_JUMP_IF_FALSE       46 (to L14)
+                NOT_TAKEN
+
+ 400            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST              23 ('\n【你被打败了······】')
+                CALL                     1
+                POP_TOP
+
+ 401            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST              24 ('按任意键退出···')
+                CALL                     1
+                POP_TOP
+
+ 402            LOAD_GLOBAL             20 (msvcrt)
+                LOAD_ATTR               22 (getwch)
+                PUSH_NULL
+                CALL                     0
+                POP_TOP
+
+ 403            LOAD_SMALL_INT           0
+                RETURN_VALUE
+
+ 404   L14:     LOAD_GLOBAL             27 (_clear + NULL)
+                CALL                     0
+                POP_TOP
+
+ 405            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_GLOBAL             56 (TITLE)
+                CALL                     1
+                POP_TOP
+
+ 406            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST              25 ('【精灵王尤温迪被击倒了，，他将秘石托付给了你，咽下了最后一口气】')
+                CALL                     1
+                POP_TOP
+
+ 407            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST              26 ('最终flag：')
+                CALL                     1
+                POP_TOP
+
+ 408            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_GLOBAL             59 (_open_flag + NULL)
+                LOAD_FAST_BORROW        16 (candidate)
+                CALL                     1
+                CALL                     1
+                POP_TOP
+
+ 409            LOAD_GLOBAL              5 (print + NULL)
+                LOAD_CONST              27 ('\n按任意键退出···')
+                CALL                     1
+                POP_TOP
+
+ 410            LOAD_GLOBAL             20 (msvcrt)
+                LOAD_ATTR               22 (getwch)
+                PUSH_NULL
+                CALL                     0
+                POP_TOP
+
+ 411            LOAD_SMALL_INT           0
+                RETURN_VALUE
+
+ 412   L15:     LOAD_FAST_BORROW         0 (level)
+                LOAD_SMALL_INT           1
+                BINARY_OP               13 (+=)
+                STORE_FAST               0 (level)
+
+ 413            LOAD_GLOBAL             17 (_find + NULL)
+                LOAD_FAST_BORROW         0 (level)
+                LOAD_CONST               4 ('S')
+                CALL                     2
+                STORE_FAST               1 (pos)
+
+ 414            LOAD_CONST              28 ('出口 ')
+                LOAD_FAST_BORROW        13 (cell)
+                FORMAT_SIMPLE
+                LOAD_CONST              29 (' 正确，进入第 ')
+                LOAD_FAST_BORROW         0 (level)
+                LOAD_SMALL_INT           1
+                BINARY_OP                0 (+)
+                FORMAT_SIMPLE
+                LOAD_CONST              30 (' 层。')
+                BUILD_STRING             5
+                STORE_FAST               7 (message)
+                EXTENDED_ARG             2
+                JUMP_BACKWARD          737 (to L4)
+
+ 416   L16:     LOAD_FAST_BORROW_LOAD_FAST_BORROW 80 (wrong_exit_streak, level)
+                COPY                     2
+                COPY                     2
+                BINARY_OP               26 ([])
+                LOAD_SMALL_INT           1
+                BINARY_OP               13 (+=)
+                SWAP                     3
+                SWAP                     2
+                STORE_SUBSCR
+
+ 417            LOAD_FAST_BORROW_LOAD_FAST_BORROW 80 (wrong_exit_streak, level)
+                BINARY_OP               26 ([])
+                LOAD_SMALL_INT           2
+                COMPARE_OP             188 (bool(>=))
+                POP_JUMP_IF_FALSE       15 (to L17)
+                NOT_TAKEN
+
+ 418            LOAD_GLOBAL             37 (_show_failure_event + NULL)
+                LOAD_FAST_BORROW         0 (level)
+                LOAD_CONST              31 ('错误出口连续进入两次')
+                CALL                     2
+                POP_TOP
+
+ 419            LOAD_SMALL_INT           0
+                RETURN_VALUE
+
+ 420   L17:     LOAD_CONST              10 ('return')
+                STORE_FAST               2 (phase)
+
+ 421            LOAD_SMALL_INT           0
+                STORE_FAST               3 (corridor_pos)
+
+ 422            LOAD_CONST              28 ('出口 ')
+                LOAD_FAST_BORROW        13 (cell)
+                FORMAT_SIMPLE
+                LOAD_CONST              32 (' 是错误分支，进入回程通道。连续错误出口：')
+                LOAD_FAST_BORROW_LOAD_FAST_BORROW 80 (wrong_exit_streak, level)
+                BINARY_OP               26 ([])
+                FORMAT_SIMPLE
+                LOAD_CONST              33 ('/2')
+                BUILD_STRING             5
+                STORE_FAST               7 (message)
+                EXTENDED_ARG             3
+                JUMP_BACKWARD          806 (to L4)
+
+  --   L18:     PUSH_EXC_INFO
+
+ 324            LOAD_GLOBAL             12 (AttributeError)
+                LOAD_GLOBAL             14 (OSError)
+                BUILD_TUPLE              2
+                CHECK_EXC_MATCH
+                POP_JUMP_IF_FALSE        5 (to L20)
+                NOT_TAKEN
+                POP_TOP
+
+ 325   L19:     POP_EXCEPT
+                EXTENDED_ARG             3
+                JUMP_BACKWARD_NO_INTERRUPT 854 (to L3)
+
+ 324   L20:     RERAISE                  0
+
+  --   L21:     COPY                     3
+                POP_EXCEPT
+                RERAISE                  1
+ExceptionTable:
+  L2 to L3 -> L18 [0]
+  L18 to L19 -> L21 [1] lasti
+  L20 to L21 -> L21 [1] lasti
+
+######################################################################
+# FUNC: _find
+# names: ('enumerate', '_MAPS', 'find', 'ValueError')
+# varnames: ('level', 'wanted', 'row', 'line', 'col')
+######################################################################
+138           RESUME                   0
+
+139           LOAD_GLOBAL              1 (enumerate + NULL)
+              LOAD_GLOBAL              2 (_MAPS)
+              LOAD_FAST_BORROW         0 (level)
+              BINARY_OP               26 ([])
+              CALL                     1
+              GET_ITER
+      L1:     FOR_ITER                34 (to L3)
+              UNPACK_SEQUENCE          2
+              STORE_FAST_STORE_FAST   35 (row, line)
+
+140           LOAD_FAST_BORROW         3 (line)
+              LOAD_ATTR                5 (find + NULL|self)
+              LOAD_FAST_BORROW         1 (wanted)
+              CALL                     1
+              STORE_FAST               4 (col)
+
+141           LOAD_FAST_BORROW         4 (col)
+              LOAD_CONST               1 (-1)
+              COMPARE_OP             119 (bool(!=))
+              POP_JUMP_IF_TRUE         3 (to L2)
+              NOT_TAKEN
+              JUMP_BACKWARD           31 (to L1)
+
+142   L2:     LOAD_FAST_BORROW_LOAD_FAST_BORROW 36 (row, col)
+              BUILD_TUPLE              2
+              SWAP                     2
+              POP_TOP
+              RETURN_VALUE
+
+139   L3:     END_FOR
+              POP_ITER
+
+143           LOAD_GLOBAL              7 (ValueError + NULL)
+              LOAD_FAST_BORROW         1 (wanted)
+              CALL                     1
+              RAISE_VARARGS            1
+
+######################################################################
+# FUNC: _final_credential
+# names: ('enumerate', 'ord', 'range', 'append', '_CREDENTIAL_ALPHABET', 'len', 'join')
+# varnames: ('route', 'state', 'index', 'exit_name', 'parts', 'block', 'word', '_')
+######################################################################
+272           RESUME                   0
+
+273           LOAD_CONST               0 (1831565813)
+              STORE_FAST               1 (state)
+
+274           LOAD_GLOBAL              1 (enumerate + NULL)
+              LOAD_FAST_BORROW         0 (route)
+              LOAD_SMALL_INT           1
+              CALL                     2
+              GET_ITER
+      L1:     FOR_ITER               104 (to L2)
+              UNPACK_SEQUENCE          2
+              STORE_FAST_STORE_FAST   35 (index, exit_name)
+
+275           LOAD_FAST_BORROW         1 (state)
+              LOAD_SMALL_INT           7
+              BINARY_OP                3 (<<)
+              LOAD_FAST_BORROW         1 (state)
+              LOAD_SMALL_INT          25
+              BINARY_OP                9 (>>)
+              BINARY_OP                7 (|)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              STORE_FAST               1 (state)
+
+276           LOAD_FAST_BORROW         1 (state)
+              LOAD_GLOBAL              3 (ord + NULL)
+              LOAD_FAST_BORROW         3 (exit_name)
+              CALL                     1
+              LOAD_CONST               2 (73244475)
+              BINARY_OP                5 (*)
+              LOAD_FAST_BORROW         2 (index)
+              LOAD_CONST               3 (2654435769)
+              BINARY_OP                5 (*)
+              BINARY_OP               12 (^)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+277           LOAD_FAST_BORROW         1 (state)
+              LOAD_CONST               4 (2712847316)
+              BINARY_OP                0 (+)
+              LOAD_FAST_BORROW         2 (index)
+              LOAD_CONST               5 (1267611)
+              BINARY_OP                5 (*)
+              BINARY_OP                0 (+)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              STORE_FAST               1 (state)
+              JUMP_BACKWARD          106 (to L1)
+
+274   L2:     END_FOR
+              POP_ITER
+
+279           BUILD_LIST               0
+              STORE_FAST               4 (parts)
+
+280           LOAD_GLOBAL              5 (range + NULL)
+              LOAD_SMALL_INT           3
+              CALL                     1
+              GET_ITER
+      L3:     FOR_ITER               201 (to L6)
+              STORE_FAST               5 (block)
+
+281           LOAD_FAST_BORROW         1 (state)
+              LOAD_CONST               6 (1664525)
+              BINARY_OP                5 (*)
+              LOAD_CONST               7 (1013904223)
+              BINARY_OP                0 (+)
+              LOAD_FAST_BORROW         5 (block)
+              BINARY_OP                0 (+)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              STORE_FAST               1 (state)
+
+282           BUILD_LIST               0
+              STORE_FAST               6 (word)
+
+283           LOAD_GLOBAL              5 (range + NULL)
+              LOAD_SMALL_INT           4
+              CALL                     1
+              GET_ITER
+      L4:     FOR_ITER               119 (to L5)
+              STORE_FAST               7 (_)
+
+284           LOAD_FAST_BORROW_LOAD_FAST_BORROW 17 (state, state)
+              LOAD_SMALL_INT          13
+              BINARY_OP                3 (<<)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+285           LOAD_FAST_BORROW_LOAD_FAST_BORROW 17 (state, state)
+              LOAD_SMALL_INT          17
+              BINARY_OP                9 (>>)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+286           LOAD_FAST_BORROW_LOAD_FAST_BORROW 17 (state, state)
+              LOAD_SMALL_INT           5
+              BINARY_OP                3 (<<)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP                1 (&)
+              BINARY_OP               25 (^=)
+              STORE_FAST               1 (state)
+
+287           LOAD_FAST_BORROW         1 (state)
+              LOAD_CONST               1 (4294967295)
+              BINARY_OP               14 (&=)
+              STORE_FAST               1 (state)
+
+288           LOAD_FAST_BORROW         6 (word)
+              LOAD_ATTR                7 (append + NULL|self)
+              LOAD_GLOBAL              8 (_CREDENTIAL_ALPHABET)
+              LOAD_FAST_BORROW         1 (state)
+              LOAD_GLOBAL             11 (len + NULL)
+              LOAD_GLOBAL              8 (_CREDENTIAL_ALPHABET)
+              CALL                     1
+              BINARY_OP                6 (%)
+              BINARY_OP               26 ([])
+              CALL                     1
+              POP_TOP
+              JUMP_BACKWARD          121 (to L4)
+
+283   L5:     END_FOR
+              POP_ITER
+
+289           LOAD_FAST_BORROW         4 (parts)
+              LOAD_ATTR                7 (append + NULL|self)
+              LOAD_CONST               8 ('')
+              LOAD_ATTR               13 (join + NULL|self)
+              LOAD_FAST_BORROW         6 (word)
+              CALL                     1
+              CALL                     1
+              POP_TOP
+              JUMP_BACKWARD          203 (to L3)
+
+280   L6:     END_FOR
+              POP_ITER
+
+290           LOAD_CONST               9 ('TRI-')
+              LOAD_CONST              10 ('-')
+              LOAD_ATTR               13 (join + NULL|self)
+              LOAD_FAST_BORROW         4 (parts)
+              CALL                     1
+              BINARY_OP                0 (+)
+              RETURN_VALUE
+

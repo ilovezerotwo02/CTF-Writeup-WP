@@ -1,0 +1,21 @@
+BEACON sealed envelope / stage 2
+================================
+
+sealed.bin layout:
+  magic(4) || mode(1) || nonce(8) || ciphertext_len(2) || ciphertext || tag(16)
+
+The tag is BLAKE2s(key || header || ciphertext), digest_size=16. The key is:
+  BLAKE2s("BEACON/SEAL\x02" || LE32(x) || mode || SHA256(transcript bytes in arrival order) || calibration[16:24], digest_size=32)
+
+The payload is XORed with a generated stream. For each block counter c, start from:
+  BLAKE2s("ARX-8/1" || key || nonce || LE32(c), digest_size=32)
+interpret the digest as eight little-endian uint32 words. Run 8 rounds; each round updates
+lanes (0,1), (2,3), (4,5), (6,7):
+  u[i]   = (u[i] + u[i+1] + rol32(u[i+1], 7)) mod 2^32
+  u[i+1] = u[i+1] xor rol32(u[i], 11) xor C(round,lane)
+then rotate the eight words left by one position.
+
+C(round,lane) = (0x9E3779B9 + round*0x7F4A7C15 + lane*0x6A09E667) mod 2^32.
+
+The logger order is part of the key. A lexicographically sorted JSON serialization is a deliberate trap.
+The plaintext begins with BEACON/OPEN\x00 and contains the flag plus a proof field.

@@ -1,0 +1,11 @@
+题目：《废都物语》——启程，妖精之塔！
+分类：Reverse
+分值：1000
+类型：StaticAttachment
+描述：欢迎你冒险家，你和你的同伴即将探索这片古老的废墟，前往那神秘的妖精之塔。不幸的是，这片森林被迷雾包裹，找到正确的道路，击败传说的妖精王，拿到最后的宝藏吧！
+【请保持你的决心】
+（可能存在令人心动的特殊结局（精美CG）哦~）
+提示：无
+附件：/assets/f390a6e6f9162e81657c1e85e8d8944b25aa840d530b76a98e54dbf27f4177c6/HTU_NightRoute.exe（下载于 HTU_NightRoute.exe (10291744B)）
+实例：无
+flag：HTUCTF{Welcome Ruina- Fairy Tale of the Forgotten Ruins}

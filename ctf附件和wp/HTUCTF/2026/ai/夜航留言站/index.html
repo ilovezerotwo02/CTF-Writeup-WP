@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ed">
+  <title>夜航留言站</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="masthead">
+      <a class="wordmark" href="/" aria-label="夜航留言站首页"><span class="wordmark-mark">夜</span><span>夜航留言站</span></a>
+      <span class="archive-state"><span class="state-dot"></span>旧站归档 · 只读</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">校友会 · 留言档案 07</p>
+      <h1 id="page-title">周予晴的留言页</h1>
+      <p class="intro-copy">旧留言仍然开放。她的回答，通常从一段记得住的对话开始。</p>
+      <nav class="archive-links" aria-label="公开归档">
+        <a href="/handouts/notice.txt" download>关闭公告 <span aria-hidden="true">↓</span></a>
+        <a href="/handouts/messages.txt" download>留言摘录 <span aria-hidden="true">↓</span></a>
+        <a href="/handouts/about.txt" download>关于周予晴 <span aria-hidden="true">↓</span></a>
+      </nav>
+    </section>
+
+    <section class="chat-layout" aria-label="留言对话">
+      <div class="chat-heading">
+        <div>
+          <p class="eyebrow">正在查看</p>
+          <h2>周予晴 <span class="online-mark" aria-label="归档服务可用"></span></h2>
+        </div>
+        <button id="clear-chat" class="icon-button" type="button" title="清空本地对话" aria-label="清空本地对话">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6m4-6v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>
+        </button>
+      </div>
+
+      <div id="messages" class="messages" role="log" aria-live="polite" aria-relevant="additions text" aria-label="聊天记录">
+        <article class="message message-her">
+          <div class="avatar" aria-hidden="true">予</div>
+          <div class="message-content"><span class="speaker">周予晴 · 归档回复</span><p>你好。旧留言我还留着一些。想聊什么？</p></div>
+        </article>
+      </div>
+
+      <div id="typing" class="typing" hidden><span></span><span></span><span></span><span class="sr-only">正在回复</span></div>
+      <p id="notice" class="notice" role="status"></p>
+
+      <form id="chat-form" class="composer">
+        <label class="sr-only" for="message-input">输入消息</label>
+        <textarea id="message-input" rows="1" maxlength="1600" placeholder="写一条留言…" autocomplete="off" required></textarea>
+        <div class="composer-footer">
+          <span id="char-count" class="char-count">0 / 1600</span>
+          <button id="send-button" class="send-button" type="submit" aria-label="发送留言">
+            <span>发送</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </form>
+      <p class="footer-note">本页面为公开留言档案的互动复现。</p>
+    </section>
+
+    <footer class="site-footer"><span>夜航留言站</span><span>归档编号 07 · 2019—2024</span></footer>
+  </main>
+</body>
+</html>

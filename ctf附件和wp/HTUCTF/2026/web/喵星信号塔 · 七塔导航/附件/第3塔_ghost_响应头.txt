@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Server: MeowSignal/1.0 Python/3.12.15
+Date: Sat, 24 Oct 2026 01:28:55 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Star-Core: CORE3=YmMxLTFh
+Content-Length: 1206
+
+（碎片3号藏在响应头 X-Star-Core: CORE3=YmMxLTFh；本文件为 2026-10-24 01:28 UTC 真实抓取）

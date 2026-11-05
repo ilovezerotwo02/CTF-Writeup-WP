@@ -1,0 +1,19 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 302 Found
+Cache-Control: private
+Content-Length: 182
+Content-Type: text/html; charset=utf-8
+Location: https://cn.bing.com/images/search?view=detailv2&iss=sbiupload
+Set-Cookie: SNRHOP=TS=639285759349467681&I=1; domain=.bing.com; path=/; secure; SameSite=None
+X-EventID: 6adeb0b9d2f743cb82ab168fb13e49de
+UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+X-Cache: CONFIG_NOCACHE
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: 924E105DA04844CB8364A8F561510C7D Ref B: BJ1EDGE1008 Ref C: 2026-10-26T01:45:29Z
+Set-Cookie: _EDGE_S=F=1&SID=233BD906ED2165603C95CEF8ECF364A6; path=/; httponly; domain=bing.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Sat, 20-Nov-2027 01:45:29 GMT; domain=bing.com
+Set-Cookie: MUID=16A664EACD7665AD1CFC7314CCA46401; samesite=none; path=/; secure; expires=Sat, 20-Nov-2027 01:45:29 GMT; domain=bing.com
+Set-Cookie: MUIDB=16A664EACD7665AD1CFC7314CCA46401; path=/; httponly; expires=Sat, 20-Nov-2027 01:45:29 GMT
+Date: Mon, 26 Oct 2026 01:45:29 GMT
+

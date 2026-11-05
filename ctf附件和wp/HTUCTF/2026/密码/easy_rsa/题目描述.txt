@@ -1,0 +1,10 @@
+题目：easy_rsa
+分类：Crypto
+分值：1000
+类型：StaticAttachment
+描述：RSA......，这是个陌生的名词，但是好像哪里见过，可以说是密码学的经典！
+Tips：题目基础但是别忘了写wp哦！wp中这道题记得写清的加解密过程哦！最终flag提交格式为HTU{XXXXXXXX}
+提示：无
+附件：/assets/9b374fb712d01f922fb7fbad987e6d9a42564f4b26904beec84af3aef44fc4b1/Ez_rsa.py（下载于 Ez_rsa.py (919B)）
+实例：无
+flag：HTU{now!you_know_rsa}

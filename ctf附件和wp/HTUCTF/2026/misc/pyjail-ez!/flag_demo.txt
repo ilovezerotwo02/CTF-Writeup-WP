@@ -1,0 +1,2 @@
+HTUCTF{local-test-flag}
+second-line

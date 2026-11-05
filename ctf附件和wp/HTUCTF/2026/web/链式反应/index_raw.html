@@ -1,0 +1,81 @@
+<pre><code style="color: #000000"><span style="color: #0000BB">&lt;?php
+error_reporting</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">);
+include(</span><span style="color: #DD0000">"flag.php"</span><span style="color: #007700">);
+</span><span style="color: #0000BB">highlight_file</span><span style="color: #007700">(</span><span style="color: #0000BB">__FILE__</span><span style="color: #007700">);
+
+class </span><span style="color: #0000BB">Software
+</span><span style="color: #007700">{
+    private </span><span style="color: #0000BB">$plugin</span><span style="color: #007700">;
+
+    public function </span><span style="color: #0000BB">__destruct</span><span style="color: #007700">()
+    {
+        </span><span style="color: #0000BB">$hook </span><span style="color: #007700">= </span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">plugin</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">();
+        </span><span style="color: #0000BB">$hook</span><span style="color: #007700">();
+    }
+}
+
+class </span><span style="color: #0000BB">Plugin
+</span><span style="color: #007700">{
+    private </span><span style="color: #0000BB">$config</span><span style="color: #007700">;
+
+    public function </span><span style="color: #0000BB">__call</span><span style="color: #007700">(</span><span style="color: #0000BB">$name</span><span style="color: #007700">, </span><span style="color: #0000BB">$args</span><span style="color: #007700">)
+    {
+        return </span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">config</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">loader</span><span style="color: #007700">;
+    }
+}
+
+class </span><span style="color: #0000BB">Config
+</span><span style="color: #007700">{
+    private </span><span style="color: #0000BB">$worker</span><span style="color: #007700">;
+
+    public function </span><span style="color: #0000BB">__get</span><span style="color: #007700">(</span><span style="color: #0000BB">$name</span><span style="color: #007700">)
+    {
+        return </span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">worker</span><span style="color: #007700">;
+    }
+}
+
+class </span><span style="color: #0000BB">Worker
+</span><span style="color: #007700">{
+    private </span><span style="color: #0000BB">$eagle</span><span style="color: #007700">;
+
+    public function </span><span style="color: #0000BB">__invoke</span><span style="color: #007700">()
+    {
+        echo </span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">eagle</span><span style="color: #007700">;
+    }
+}
+
+class </span><span style="color: #0000BB">Eagle
+</span><span style="color: #007700">{
+    private </span><span style="color: #0000BB">$token</span><span style="color: #007700">;
+    private </span><span style="color: #0000BB">$armed </span><span style="color: #007700">= </span><span style="color: #0000BB">false</span><span style="color: #007700">;
+
+    public function </span><span style="color: #0000BB">__wakeup</span><span style="color: #007700">()
+    {
+        </span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">armed </span><span style="color: #007700">= (</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">token </span><span style="color: #007700">=== </span><span style="color: #DD0000">"black-eagle"</span><span style="color: #007700">);
+    }
+
+    public function </span><span style="color: #0000BB">__toString</span><span style="color: #007700">()
+    {
+        if (</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">armed</span><span style="color: #007700">) {
+            global </span><span style="color: #0000BB">$flag</span><span style="color: #007700">;
+            echo </span><span style="color: #0000BB">$flag</span><span style="color: #007700">;
+        }
+        return </span><span style="color: #DD0000">""</span><span style="color: #007700">;
+    }
+}
+
+</span><span style="color: #0000BB">$raw </span><span style="color: #007700">= </span><span style="color: #0000BB">$_POST</span><span style="color: #007700">[</span><span style="color: #DD0000">'data'</span><span style="color: #007700">] ?? </span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'data'</span><span style="color: #007700">] ?? </span><span style="color: #0000BB">null</span><span style="color: #007700">;
+
+if (</span><span style="color: #0000BB">$raw </span><span style="color: #007700">=== </span><span style="color: #0000BB">null</span><span style="color: #007700">) {
+    echo </span><span style="color: #DD0000">"&lt;br&gt;用 &lt;b&gt;?data=&lt;/b&gt; 传点东西进来。"</span><span style="color: #007700">;
+} else {
+    </span><span style="color: #0000BB">$obj </span><span style="color: #007700">= @</span><span style="color: #0000BB">unserialize</span><span style="color: #007700">(</span><span style="color: #0000BB">$raw</span><span style="color: #007700">);
+
+    if (!</span><span style="color: #0000BB">is_object</span><span style="color: #007700">(</span><span style="color: #0000BB">$obj</span><span style="color: #007700">) || !(</span><span style="color: #0000BB">$obj </span><span style="color: #007700">instanceof </span><span style="color: #0000BB">Software</span><span style="color: #007700">)) {
+        die(</span><span style="color: #DD0000">"&lt;br&gt;入口对象非法，链式反应无法启动。"</span><span style="color: #007700">);
+    }
+
+    unset(</span><span style="color: #0000BB">$obj</span><span style="color: #007700">);
+    echo </span><span style="color: #DD0000">"&lt;br&gt;链式反应已终止。"</span><span style="color: #007700">;
+}
+</span></code></pre><br>用 <b>?data=</b> 传点东西进来。

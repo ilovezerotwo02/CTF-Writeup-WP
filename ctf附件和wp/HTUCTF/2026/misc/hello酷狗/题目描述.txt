@@ -1,0 +1,9 @@
+题目：hello酷狗
+分类：Misc
+分值：1000
+类型：StaticAttachment
+描述：源自分离与融合的力量
+提示：无
+附件：/assets/17cecdfb9b39e32633b26dfe067a37038f05c15282136018da906f38ebc1dd42/卡提西亚.zip（下载于 卡提西亚.zip）
+实例：无
+flag：HTUCTF{b1e17d71-df09-2ffa-b9c7-a6e2b63bd3e1}（已提交 Accepted）

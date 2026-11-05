@@ -1,0 +1,9 @@
+题目：ezSQL
+分类：Web
+分值：525
+类型：DynamicContainer
+描述：非常简单的sql注入
+提示：无
+附件：无
+实例：http://103.163.47.230:34413（已释放）
+flag：HTUCTF{90d3ce55-649b-472f-8506-db43687d0b75}

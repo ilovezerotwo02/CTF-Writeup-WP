@@ -1,0 +1,9 @@
+题目：Lesson5
+分类：Misc
+分值：1000
+类型：StaticAttachment
+描述：黄金回旋，好熟悉的曲线
+提示：无
+附件：/assets/871d581c9ba67cf504c8b9bfbe20c0e449aabf67fe98e93dc29da3a950a84458/黄金回旋.zip（下载于 黄金回旋.zip (3908524B)）
+实例：无
+flag：未解出

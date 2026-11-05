@@ -1,0 +1,9 @@
+题目：失物招领处
+分类：Pwn
+分值：864
+类型：DynamicContainer
+描述：删除的记录真的消失了吗？
+提示：无
+附件：pwn.zip（pwn/uaf、libc.so.6(glibc 2.43)、ld-linux-x86-64.so.2、run.sh）
+实例：103.163.47.230:34424（已释放）
+flag：HTUCTF{94805287-ad80-4177-aa95-e524b1cda6ff}

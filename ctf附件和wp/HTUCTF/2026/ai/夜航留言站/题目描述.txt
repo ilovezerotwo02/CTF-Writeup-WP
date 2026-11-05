@@ -1,0 +1,10 @@
+题目：夜航留言站
+分类：AI
+分值：661
+类型：StaticContainer
+描述：夜航留言站即将关闭，周予晴学姐留下的旧留言仍在等待后来者。听说，只有记得那晚的人，才能继续这段对话。
+读读归档，和学姐聊聊吧。
+提示：无
+附件：/handouts/notice.txt、/handouts/messages.txt、/handouts/about.txt（均从靶机首页下载，无隐藏字符、无隐写）
+实例：http://103.163.47.230:34432（已释放）
+flag：HTUCTF{the_wlnd_is_gentle_to0}

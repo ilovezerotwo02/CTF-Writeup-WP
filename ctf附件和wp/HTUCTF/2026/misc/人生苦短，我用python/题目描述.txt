@@ -1,0 +1,9 @@
+题目：人生苦短，我用python
+分类：Misc
+分值：864
+类型：StaticAttachment
+描述：你会用python吗？
+提示：无
+附件：/assets/546c428406a053d8aefea86afa1ffbe5f3eb4e52da616d92dbe803e8553a4ed8/life_is_short.zip（下载于 life_is_short.zip）
+实例：无
+flag：HTUCTF{P&th0n_I$_Such_@_f@nt@$t1c_pr0gr@mm1ng_1@ngu@ge!}（已提交 Accepted）
