@@ -1,0 +1,40 @@
+WARN stale item id=4108 owner=36
+TRACE cursor=8269 token=243
+INFO batch=2691 status=ok rows=257
+NOTE field=2985 value=19
+NOTE field=5483 value=331
+WARN stale item id=7884 owner=342
+INFO batch=8791 status=ok rows=380
+WARN stale item id=6989 owner=338
+INFO batch=9014 status=ok rows=281
+TRACE cursor=1365 token=27
+INFO batch=2147 status=ok rows=238
+NOTE field=2022 value=14
+record[004] phone candidate => 17830897236
+record[008] idcard candidate => 410182199508184830
+record[012] idcard candidate => 230111198402024683
+record[016] bankcard candidate => 6217 0084 4445 2832
+record[020] email candidate => 5w0o2iv9kt9@sohu.com
+record[030] email candidate => l7fpz34@internal.example
+record[038] bankcard candidate => 6222 0032 3642 7154
+record[043] bankcard candidate => 6228 4807 7245 1649 9
+record[044] email candidate => YnV3qR9dlavgUVEDt@internal.example
+record[045] email candidate => 13502019810@internal.example
+record[051] bankcard candidate => 62220032741805940
+record[059] idcard candidate => 330108-19970208-8529
+record[069] idcard candidate => 500116-19870816-7871
+record[079] email candidate => b69@internal.example
+record[083] phone candidate => 12912345678
+record[090] email candidate => pub@internal.example
+record[092] bankcard candidate => 6225 1815 5356 3699 78
+record[098] phone candidate => +86 120 1234 5678
+record[100] phone candidate => 10000000000
+record[105] bankcard candidate => 6227 0037 8272 2087 06
+TRACE cursor=1600 token=180
+DEBUG skipped sample=7918 reason=policy
+DEBUG skipped sample=7472 reason=policy
+WARN stale item id=5387 owner=119
+WARN stale item id=8198 owner=158
+DEBUG skipped sample=3253 reason=policy
+INFO batch=2067 status=ok rows=234
+DEBUG skipped sample=3433 reason=policy
